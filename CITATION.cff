@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite the book as below."
+type: book
+title: "Learning with AI: A Framework for Students, Instructors, and Universities"
+subtitle: "From Graduate Mathematics to Undergraduate Education, Departmental Practice, and Institutional Policy"
+authors:
+  - family-names: Hyman
+    given-names: James M.
+    affiliation: "Department of Mathematics, Tulane University"
+    email: mhyman@tulane.edu
+version: "2.10"
+date-released: 2026-05-25
+license: MIT
+repository-code: "https://github.com/machyman/hyman2026learning"
+abstract: >
+  A framework for engaging with AI in higher education across three audiences:
+  students, instructors, and institutions. Develops the Core/AI-assisted/Trustworthy
+  (CAT) framework, the Learning Spiral, the Student's and Instructor's Trilemmas,
+  and the two-transcript idea. Addresses both the operational practice of AI-assisted
+  learning and teaching, and the policy framework for institutions navigating AI
+  integration. Companion to the position papers "AI and the Next Layer of Human
+  Work" and "Teaching AI Responsibly to Principled Skeptics" (drafts included in
+  `companion-papers/`).
+keywords:
+  - artificial intelligence
+  - higher education
+  - assessment
+  - academic integrity
+  - learning science
+  - educational policy
+  - generative AI
+preferred-citation:
+  type: book
+  title: "Learning with AI: A Framework for Students, Instructors, and Universities"
+  authors:
+    - family-names: Hyman
+      given-names: James M.
+      affiliation: "Department of Mathematics, Tulane University"
+  year: 2026
+  publisher:
+    name: "SIAM Books (under review)"
+  notes: "Manuscript under review with SIAM Books on Education. Canonical version v2.10 (2026-05-25); v2.9 (2026-05-24) is the round-2 reviewer release currently in reviewer hands."
