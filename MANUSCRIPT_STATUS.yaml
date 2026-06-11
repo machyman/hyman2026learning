@@ -1,0 +1,88 @@
+# MANUSCRIPT_STATUS.yaml  —  hyman2026learning
+# Status confirmed by Mac 2026-06-11.
+schema_version: 1.0
+
+manuscript:
+  short_id: hyman2026learning
+  title: "Learning with AI: A Framework for Students, Instructors, and Universities"
+  subtitle: "From Graduate Mathematics to Undergraduate Education, Departmental Practice, and Institutional Policy"
+  authors:
+    - name: James M. Hyman
+      affiliation: Tulane University
+      email: mhyman@tulane.edu
+      orcid: 0000-0001-5247-5794
+      is_corresponding: true
+  current_version: v2.14.38
+  current_si_version: null
+  current_pages: 217
+  current_si_pages: null
+  last_compiled: 2026-06-11
+  compile_state:
+    errors: 0
+    undef_refs: 0
+    overfull_hboxes: 7        # stable cosmetic baseline; unchanged by v2.14.38
+  mrep_score: 100             # certification holds (certified at v2.14.29); v2.14.30-38 additions verification-clean (SMR approx 91)
+  bibliography:
+    bib_file: LearningWithAI.bib
+    entries: 84
+    style: plain
+
+target_venue:
+  publisher: "SIAM Books (Society for Industrial and Applied Mathematics)"
+  series: null                # no dedicated series; SIAM Books program
+  submission_system: "SIAM Books editorial"
+  blinding: open
+  authors_anonymized: false   # not double-blind; COR anonymization audit skipped
+  format_class: book
+  format_requirements:
+    - "12pt"
+    - "References in plain style"
+
+distribution:
+  arxiv:
+    posted: false
+    identifier: null
+    package_built: false
+  github:
+    created: true
+    url: https://github.com/machyman/hyman2026learning
+    visibility: public
+    pages_site: https://machyman.github.io/hyman2026learning
+    canonical_yaml_url: null
+    enhanced_bundle_pushed: false       # Mac will update the live repo with the CGR archive produced this session
+    package_built: false                # set true after CGR build below
+    package_path: null
+  zenodo:
+    minted: false
+
+submission:
+  status: under_review        # under review with SIAM Books
+  prepared_date: 2026-06-11
+  submitted_date: 2026-05-04  # v1.0 original SIAM submission baseline (round-1 baseline v2.8, 2026-05-13)
+  current_round: 1
+  notes: "Iterative reviewer-feedback integration in progress; additional feedback (Agbomola, McKinley) expected."
+
+referee_history:
+  - round: 1
+    reports_received_date: null
+    decision: null
+    reports_summary: "Iterative reviewer feedback integrated across recent versions (e.g., Yun Kang: undergraduate on-ramp, detector-equity guidance; Peter Moore: RCM enrollment-competition risk)."
+    confirmed: true
+
+companion_papers:
+  - short_id: hyman2026next
+    title: "AI and the Next Layer of Human Work"
+    status: under_review
+    relationship: shares-framework
+    confirmed: false
+  - short_id: hyman2026teaching
+    title: "Teaching AI Responsibly to Principled Skeptics"
+    status: under_review
+    relationship: shares-framework
+    confirmed: false
+
+metadata:
+  schema_version: 1.0
+  last_updated: 2026-06-11
+  last_updated_by: claude-session-repo-buildout
+  registry_entry_written: false

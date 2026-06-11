@@ -1,13 +1,22 @@
-# hyman2026learning — *Learning with AI*
+# hyman2026learning: *Learning with AI*
 
 Companion repository for the book *Learning with AI: A Framework for Students, Instructors, and Universities* by James M. Hyman.
 
 **Subtitle:** *From Graduate Mathematics to Undergraduate Education, Departmental Practice, and Institutional Policy*
 
-**Current version:** v2.10 (canonical, 2026-05-25)
-**Status:** Under review with SIAM Books on Education
-**Pages:** 196
-**License:** MIT (see `LICENSE`)
+**Current version:** v2.14.38 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 217 &nbsp;·&nbsp; **License:** MIT (see `LICENSE`)
+
+---
+
+## Find your path
+
+This repository hosts practical materials that go with the book. Start with whichever description fits you.
+
+- **New to using AI for coursework?** Start with [students/start-here.md](students/start-here.md). It covers what these tools are good and bad for, the one rule worth keeping, and how to set up an AI study partner.
+- **Using AI to get answers, and want to learn instead?** Read [students/from-answers-to-learning.md](students/from-answers-to-learning.md). It is written for the switch from extracting answers to building understanding.
+- **Studying a STEM subject?** Work through the [students/study-sessions/](students/study-sessions/) library: four worked sessions, in statistics, coding, physics, and mathematics, each showing a student using AI to study while keeping the thinking and the verification their own.
+- **An instructor teaching with AI for the first time?** Start with [instructors/first-time-guide.md](instructors/first-time-guide.md), then use the rest of the [instructors/](instructors/) toolkit: a worked course redesign, assignment templates, assessment models, ready syllabus language, and a faculty FAQ.
+- **A department chair, dean, or administrator?** Read Part III of the book for the institutional vocabulary and policy framework, and adapt the syllabus stances in [instructors/briefings.md](instructors/briefings.md) at the program level.
 
 ---
 
@@ -15,138 +24,102 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 *Learning with AI* is a framework for engaging with AI in higher education across three audiences:
 
-- **Part I — Students:** How to use AI to learn rather than to substitute for learning. Introduces the Core/AI-assisted/Trustworthy (CAT) framework, the Learning Spiral, the Student's Trilemma, the translation test, and operational practices for thoughtful AI use.
-- **Part II — Instructors:** How to design courses and assessments that work with AI rather than around it. Develops the Instructor's Trilemma, the Honest-A Bind taxonomy, and the calibration-restoring design philosophy for assessment. The v2.10 release adds canonical learning-science grounding for the framework's pedagogical claims, citing Ambrose et al. *How Learning Works*, Freeman et al.'s 2014 PNAS active-learning meta-analysis, Wiggins and McTighe on backward design, Soderstrom and Bjork on the learning-versus-performance distinction, Hattie and Timperley and Black and Wiliam on feedback and formative assessment, Mazur on peer instruction, Sweller et al. on cognitive load, and the *How People Learn II* National Academies report.
-- **Part III — Departments and Institutions:** How to set policy frameworks that protect learning without pretending AI can be kept outside academic life. Develops the institutional vocabulary for AI-era curriculum, assessment, and academic-integrity procedure.
+- **Part I, Students:** How to use AI to learn rather than to substitute for learning. Introduces the Core / AI-assisted / Trustworthy (CAT) framework, the Learning Spiral, the Student's Trilemma, the translation test, and operational practices for thoughtful AI use.
+- **Part II, Instructors:** How to design courses and assessments that work with AI rather than around it. Develops the Instructor's Trilemma, the four assignment categories (NAI / AIT / AIC / AIS), three assessment models, and a calibration-restoring design philosophy.
+- **Part III, Departments and Institutions:** How to set policy that protects learning without pretending AI can be kept outside academic life. Develops the institutional vocabulary for AI-era curriculum, assessment, and academic-integrity procedure.
 
-The book's argument is grounded in graduate mathematics teaching (the Graduate Mathematics Intelligence Profile, GMIP) and the AI-Integrated Graduate Mathematics Assessment Framework, both included as appendices. The framework generalizes from graduate mathematics to the full range of university courses.
+The argument is grounded in graduate mathematics teaching and generalizes to the full range of university courses, with the most detailed examples in STEM and research-intensive fields.
 
 ---
 
 ## What's in this repository
 
-| Item | Status | Path |
-|---|---|---|
-| **Book PDF** | v2.10 (2026-05-25) | `book/learning_with_ai_v2_10.pdf` |
-| **License** | MIT | `LICENSE` |
-| **Citation metadata** | CFF format | `CITATION.cff` |
-| **Changelog** | Full history; v2.10 entry at top | `CHANGELOG.md` |
-| **Companion paper: AI and the Next Layer of Human Work** | **v1.0 locked 2026-05-25** (10 pp) | `companion-papers/hyman2026next/` |
-| **Companion paper: Teaching AI Responsibly to Principled Skeptics** | **v1.0 locked 2026-05-25** (18 pp) | `companion-papers/hyman2026teaching/` |
+The book teaches the framework; this repository hosts the operational artifacts the book references.
 
-The book PDF in this archive is the canonical version following the Session 18 Part II citation-grounding integration. The two companion papers are included at their canonical v1.0 lock state. Each directory contains the LaTeX source, the bibliography file, the compiled PDF, and a Delta document summarizing the v1.0 changes.
+**For students**
 
----
+| Item | Path |
+| --- | --- |
+| **Start here**: orientation for a student new to using AI for coursework | [students/start-here.md](students/start-here.md) |
+| **From answers to learning**: the switch from extracting answers to building understanding | [students/from-answers-to-learning.md](students/from-answers-to-learning.md) |
+| **Study sessions**: four worked study sessions (statistics, coding, physics, mathematics) | [students/study-sessions/](students/study-sessions/) |
+| **Study Partner Protocol (SPP)**: paste-in prompt that turns an assistant into a study partner | [companion/spp/](companion/spp/) |
+| **Define Personal Preferences (DPP)**: walkthrough for configuring an AI tool's persistent settings | [companion/dpp/](companion/dpp/) |
+| **Sharing AI conversations**: how to share a read-only chat link with an instructor, by platform | [students/sharing-ai-conversations.md](students/sharing-ai-conversations.md) |
+| **Pre-submission checklist**: the student checklist from Part I | [students/checklist.md](students/checklist.md) |
+| **Disclosure templates**: short and fuller AI-use disclosure statements | [students/disclosure-templates.md](students/disclosure-templates.md) |
 
-## Companion papers
+**For instructors**
 
-Two companion position papers develop intellectual foundations the book draws on. Both are included in this repository at their canonical v1.0 lock state (2026-05-25).
+| Item | Path |
+| --- | --- |
+| **First-time guide**: orientation for an instructor new to teaching with AI | [instructors/first-time-guide.md](instructors/first-time-guide.md) |
+| **Semester redesign**: a worked example of redesigning one course for a term | [instructors/semester-redesign.md](instructors/semester-redesign.md) |
+| **Assignment templates**: reusable patterns that grade the judgment, not the product | [instructors/assignment-templates.md](instructors/assignment-templates.md) |
+| **Assessment models**: low-stakes ways to see unaided competence | [instructors/assessment-models.md](instructors/assessment-models.md) |
+| **Syllabus briefings**: three ready-to-use syllabus paragraphs (restrictive / default / permissive) | [instructors/briefings.md](instructors/briefings.md) |
+| **Faculty FAQ**: short answers to common questions | [instructors/faculty-faq.md](instructors/faculty-faq.md) |
 
-### AI and the Next Layer of Human Work (`companion-papers/hyman2026next/`)
+**Book, papers, and metadata**
 
-A position paper that develops the historical-pattern argument the book introduces in the Foreword's "Why this is not the first time" subsection. Six historical analogies (photography, calculators, programming libraries, power tools, spellcheck, operational vs. mechanical knowledge) ground the central thesis: powerful tools change what skill means rather than eliminating skill. Three audience-specific sections (Students, Faculty, Administrators) parallel the book's three parts.
+| Item | Path |
+| --- | --- |
+| **Book PDF** | [book/learning_with_ai_v2_14_38.pdf](book/learning_with_ai_v2_14_38.pdf) |
+| **Companion paper:** *AI and the Next Layer of Human Work* | `companion-papers/hyman2026next/` |
+| **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | `companion-papers/hyman2026teaching/` |
+| License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, `CHANGELOG.md`, [ERRATA.md](ERRATA.md) |
 
-- **Bibkey:** `hyman2026next`
-- **Length:** 10 pages
-- **Files:** `hyman2026next.tex`, `hyman2026next.bib`, `hyman2026next.pdf`
-- **Compile recipe:** `pdflatex → bibtex → pdflatex → pdflatex` (natbib backend)
-
-### Teaching AI Responsibly to Principled Skeptics (`companion-papers/hyman2026teaching/`)
-
-A position paper that develops the framework the book introduces in Part I's principled-skepticism paragraph. Five-layer literacy framework (technical, environmental, ethical, practical, civic). Engages seriously with the case for principled refusal of AI engagement on environmental, ethical, or political grounds. Citations include IEA energy data, OECD on hidden costs, Crawford's *Atlas of AI*, Bender et al. on stochastic parrots, EU AI Act Article 4. Three audience-specific sections mirror the book.
-
-- **Bibkey:** `hyman2026teaching`
-- **Length:** 18 pages
-- **Files:** `hyman2026teaching.tex`, `hyman2026teaching.bib`, `hyman2026teaching.pdf`
-- **Compile recipe:** `pdflatex → biber → pdflatex → pdflatex` (biblatex backend; requires `biber` and `biblatex.sty`)
+All repository materials are released under the MIT license and may be freely used, adapted, translated, and redistributed with attribution. The book itself remains under SIAM copyright.
 
 ---
 
 ## How to use this material
 
-### As a reader
+**Students**: read the Foreword and Part I, then set up your AI once with the DPP walkthrough ([companion/dpp/](companion/dpp/)) and keep the SPP prompt ([companion/spp/](companion/spp/)) handy. If you are new to this, [students/start-here.md](students/start-here.md) is the place to begin; if you have been using AI mainly to get answers, [students/from-answers-to-learning.md](students/from-answers-to-learning.md) is written for you. Use the checklist before submitting and the disclosure templates when your instructor asks.
 
-Download `book/learning_with_ai_v2_10.pdf` and read in your preferred PDF viewer. The book is structured for three different reading paths:
+**Instructors**: read the Foreword and Part II, then start with [instructors/first-time-guide.md](instructors/first-time-guide.md) and work through the toolkit. Adapt one of the three syllabus briefings ([instructors/briefings.md](instructors/briefings.md)) to your course's AI policy, redesign a first assignment with the templates, and add one of the assessment models.
 
-- **Students:** Read the Foreword and Part I. Parts II and III are for context, not necessary for student practice.
-- **Instructors:** Read the Foreword and Part II. Part I will help you understand what students are being taught; Part III will help you understand the institutional context you're working in.
-- **Department chairs, deans, and administrators:** Read the Foreword and Part III. Parts I and II are for context on what the framework is asking you to enable.
-
-For deeper background, the two companion papers in `companion-papers/` develop the historical-pattern argument and the principled-skepticism framework that the book introduces in summary form.
+**Department chairs, deans, and administrators**: read the Foreword and Part III for the institutional vocabulary and policy framework.
 
 ### As a citation source
 
-Use the metadata in `CITATION.cff` for reference managers (Zotero, Mendeley, etc. that support the Citation File Format). For BibTeX:
+Use `CITATION.cff` for reference managers. For BibTeX:
 
 ```bibtex
 @book{hyman2026learning,
-  author = {Hyman, James M.},
-  title = {Learning with AI: A Framework for Students, Instructors, and Universities},
-  subtitle = {From Graduate Mathematics to Undergraduate Education, Departmental Practice, and Institutional Policy},
+  author    = {Hyman, James M.},
+  title     = {Learning with AI: A Framework for Students, Instructors, and Universities},
+  subtitle  = {From Graduate Mathematics to Undergraduate Education, Departmental Practice, and Institutional Policy},
   publisher = {SIAM Books},
-  year = {2026},
-  edition = {Canonical v2.10},
-  note = {Under review with SIAM Books on Education. Available at https://github.com/machyman/hyman2026learning}
+  year      = {2026},
+  note      = {Under review with SIAM Books. Available at https://github.com/machyman/hyman2026learning}
 }
 ```
-
-For the companion papers:
-
-```bibtex
-@unpublished{hyman2026next,
-  author = {Hyman, James M.},
-  title = {AI and the Next Layer of Human Work},
-  year = {2026},
-  note = {v1.0 lock 2026-05-25. Available at https://github.com/machyman/hyman2026learning/tree/main/companion-papers/hyman2026next}
-}
-
-@unpublished{hyman2026teaching,
-  author = {Hyman, James M.},
-  title = {Teaching AI Responsibly to Principled Skeptics},
-  year = {2026},
-  note = {v1.0 lock 2026-05-25. Available at https://github.com/machyman/hyman2026learning/tree/main/companion-papers/hyman2026teaching}
-}
-```
-
-### As a framework for your course or institution
-
-The book's frameworks (CAT, Learning Spiral, two-transcript idea, GMIP) are released under MIT license. You are free to use, adapt, and integrate them into your own courses, syllabi, policies, and institutional documents. Attribution is requested but not required (per MIT). Modifications are welcome.
-
-If you adapt the framework substantively for your context, the author would be interested to hear about it: mhyman@tulane.edu.
 
 ---
 
 ## Version history
 
-See `CHANGELOG.md` for the full version history of the book.
+See `CHANGELOG.md` for the full history. Recent state:
 
-Major milestones:
-
-- **v2.10 (2026-05-25):** Part II citation-grounding integration. Seven inline integrations across Part II linking the framework's pedagogical claims to the canonical teaching-effectiveness and learning-science literature. Bibliography grew 58 → 67 entries. 196 pages.
-- **v2.9 (2026-05-24):** Round-2 reviewer release. Added historical-pattern frame, calculator-touchstone threading across three audiences, principled-skepticism acknowledgment, companion-paper references. 194 pages.
-- **v2.8 (2026-05-13):** SIAM submission baseline (round 1). Completed Yuwei Bao student-reviewer integration arc.
+- **v2.14.38 (current):** Expanded the companion-repository description to cover the new guided materials (student onboarding guides, the worked study-sessions library, and the instructor toolkit). 217 pages; 84 bibliography entries.
+- **v2.14.37:** Reviewer-feedback integration cycle. Adds an undergraduate "first attempt" on-ramp to the Learning Spiral (Part I), institutional detector-equity guidance (Part III), and the cross-unit enrollment-competition (RCM) risk to the institutional analysis. 216 pages.
+- **v2.9 to v2.14:** Round-2 reviewer release and subsequent integration cycles (learning-science grounding in Part II; historical-pattern and principled-skepticism framing; companion-paper references; ongoing reviewer feedback).
+- **v2.8 (2026-05-13):** SIAM submission baseline (round 1).
 - **v1.0 (2026-05-04):** Original SIAM-submission baseline (141 pages).
-- Earlier versions: v0.95-v0.999 MREP review cycles (Sessions 1-8).
 
 ---
 
-## Development Tools
+## Development tools
 
-This research used AI-assisted workflows for manuscript preparation and review.
-See the manuscript's Acknowledgments section for the full disclosure.
-All mathematical content, proofs, code, and computations are the sole work of the author(s).
+This book and its companion materials were prepared with the help of AI tools, used in the manner the book describes: as an aid to drafting, organizing, and reviewing, with the author retaining responsibility for the content. The framework, analysis, and final text are the author's own.
 
 ---
 
 ## Contact
 
 James M. Hyman
-Department of Mathematics
-Tulane University
-6823 St. Charles Avenue
-New Orleans, LA 70118
-mhyman@tulane.edu
+Department of Mathematics, Tulane University
+<mhyman@tulane.edu>
 
----
-
-*This repository is the companion archive for the book *Learning with AI*. The book itself is under review with SIAM Books on Education. This README reflects the v2.10 canonical state as of 2026-05-25. The v2.9 round-2 reviewer release remains in reviewer hands; reviewer feedback will drive v2.11.*
+*This repository is the companion archive for the book. The book is under review with SIAM Books.*
