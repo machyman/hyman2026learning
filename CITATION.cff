@@ -1,23 +1,41 @@
 cff-version: 1.2.0
-title: "Learning with AI: A Framework for Students, Instructors, and Universities"
-message: "If you use these materials, please cite the book."
-type: book
+title: "Learning with AI: Companion Materials"
+message: >-
+  These are the companion materials for the book. If you use them in published
+  work, please cite the book (see preferred-citation).
+type: software
 authors:
   - family-names: Hyman
     given-names: "James M."
     affiliation: "Tulane University"
     orcid: "https://orcid.org/0000-0001-5247-5794"
     email: mhyman@tulane.edu
-year: 2026
-version: v3.8.1
-date-released: 2026-07-11
-publisher:
-  name: "SIAM Books"
-url: "https://github.com/machyman/hyman2026learning"
 repository-code: "https://github.com/machyman/hyman2026learning"
+url: "https://machyman.github.io/hyman2026learning"
 abstract: >-
-  A framework for engaging with AI in higher education across three audiences:
-  students (using AI to learn rather than to substitute for learning),
-  instructors (designing courses and assessments that work with AI), and
-  departments and institutions (setting policy that protects learning).
-notes: "Under review with SIAM Books."
+  Free, MIT-licensed companion materials for the book "Learning with AI: A
+  Framework for Students, Instructors, and Universities" (James M. Hyman, SIAM
+  Books). For students: the Study Partner Protocol, the Define Personal
+  Preferences guide, a pre-submission checklist, disclosure templates, and
+  worked study sessions in mathematics, physics, statistics, and computing. For
+  instructors: assignment templates, assessment models, rubrics, syllabus
+  language, and discipline overlays. For departments: policy language and an
+  adoption quickstart. The book itself is under SIAM copyright and is not part
+  of this archive.
+keywords:
+  - artificial intelligence
+  - higher education
+  - assessment
+  - academic integrity
+  - teaching
+preferred-citation:
+  type: book
+  title: "Learning with AI: A Framework for Students, Instructors, and Universities"
+  authors:
+    - family-names: Hyman
+      given-names: "James M."
+      affiliation: "Tulane University"
+      orcid: "https://orcid.org/0000-0001-5247-5794"
+  publisher:
+    name: "SIAM"
+  year: 2026
