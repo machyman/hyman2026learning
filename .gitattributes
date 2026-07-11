@@ -1,2 +1,10 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Keep the book PDF out of source archives.
+#
+# GitHub builds release zipballs with `git archive`, which honors export-ignore.
+# Zenodo archives that zipball. The PDF in book/ is the author's pre-edit draft,
+# posted with SIAM's *conditional* permission and withdrawn when copy-editing begins.
+# A Zenodo deposit is permanent and immutable, so the PDF must never enter one.
+#
+# The companion materials (MIT-licensed) are what the DOI is for.
+
+book/*.pdf export-ignore
