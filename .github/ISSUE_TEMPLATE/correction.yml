@@ -1,0 +1,50 @@
+name: Report a correction (erratum)
+description: A typo, factual error, broken link, or anything that reads as wrong in the book.
+title: "[Correction] "
+labels: ["erratum"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the book. Please have the book nearby so you can give the page and version.
+  - type: input
+    id: page
+    attributes:
+      label: Page number
+      placeholder: "e.g., 42"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Printing or version
+      description: Shown on the title page (for example, v3.8.1, or the printed edition and printing).
+      placeholder: "e.g., v3.8.1"
+    validations:
+      required: true
+  - type: textarea
+    id: passage
+    attributes:
+      label: The passage as printed
+      description: Quote the sentence or phrase as it appears.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested correction (optional)
+    validations:
+      required: false
+  - type: input
+    id: credit
+    attributes:
+      label: Name for acknowledgment (optional)
+      description: If your correction is used, how would you like to be credited? Leave blank to stay anonymous.
+    validations:
+      required: false
