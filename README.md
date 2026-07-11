@@ -2,9 +2,11 @@
 
 Companion repository for the book *Learning with AI: A Framework for Students, Instructors, and Universities* by James M. Hyman.
 
-**Subtitle:** *From Graduate Mathematics to Undergraduate Education, Departmental Practice, and Institutional Policy*
+**Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-**Current version:** v2.14.38 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 217 &nbsp;·&nbsp; **License:** MIT (see `LICENSE`)
+**Current version:** v3.8.1 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 224 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+
+**Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
 ---
 
@@ -48,6 +50,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 | **Sharing AI conversations**: how to share a read-only chat link with an instructor, by platform | [students/sharing-ai-conversations.md](students/sharing-ai-conversations.md) |
 | **Pre-submission checklist**: the student checklist from Part I | [students/checklist.md](students/checklist.md) |
 | **Disclosure templates**: short and fuller AI-use disclosure statements | [students/disclosure-templates.md](students/disclosure-templates.md) |
+| **The Student Compact**: the five-part compact from Part I, printable and signable | [companion/compact/](companion/compact/) |
 
 **For instructors**
 
@@ -58,16 +61,17 @@ The book teaches the framework; this repository hosts the operational artifacts 
 | **Assignment templates**: reusable patterns that grade the judgment, not the product | [instructors/assignment-templates.md](instructors/assignment-templates.md) |
 | **Assessment models**: low-stakes ways to see unaided competence | [instructors/assessment-models.md](instructors/assessment-models.md) |
 | **Syllabus briefings**: three ready-to-use syllabus paragraphs (restrictive / default / permissive) | [instructors/briefings.md](instructors/briefings.md) |
+| **Rubrics**: the worked AIC rubric from Part II, with writing and coding variants | [instructors/rubrics/](instructors/rubrics/) |
 | **Faculty FAQ**: short answers to common questions | [instructors/faculty-faq.md](instructors/faculty-faq.md) |
 
 **Book, papers, and metadata**
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** | [book/learning_with_ai_v2_14_38.pdf](book/learning_with_ai_v2_14_38.pdf) |
+| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v3_8_1.pdf](book/learning_with_ai_v3_8_1.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | `companion-papers/hyman2026next/` |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | `companion-papers/hyman2026teaching/` |
-| License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, `CHANGELOG.md`, [ERRATA.md](ERRATA.md) |
+| License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, [CHANGELOG.md](CHANGELOG.md), [ERRATA.md](ERRATA.md) |
 
 All repository materials are released under the MIT license and may be freely used, adapted, translated, and redistributed with attribution. The book itself remains under SIAM copyright.
 
@@ -89,10 +93,10 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 @book{hyman2026learning,
   author    = {Hyman, James M.},
   title     = {Learning with AI: A Framework for Students, Instructors, and Universities},
-  subtitle  = {From Graduate Mathematics to Undergraduate Education, Departmental Practice, and Institutional Policy},
+  subtitle  = {From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy},
   publisher = {SIAM Books},
   year      = {2026},
-  note      = {Under review with SIAM Books. Available at https://github.com/machyman/hyman2026learning}
+  note      = {Under review with SIAM Books. Companion materials at https://github.com/machyman/hyman2026learning}
 }
 ```
 
@@ -102,7 +106,16 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v2.14.38 (current):** Expanded the companion-repository description to cover the new guided materials (student onboarding guides, the worked study-sessions library, and the instructor toolkit). 217 pages; 84 bibliography entries.
+- **v3.8.1 (current):** External review cycle integrated. Adds a worked AIC rubric, a signable version of the student compact, an excerpt of the Study Partner Protocol, and complete Part glossaries. Holds the AI tutor to what a course has covered ("map plus pin"), names office hours as an instructor's lost early-warning signal, adds student buy-in as the condition design cannot supply, and adds persistence erosion as a fourth learning-science mechanism. Appendices are now numbered and navigable. 224 pages.
+- **v3.2.2:** Broadening pass: removed gratuitous math jargon from two general checklists so they read for any field.
+- **v3.2.1:** Finalized the genesis, naming the sensitivity-analysis textbook written with Leon Arriola and rewriting the passage in first person.
+- **v3.2.0:** Added a Preface subsection on the book's genesis (writing a textbook with Leon Arriola, then the literature-gap discovery), as a hybrid with the graduate-mathematics origin.
+- **v3.1.1:** Added Svetlana Barkanova to the Acknowledgments, crediting her feedback that broadened the detector-fairness argument to neurodiversity.
+- **v3.1.0:** Integrated reviewer feedback. Defined the assignment-category acronyms (NAI, AIT, AIC, AIS) at first use, added a paragraph on neurodiversity and detector fairness, and cross-referenced the worked study-sessions from the verification section. 222 pages.
+- **v3.0.1:** Converted to the official SIAM book format (SIAMbook2023 class, 7x10 trim, Times + Helvetica). Format-only change; the text is unchanged except for folding the Foreword into the Preface. 222 pages. Display copy prepared for the SIAM Annual Meeting.
+- **v2.17.2:** Closing pass of the AI-panel revision. Two rounds of multi-model review integrated across all three Parts; the Learning Spiral redesigned (centered question, five-step never-closing cycle); the AI-as-Tutor / AI-as-Collaborator boundary sharpened to separate provenance (where AI's work ends up) from ownership (the translation test); a closing institutional theory-of-change frame added. Subtitle updated to STEM Education. 226 pages; 87 bibliography entries.
+- **v2.15 – v2.17:** Per-section readability and scholarly-prose-refinement passes; reviewer-panel integration cycles (round 1 and round 2 multi-model review).
+- **v2.14.38:** Expanded the companion-repository description to cover the guided materials (student onboarding guides, the worked study-sessions library, and the instructor toolkit). 217 pages.
 - **v2.14.37:** Reviewer-feedback integration cycle. Adds an undergraduate "first attempt" on-ramp to the Learning Spiral (Part I), institutional detector-equity guidance (Part III), and the cross-unit enrollment-competition (RCM) risk to the institutional analysis. 216 pages.
 - **v2.9 to v2.14:** Round-2 reviewer release and subsequent integration cycles (learning-science grounding in Part II; historical-pattern and principled-skepticism framing; companion-paper references; ongoing reviewer feedback).
 - **v2.8 (2026-05-13):** SIAM submission baseline (round 1).
@@ -121,5 +134,9 @@ This book and its companion materials were prepared with the help of AI tools, u
 James M. Hyman
 Department of Mathematics, Tulane University
 <mhyman@tulane.edu>
+
+## Found an error or have a question?
+
+Corrections, questions, and suggestions are welcome, whether or not you use GitHub. Email <mhyman@tulane.edu> (for a correction, please include the page number and the book version), or open a GitHub issue. See **[how to give feedback](FEEDBACK.md)**. Confirmed corrections are listed in [ERRATA.md](ERRATA.md), and common questions in the [FAQ](FAQ.md).
 
 *This repository is the companion archive for the book. The book is under review with SIAM Books.*

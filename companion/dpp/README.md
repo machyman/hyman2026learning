@@ -8,9 +8,9 @@ This is the operational form of the "set up your AI for learning" section in Par
 
 Look in your AI tool's settings for **custom instructions**, **personalization**, **system prompt**, or **memory**, and paste or adapt the language below there, once. (The exact location changes as tools update; check your platform's settings or help pages.)
 
-## The six things worth specifying
+## The seven things worth specifying
 
-Work through these six categories. Sample language follows each; adapt it to you.
+Work through these seven categories. Sample language follows each; adapt it to you.
 
 **1. Who you are and what you are studying.**
 > I am a [year, e.g., first-year undergraduate] in [department]. My current courses are [list]. My prior background includes [relevant coursework].
@@ -29,6 +29,11 @@ Work through these six categories. Sample language follows each; adapt it to you
 
 **6. (Optional) Technical-work accuracy guard.**
 > When you write code or do calculations, label confident versus tentative claims, explain any non-obvious step, and remind me to test or verify the result.
+
+**7. Course scope (update as the term moves).**
+> In [course], we have covered [topics] and have not yet covered [topics]. Use only methods we have covered. If something seems to need a later method, name it and stop rather than use it. I will update this as the course moves.
+
+Keep this line current: a stale scope is worse than none, because it tells the AI the wrong boundary. Update it when your course reaches a new topic. If an assignment comes with its own scope note from your instructor, that note takes precedence over this one.
 
 ## After you set them
 

@@ -1,0 +1,16 @@
+# GitHub Pages configuration.
+# The book prints the site address machyman.github.io/hyman2026learning, so Pages
+# must be enabled for that link to resolve: Settings > Pages > Source: "Deploy from a
+# branch" > Branch: main > Folder: / (root). Save. The site builds from README.md.
+title: Learning with AI
+description: Companion materials for the book by James M. Hyman (SIAM Books)
+theme: jekyll-theme-cayman
+show_downloads: false
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+exclude:
+  - LICENSE
+  - CITATION.cff

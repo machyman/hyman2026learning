@@ -9,6 +9,8 @@ authors:
     orcid: "https://orcid.org/0000-0001-5247-5794"
     email: mhyman@tulane.edu
 year: 2026
+version: v3.8.1
+date-released: 2026-07-11
 publisher:
   name: "SIAM Books"
 url: "https://github.com/machyman/hyman2026learning"
