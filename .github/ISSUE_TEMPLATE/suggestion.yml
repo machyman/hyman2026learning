@@ -1,0 +1,24 @@
+name: Suggest an improvement
+description: An idea, an example, or a resource you think would strengthen the book or the materials.
+title: "[Suggestion] "
+labels: ["suggestion"]
+body:
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Your suggestion
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where it applies (optional)
+      placeholder: "e.g., Part II assessment models, or the study-sessions library"
+    validations:
+      required: false
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it would help (optional)
+    validations:
+      required: false
