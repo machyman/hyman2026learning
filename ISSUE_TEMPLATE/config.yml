@@ -1,8 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Email the author (no GitHub account needed)
-    url: mailto:mhyman@tulane.edu?subject=Learning%20with%20AI%20feedback
-    about: Report a correction, ask a question, or suggest an improvement. For a correction, please include the page number and the book version.
-  - name: How feedback works
-    url: https://github.com/machyman/hyman2026learning/blob/main/FEEDBACK.md
-    about: What happens to your report, and where confirmed corrections land.
