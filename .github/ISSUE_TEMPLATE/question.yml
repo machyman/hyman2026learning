@@ -1,0 +1,30 @@
+name: Ask a question
+description: Something in the book or the companion materials is unclear. Common questions become FAQ entries.
+title: "[Question] "
+labels: ["question", "faq-candidate"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: dropdown
+    id: audience
+    attributes:
+      label: Which part is this about?
+      options:
+        - The student guide (Part I)
+        - The instructor guide (Part II)
+        - The institutional guide (Part III)
+        - The companion materials
+        - General / not sure
+    validations:
+      required: false
+  - type: input
+    id: context
+    attributes:
+      label: Page or section (optional)
+      placeholder: 'e.g., page 55, or "the Learning Spiral"'
+    validations:
+      required: false
