@@ -1,5 +1,5 @@
 # hyman2026learning: *Learning with AI*
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21315920.svg)](https://doi.org/10.5281/zenodo.21315920)
 Companion repository for the book *Learning with AI: A Framework for Students, Instructors, and Universities* by James M. Hyman.
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
