@@ -10,6 +10,11 @@ authors:
     affiliation: "Tulane University"
     orcid: "https://orcid.org/0000-0001-5247-5794"
     email: mhyman@tulane.edu
+doi: "10.5281/zenodo.21315920"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21315920"
+    description: "Concept DOI. Always resolves to the latest archived version."
 repository-code: "https://github.com/machyman/hyman2026learning"
 url: "https://machyman.github.io/hyman2026learning"
 abstract: >-
