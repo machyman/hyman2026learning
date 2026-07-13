@@ -13,15 +13,15 @@
 - natbib + bibtex (4-pass canonical recipe)
 - 19 `\citep` calls, 20 bibliography entries (one unused: `standage1998victorian`, retained as related-work reference)
 - 0 LaTeX errors, 0 undefined citations
-- bibkey `hyman2026next` — locked, unchanged
-- Title "AI and the Next Layer of Human Work" — locked, unchanged
-- Subtitle "A Position Paper for Students, Faculty, and Administrators" — retained
+- bibkey `hyman2026next`: locked, unchanged
+- Title "AI and the Next Layer of Human Work": locked, unchanged
+- Subtitle "A Position Paper for Students, Faculty, and Administrators": retained
 
 ---
 
 ## Substantive changes from v2 to v1.0
 
-### Change 1 — Displacement honesty strengthened (matches book Foreword)
+### Change 1: Displacement honesty strengthened (matches book Foreword)
 
 **Section affected:** §The Real Risk
 
@@ -37,7 +37,7 @@
 
 This change is also a SPRE Phase 3 false-negative case (logged as F-V6-X-05 in the calibration findings document): the v2 hedge was under-claimed against the documented evidence, and SPRE's claim-strength alignment scan is currently asymmetric (catches over-claim, not under-claim).
 
-### Change 2 — Empirical anchor named (jagged frontier)
+### Change 2: Empirical anchor named (jagged frontier)
 
 **Section affected:** §Power Tools and the Limits of Force
 
@@ -51,7 +51,7 @@ This change is also a SPRE Phase 3 false-negative case (logged as F-V6-X-05 in t
 
 **Rationale.** The jagged-frontier concept is the most directly transferable empirical finding for the paper's thesis ("AI is a power tool with force but not judgment"). Naming the authors and stating the finding gives the central argument an empirical handle that a thoughtful reader can carry into other contexts.
 
-### Change 3 — Cognitive-atrophy claim grounded with 2025 empirical evidence (pre-ship refresh)
+### Change 3: Cognitive-atrophy claim grounded with 2025 empirical evidence (pre-ship refresh)
 
 **Sections affected:** §The Real Risk
 
@@ -63,7 +63,7 @@ This change is also a SPRE Phase 3 false-negative case (logged as F-V6-X-05 in t
 
 **Rationale.** Two complementary methodologies (UK general-population survey, US university-student EEG study) converge on the paper's central claim. The Gerlich finding that *higher educational attainment served as a protective buffer* is directly relevant to the paper's argument for institutional investment in AI-judgment skills. The Kosmyna crossover finding (effect persists after AI removed) supports the paper's claim that the relevant skill must be built before AI use, not alongside it. Kosmyna is cited with appropriate preprint hedging.
 
-### Change 4 — AI detector unreliability claim grounded (pre-ship refresh)
+### Change 4: AI detector unreliability claim grounded (pre-ship refresh)
 
 **Sections affected:** §Implications for Administrators (Academic Integrity paragraph)
 
@@ -81,13 +81,13 @@ This change is also a SPRE Phase 3 false-negative case (logged as F-V6-X-05 in t
 
 Three new entries added to `hyman2026next.bib`:
 
-- `gerlich2025aitools` — Societies 15(1):6, DOI 10.3390/soc15010006
-- `kosmyna2025brain` — arXiv:2506.08872 (preprint; MIT Media Lab; note documents preprint status)
-- `hyatt2025aggregated` — Advances in Physiology Education 49(2):486–495, DOI 10.1152/advan.00235.2024
+- `gerlich2025aitools`: Societies 15(1):6, DOI 10.3390/soc15010006
+- `kosmyna2025brain`: arXiv:2506.08872 (preprint; MIT Media Lab; note documents preprint status)
+- `hyatt2025aggregated`: Advances in Physiology Education 49(2):486–495, DOI 10.1152/advan.00235.2024
 
 All three verified via web search for citation integrity. Phase 8 re-verification post-insertion: all metrics PASS (em-dash 0, CV 0.626, markers 0, buzz 0, hype 0). Word count 3470 → 3590 (+120). Pages: 10 → 10 (unchanged).
 
-### Change 5 — Asymmetry of displacement engaged (intellectual-honesty patch)
+### Change 5: Asymmetry of displacement engaged (intellectual-honesty patch)
 
 **Sections affected:** §The Real Risk
 
@@ -103,7 +103,7 @@ All three verified via web search for citation integrity. Phase 8 re-verificatio
 
 ### Bibliography additions for Change 5
 
-None. The asymmetry paragraph is conceptual and does not introduce empirical claims that require citation. The underlying intuition (new skills require more education than displaced ones) is widely recognized in labor-economics literature (Acemoglu \& Restrepo 2019 is already cited in §Opening for the displacement-and-reinstatement framing). A future enhancement could add a specific citation for the "education premium of judgment-class jobs" claim, but this is held for v1.1 or later — the conceptual point stands without further citation.
+None. The asymmetry paragraph is conceptual and does not introduce empirical claims that require citation. The underlying intuition (new skills require more education than displaced ones) is widely recognized in labor-economics literature (Acemoglu \& Restrepo 2019 is already cited in §Opening for the displacement-and-reinstatement framing). A future enhancement could add a specific citation for the "education premium of judgment-class jobs" claim, but this is held for v1.1 or later; the conceptual point stands without further citation.
 
 ---
 

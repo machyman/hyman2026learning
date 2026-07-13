@@ -20,7 +20,7 @@ def highest_score(scores):
 
 > Their quick test: `highest_score([72, 88, 95, 60])` returns `95`. Looks right. So why does it fail?
 
-## Try first
+## Try to solve
 
 Before asking the AI, the student reads their own code and forms a guess:
 
@@ -36,13 +36,13 @@ Before asking the AI, the student reads their own code and forms a guess:
 
 > **What to notice:** The student asked for a question, not a rewrite, and used the book's diagnostic move: let the AI help you locate the bug rather than remove it. The understanding stays with the student.
 
-## Work it
+## Work independently
 
 > **Student:** It starts at 0. So if all the scores were below 0, say a list of penalties like `[-5, -2, -9]`, the function would never find anything bigger than 0, and it would return 0, which is not even in the list. The starting value of 0 is the bug.
 
 > **What to notice:** The student found it themselves. The function silently assumed every score is positive; with all-negative input it returns a number that was never in the list. They reached this by reasoning about the case the question pointed at, not by being handed the answer.
 
-## Check the AI (the important step)
+## Verify
 
 Now the student asks the AI for the fix, and then does the thing that matters: checks it.
 
@@ -87,10 +87,10 @@ def highest_score(scores):
 
 ## What this session shows
 
-- **Try first** turned "what's wrong with my code?" into a sharper question about untested inputs.
+- **Try to solve** turned "what's wrong with my code?" into a sharper question about untested inputs.
 - **Asking for a diagnostic question instead of a fix** kept the debugging skill with the student.
 - The student found the starting-value bug **themselves**.
-- **Checking the AI's fix** caught a new bug it introduced (the empty-list crash). The book's warning that AI is unreliable at confirming its own code is exactly what played out, and the student's understanding is what caught it.
+- **Verify** caught the new bug the AI's fix introduced (the empty-list crash). The book's warning that AI is unreliable at confirming its own code is exactly what played out, and the student's understanding is what caught it.
 - The final code is the student's, edge cases and all.
 
 The same pattern works for any debugging: read your own code first, ask the AI to help you locate the problem rather than remove it, and test anything the AI hands you against the cases it did not mention.

@@ -11,7 +11,7 @@ The student is using the study-partner prompt (`companion/spp/`), so the AI is s
 
 It looks simple, and the AI would happily produce a confident answer. That is exactly the trap.
 
-## Try first
+## Try to solve
 
 Before opening the AI, the student writes down their own first read:
 
@@ -27,13 +27,13 @@ Before opening the AI, the student writes down their own first read:
 
 > **What to notice:** The student asked for a question, not a verdict, and the study partner responded with one that points at the issue without naming it. The student still has to do the thinking.
 
-## Work it
+## Work independently
 
 > **Student:** Okay. The students who go to tutoring probably chose to go. Students who choose extra help might already be more motivated, or have more time, or be more organized. So maybe those students would have had higher grades anyway, with or without tutoring. The two groups were not the same to begin with.
 
 > **What to notice:** This is the heart of the problem, and the student reached it themselves. The groups were not assigned at random; students selected into tutoring, so a difference between them could come from who they already were rather than from the tutoring. A hidden difference like this, one that affects both who gets the "treatment" and the outcome, is called a confounder.
 
-## Check the AI (the important step)
+## Verify
 
 To test their reasoning, the student deliberately asks the AI for the easy answer, to see whether they can catch the trap:
 
@@ -63,10 +63,10 @@ And a brief disclosure:
 
 ## What this session shows
 
-- **Try first** turned "is this causal?" into a specific question the student could work on.
+- **Try to solve** turned "is this causal?" into a specific question the student could work on.
 - **Asking for a question instead of a verdict** kept the thinking with the student.
 - The student reached the confounder idea **themselves**.
-- **Checking the AI** caught its agreeable, fluent answer; the trap of adopting the model's certainty was avoided only because the student understood the problem.
+- **Verify** caught its agreeable, fluent answer; the trap of adopting the model's certainty was avoided only because the student understood the problem.
 - The answer is the student's, and they can defend it.
 
 The same pattern works in any data-reasoning course: state your own read, ask the AI to widen or stress-test it rather than conclude, and check every confident claim against what the design can actually support.

@@ -11,7 +11,7 @@ The student is using the study-partner prompt (`companion/spp/`), so the AI is s
 
 It is a standard setup, and the AI will answer it confidently. The question is whether the confident answer uses the right physics.
 
-## Try first
+## Try to solve
 
 Before opening the AI, the student thinks it through:
 
@@ -27,9 +27,7 @@ Before opening the AI, the student thinks it through:
 
 > **What to notice:** The student asked which principle to use, not for the answer, and the AI pointed at the real decision (momentum versus energy) without resolving it, leaving the judgment to the student. That decision is the whole problem.
 
-## Work it, and watch the AI
-
-The student is not sure yet, so they let the AI run with one approach to see it:
+Still unsure, the student lets the AI run one approach, to see it:
 
 > **Student:** I am not sure. Can you show me how it would go if I used energy?
 >
@@ -37,13 +35,23 @@ The student is not sure yet, so they let the AI run with one approach to see it:
 
 > **What to notice:** This is clean, confident, and uses real physics steps. The number even looks plausible, since it is slower than the original. A student in a hurry would write it down. But it disagrees with the student's own estimate of about half, which is the signal to slow down.
 
-## Check the AI (the important step)
+## Work independently
 
-> **Student:** Wait. That gives about 0.7 of the original speed, but my own reasoning said about half. They cannot both be right. And I do not think energy should be conserved here, because the carts couple together. When things crash and stick, some energy goes into the bump itself, the sound and the slight deformation, so the motion energy afterward should be less than before. The quantity that is actually conserved is momentum, not energy.
+Two answers now disagree, and only one of them is the student's. They step away from the thread and settle it with their own work:
+
+> *My work:* The carts couple together. A crash that sticks loses some motion energy to the bump itself, the sound and the slight deformation, so the motion energy afterward is less than before. Energy conservation is out. What survives the crash is momentum: the push before is one cart times its speed, and after it is two carts times the new speed. For those to match, the new speed is half the original.
+
+> **What to notice:** The student did not pick momentum because the AI said so; the AI had just used energy. They picked it by thinking about what happens when carts stick, and the one-line calculation is their own. It lands on half, which matches their first estimate. That agreement is encouraging, but it is not yet a check of the AI.
+
+## Verify
+
+The student takes both answers back to the thread:
+
+> **Student:** Your energy approach gives about 0.7 of the original speed. I worked the problem with momentum and got exactly half, and my first estimate said about half too. They cannot both be right. The carts stick together, so kinetic energy is not conserved in this collision; momentum is. I think energy was the wrong starting principle.
 >
-> **AI:** That is the key insight. In a collision where the objects stick together, kinetic energy is not conserved; momentum is. Using momentum conservation here gives a combined speed of half the original, which matches your estimate.
+> **AI:** You are right, and that is the key distinction. In a collision where the objects stick together, kinetic energy is not conserved; momentum is. Momentum conservation gives half the original speed, which matches your calculation.
 
-> **What to notice:** This is the move the session is built around. The AI's energy answer was not an arithmetic mistake; the steps were valid. It came from the wrong starting principle, energy conservation, in a situation where energy is not conserved. The book calls this the answer where the symbols are right but the physics is wrong. The student caught it because their own estimate disagreed and because they thought about what physically happens when carts stick, not because the AI flagged anything.
+> **What to notice:** This is the move the session is built around. The AI's energy answer was not an arithmetic mistake; the steps were valid. It came from the wrong starting principle, energy conservation, in a situation where energy is not conserved. The book calls this the answer where the symbols are right but the physics is wrong. The student caught it because their own calculation disagreed and because they had already worked out what happens when carts stick, not because the AI flagged anything.
 
 ## Reflect and disclose
 
@@ -51,16 +59,17 @@ The student writes the answer in their own words:
 
 > *My answer:* The coupled carts move at half the first cart's original speed. The right principle is conservation of momentum, because the carts stick together, which means the collision loses some motion energy, so energy conservation does not apply. The "twice the cart, same push" picture gives half the speed, which also matches the momentum reasoning.
 
-> *AI use:* I used an AI study partner to think through which principle applies. When I asked it to work the problem using energy, it produced a confident but wrong answer, because energy is not conserved in a sticking collision. I caught the disagreement with my own estimate and identified momentum as the right principle. The reasoning is mine.
+> *AI use:* I used an AI study partner to think through which principle applies. When I asked it to work the problem using energy, it produced a confident but wrong answer, because energy is not conserved in a sticking collision. It disagreed with my own estimate, so I worked the problem with momentum myself and got half the original speed. The reasoning is mine.
 
 > **What to notice:** The student can explain why momentum and not energy, can defend the factor of one half, and the disclosure honestly records that the AI's energy approach was wrong and how they caught it.
 
 ## What this session shows
 
-- **Try first** gave the student a physical estimate (about half) that later disagreed with the AI and triggered the check.
+- **Try to solve** gave the student a physical estimate (about half) that later disagreed with the AI and triggered the check.
 - **Asking which principle applies** kept the central physics decision with the student.
 - The AI's energy answer was **algebraically fine but physically wrong**, the exact failure the book warns about: correct steps from a wrongly chosen starting point.
-- **Checking the AI** meant asking whether the right principle was used and whether the answer made physical sense, not just whether the arithmetic was clean.
+- **Work independently** turned the estimate into the student's own one-line momentum calculation before any AI answer was accepted or rejected.
+- **Verify** meant putting that half against the AI's 0.7 and asking which principle fit the physics, not just whether the arithmetic was clean.
 - The answer and the reasoning are the student's.
 
 The same pattern works across physics: decide which law actually applies before trusting any number, and sanity-check every answer against a rough estimate, because a clean answer from the wrong principle still looks clean.

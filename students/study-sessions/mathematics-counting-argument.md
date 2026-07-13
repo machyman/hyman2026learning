@@ -11,7 +11,7 @@ The student is using the study-partner prompt (`companion/spp/`), so the AI is s
 
 There is a tidy general rule for this, and the AI will state one confidently. The question is whether the rule it states is the right one.
 
-## Try first
+## Try to solve
 
 The student is not sure of a general rule, so they get a feel for the problem by counting a smaller case by hand. They try four people, call them A, B, C, and D, and list every clink:
 
@@ -29,7 +29,7 @@ The student is not sure of a general rule, so they get a feel for the problem by
 
 > **What to notice:** The student asked for the reasoning, not the number, which is what lets them check the argument rather than just copy a result. The AI's explanation sounds completely reasonable, and the number thirty looks fine on its own. Nothing yet says it is wrong.
 
-## Work it, and watch the AI
+## Work independently
 
 The student does not just accept thirty. They run the AI's rule on the case they already counted by hand:
 
@@ -37,7 +37,7 @@ The student does not just accept thirty. They run the AI's rule on the case they
 
 > **What to notice:** This is the move the session is built around. The student tested the AI's general argument on the smallest case they could verify themselves, and the rule failed it, giving twelve where the truth is six. They did not need to know in advance that the rule was wrong; the small case exposed it.
 
-## Check the AI (find where the argument breaks)
+## Verify
 
 A mismatch tells the student the rule is wrong. The audit is figuring out exactly which step fails and why:
 
@@ -59,10 +59,10 @@ The student tests the corrected rule on the case they trust before believing it 
 
 ## What this session shows
 
-- **Try first** produced a small case the student had counted by hand, which became the test that caught the error.
+- **Try to solve** produced a small case the student had counted by hand, which became the test that caught the error.
 - **Asking for the reasoning instead of the number** put the AI's argument in view, where it could be checked.
 - The AI's rule was confident and plausible but **wrong**, off by a factor of two because of a double-count.
-- **Checking the AI** meant testing its general argument on the smallest case the student could verify, then pinpointing the exact step that failed, not just spotting a bad number.
+- **Verify** meant testing its general argument on the smallest case the student could verify, then pinpointing the exact step that failed, not just spotting a bad number.
 - The rule and the reasoning are the student's.
 
 The same pattern works for any counting argument or short proof: when you are unsure whether the reasoning holds, test it on the smallest case you can work out by hand. If the argument disagrees with what you can see directly, the argument is where the mistake is, and tracking down the failing step is how you fix it.

@@ -2,6 +2,17 @@
 
 Notable changes to the *Learning with AI* book and its companion repository. Most recent first.
 
+## v1.1.0 (2026-07-13)
+
+The adoption release. The book now states how Part I reaches students, and the repository hands instructors the schedule for doing it.
+
+- **New: [instructors/what-to-assign.md](instructors/what-to-assign.md)**, the adoption quickstart. A one-page schedule of what to hand students and when, with a three-item minimum for instructors with no bandwidth.
+- **Learning Spiral alignment.** The four study sessions now use the book's canonical step names: `Work independently` and `Verify` replace `Work it` and `Check the AI`. The physics session was restructured so the student works the momentum calculation themselves before checking the AI's energy answer. Step names in `start-here.md` and `from-answers-to-learning.md` aligned.
+- **first-time-guide.md** now links all seven instructor materials; the stale "planned materials" paragraph is gone.
+- **Book PDF updated to v3.10.1** (228 pages). Part II states the distribution model and points to the assignment schedule; two UNESCO figure captions repaired; acknowledgments correction.
+- **Cleanup:** em-dashes removed from companion-papers metadata per the manuscript prose standards.
+
+
 ## v3.8.1 (2026-07-11)
 
 Integration of an external review cycle, plus several additions prompted by teachers and students.

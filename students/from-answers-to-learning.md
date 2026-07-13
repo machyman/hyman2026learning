@@ -18,10 +18,10 @@ The cost is real, but it arrives late. It shows up on the exam, in the next cour
 
 The good news: you do not have to stop using AI. You have to change *when* and *how* you bring it in. The shift is from "give me the answer" to "help me get there myself." Five moves do it.
 
-1. **Try first, even badly.** Before you open the AI, spend a few minutes on the problem yourself. Write what you think it is asking, sketch an approach, get something down. It does not need to be right. It gives your mind something to work with and tells you where you are actually stuck.
+1. **Try to solve, even badly.** Before you open the AI, spend a few minutes on the problem yourself. Write what you think it is asking, sketch an approach, get something down. It does not need to be right. It gives your mind something to work with and tells you where you are actually stuck.
 2. **Ask for a hint, not the answer.** Instead of "solve this," ask "give me one hint about how to start, but do not solve it." Instead of "write this for me," ask "here is my draft; what is the weakest part?" You are asking for coaching, not a delivery.
-3. **Do it yourself after.** Once the AI has pointed you in a direction, close it and rebuild the step in your own words or your own work. AI output looks finished, which makes this easy to skip. Do not confuse finished-looking with learned.
-4. **Check the AI.** AI is confidently wrong often enough that you cannot take its output on faith. Checking it forces you to understand the work well enough to know when something is off, which is the understanding you came for.
+3. **Work independently.** Once the AI has pointed you in a direction, close it and rebuild the step in your own words or your own work. AI output looks finished, which makes this easy to skip. Do not confuse finished-looking with learned.
+4. **Verify.** AI is confidently wrong often enough that you cannot take its output on faith. Checking it forces you to understand the work well enough to know when something is off, which is the understanding you came for.
 5. **Explain it back.** Close everything and try to explain the idea, or redo the key step, from a blank page. If you can, you own it. If you cannot, you have found exactly what to go back to.
 
 To make this the default, set your AI up once to help you this way (see `companion/dpp/`) and keep the study-partner prompt handy (see `companion/spp/`). The prompt is built to ask what you have tried before it helps, which does the first move for you.

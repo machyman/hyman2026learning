@@ -1,4 +1,4 @@
-# Companion Papers — *Learning with AI*
+# Companion Papers for *Learning with AI*
 
 Two companion position papers develop intellectual foundations the book draws on. Both are at their canonical **v1.0 lock state** (2026-05-25) and are included in this directory with source, bibliography, compiled PDF, and a Delta document.
 
@@ -11,10 +11,10 @@ A position paper developing the historical-pattern argument the book introduces 
 - **Length:** 10 pages, ~3,732 words
 - **Bibliography:** 23 entries (3 added in pre-ship 2025 empirical refresh: Gerlich, Kosmyna, Hyatt)
 - **Files:**
-  - `hyman2026next/hyman2026next_v1_0.tex` — locked LaTeX source
-  - `hyman2026next/hyman2026next.bib` — canonical bibliography
-  - `hyman2026next/hyman2026next.pdf` — compiled output
-  - `hyman2026next/Delta_v2_to_v1_0.md` — v1.0 change summary (5 substantive changes documented)
+  - `hyman2026next/hyman2026next_v1_0.tex`: locked LaTeX source
+  - `hyman2026next/hyman2026next.bib`: canonical bibliography
+  - `hyman2026next/hyman2026next.pdf`: compiled output
+  - `hyman2026next/Delta_v2_to_v1_0.md`: v1.0 change summary (5 substantive changes documented)
 - **Compile recipe:** `pdflatex → bibtex → pdflatex → pdflatex` (natbib backend; standard TeXLive distribution)
 
 **Key v1.0 enhancements** (per the Delta document):
@@ -32,11 +32,11 @@ A position paper developing the principled-skepticism framework the book introdu
 - **Length:** 18 pages
 - **Bibliography:** 17 entries (unchanged from pre-lock draft)
 - **Files:**
-  - `hyman2026teaching/hyman2026teaching_v1_0.tex` — locked LaTeX source
-  - `hyman2026teaching/hyman2026teaching.bib` — canonical bibliography
-  - `hyman2026teaching/hyman2026teaching.pdf` — compiled output
-  - `hyman2026teaching/Delta_v1_0.md` — v1.0 change summary (filename/header normalization only; no prose changes from prior draft)
-- **Compile recipe:** `pdflatex → biber → pdflatex → pdflatex` (biblatex backend; requires `biber` and `biblatex.sty` — typically in `texlive-bibtex-extra` package on Debian/Ubuntu)
+  - `hyman2026teaching/hyman2026teaching_v1_0.tex`: locked LaTeX source
+  - `hyman2026teaching/hyman2026teaching.bib`: canonical bibliography
+  - `hyman2026teaching/hyman2026teaching.pdf`: compiled output
+  - `hyman2026teaching/Delta_v1_0.md`: v1.0 change summary (filename/header normalization only; no prose changes from prior draft)
+- **Compile recipe:** `pdflatex → biber → pdflatex → pdflatex` (biblatex backend; requires `biber` and `biblatex.sty`, typically in `texlive-bibtex-extra` package on Debian/Ubuntu)
 
 **Note on v1.0 lock for this paper:** Per the Delta document, the v1.0 lock for `hyman2026teaching` was a versioning ceremony (filename normalization, header version line update, `\addbibresource` pointer update) rather than a content cycle. The prose is byte-for-byte identical to the prior draft. HR findings (14 total) were closed during prior sessions; 100% of edit-addressable findings resolved before the v1.0 lock.
 

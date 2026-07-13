@@ -1,6 +1,6 @@
 # The book
 
-**`learning_with_ai_v3_8_1.pdf`** is the current working draft of *Learning with AI: A Framework for Students, Instructors, and Universities* (224 pages).
+**`learning_with_ai_v3_10_1.pdf`** is the current working draft of *Learning with AI: A Framework for Students, Instructors, and Universities* (228 pages).
 
 ## Please read this before relying on the PDF
 

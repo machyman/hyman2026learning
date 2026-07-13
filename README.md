@@ -1,5 +1,4 @@
 # hyman2026learning: *Learning with AI*
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21315920.svg)](https://doi.org/10.5281/zenodo.21315920)
 
 Companion repository for the book *Learning with AI: A Framework for Students, Instructors, and Universities* by James M. Hyman.
 
@@ -57,6 +56,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
+| **What to assign, and when**: the adoption quickstart, a one-page schedule for handing these materials to students | [instructors/what-to-assign.md](instructors/what-to-assign.md) |
 | **First-time guide**: orientation for an instructor new to teaching with AI | [instructors/first-time-guide.md](instructors/first-time-guide.md) |
 | **Semester redesign**: a worked example of redesigning one course for a term | [instructors/semester-redesign.md](instructors/semester-redesign.md) |
 | **Assignment templates**: reusable patterns that grade the judgment, not the product | [instructors/assignment-templates.md](instructors/assignment-templates.md) |
@@ -69,7 +69,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v3_8_1.pdf](book/learning_with_ai_v3_8_1.pdf) |
+| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v3_10_1.pdf](book/learning_with_ai_v3_10_1.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | `companion-papers/hyman2026next/` |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | `companion-papers/hyman2026teaching/` |
 | License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, [CHANGELOG.md](CHANGELOG.md), [ERRATA.md](ERRATA.md) |
@@ -107,7 +107,8 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v3.8.1 (current):** External review cycle integrated. Adds a worked AIC rubric, a signable version of the student compact, an excerpt of the Study Partner Protocol, and complete Part glossaries. Holds the AI tutor to what a course has covered ("map plus pin"), names office hours as an instructor's lost early-warning signal, adds student buy-in as the condition design cannot supply, and adds persistence erosion as a fourth learning-science mechanism. Appendices are now numbered and navigable. 224 pages.
+- **v3.10.1 (current):** Adoption release. Part II states how the student guide reaches students (an instructor assigns it) and points to the assignment schedule. Companion materials aligned to the Learning Spiral's canonical step names; two UNESCO figure captions repaired; acknowledgments correction. 228 pages.
+- **v3.8.1:** External review cycle integrated. Adds a worked AIC rubric, a signable version of the student compact, an excerpt of the Study Partner Protocol, and complete Part glossaries. Holds the AI tutor to what a course has covered ("map plus pin"), names office hours as an instructor's lost early-warning signal, adds student buy-in as the condition design cannot supply, and adds persistence erosion as a fourth learning-science mechanism. Appendices are now numbered and navigable. 224 pages.
 - **v3.2.2:** Broadening pass: removed gratuitous math jargon from two general checklists so they read for any field.
 - **v3.2.1:** Finalized the genesis, naming the sensitivity-analysis textbook written with Leon Arriola and rewriting the passage in first person.
 - **v3.2.0:** Added a Preface subsection on the book's genesis (writing a textbook with Leon Arriola, then the literature-gap discovery), as a hybrid with the graduate-mathematics origin.

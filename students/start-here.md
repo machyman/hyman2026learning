@@ -12,7 +12,7 @@ So the goal is simple: use AI to help you learn, not to replace the learning.
 
 ## The one rule
 
-If you remember nothing else, remember this: **try first.**
+If you remember nothing else, remember this: **try to solve.**
 
 Make your own attempt at a problem before you ask the AI for help, even a rough or wrong one. The attempt does two things. It gives your mind something to work with, so the AI's help actually lands. And it tells you where you are stuck, so you can ask a useful question instead of "just do it."
 

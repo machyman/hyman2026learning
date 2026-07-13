@@ -1,4 +1,4 @@
-# hyman2026teaching v1.0 — Delta from 2026-05-25 draft state
+# hyman2026teaching v1.0: Delta from 2026-05-25 draft state
 
 **Per MREP Context §7 deliverable spec.** This document summarizes what changed between the 2026-05-25 draft state (post-Session 9, semantically "v3") and the v1.0 canonical lock (Session 12). Detailed session-by-session history lives in `CHANGELOG.md`; this is the high-level brief Mac brings back to the book project.
 
@@ -8,7 +8,7 @@
 
 **No prose changes between v3 (2026-05-25 draft state) and v1.0.** Session 12 was a versioning ceremony, not a content cycle.
 
-The two sessions between v3 and v1.0 lock — Session 11 (SPRE v4.1 calibration pass) and Session 12 (v1.0 lock) — produced calibration feedback for MREP v6.6 and renamed the canonical artifact files per the MREP Context §7 deliverable spec, respectively. Neither changed the substrate prose.
+The two sessions between v3 and v1.0 lock, Session 11 (SPRE v4.1 calibration pass) and Session 12 (v1.0 lock), produced calibration feedback for MREP v6.6 and renamed the canonical artifact files per the MREP Context §7 deliverable spec, respectively. Neither changed the substrate prose.
 
 ---
 
@@ -55,7 +55,7 @@ A new COR package was built at v1.0 lock: `hyman2026teaching_COR_v1_0_2026-05-25
 - **Prose:** byte-for-byte identical between v3 and v1.0 (modulo the header version line). The `Teaching_AI_Responsibly_v3.md` markdown source is semantically equivalent to the v1.0 LaTeX.
 - **Bibliography:** all 17 entries unchanged; same keys, same content.
 - **Page count:** 18 (unchanged).
-- **Compile state:** clean (0 errors, 0 warnings, 0 overfull hboxes, 0 undefined refs) — both v3 and v1.0.
+- **Compile state:** clean (0 errors, 0 warnings, 0 overfull hboxes, 0 undefined refs) for both v3 and v1.0.
 - **Bibkey:** `hyman2026teaching` (locked since project inception per MREP Context §3.2).
 - **Title:** "Teaching AI Responsibly to Principled Skeptics" (locked since Mac's 2026-05-25 confirmation per MREP Context §3.2).
 
