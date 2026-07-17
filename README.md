@@ -6,7 +6,7 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-**Current version:** v3.8.1 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 224 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+**Current version:** v3.11.7 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 228 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
 
 **Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
@@ -71,7 +71,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v3_10_1.pdf](book/learning_with_ai_v3_10_1.pdf) |
+| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v3_11_7.pdf](book/learning_with_ai_v3_11_7.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | `companion-papers/hyman2026next/` |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | `companion-papers/hyman2026teaching/` |
 | License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, [CHANGELOG.md](CHANGELOG.md), [ERRATA.md](ERRATA.md) |
@@ -109,7 +109,8 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v3.10.1 (current):** Adoption release. Part II states how the student guide reaches students (an instructor assigns it) and points to the assignment schedule. Companion materials aligned to the Learning Spiral's canonical step names; two UNESCO figure captions repaired; acknowledgments correction. 228 pages.
+- **v3.11.7 (current):** Quality-pass roll-up plus reviewer-driven additions. Every figure and table caption states what to notice; the translation-test figure carries its own key; a redundant block was compressed; the implementation timeline was scaled to fit. Two load-bearing claims were brought into line with their evidence. New: an exam-weight assessment model, a three-level layered-explanation study move, a passage on mathematical judgment, and the author's own account of the recognition-production gap. New companion materials: a layered-explanation prompt and a complete worked numerical-analysis course. 228 pages.
+- **v3.10.1:** Adoption release. Part II states how the student guide reaches students (an instructor assigns it) and points to the assignment schedule. Companion materials aligned to the Learning Spiral's canonical step names; two UNESCO figure captions repaired; acknowledgments correction. 228 pages.
 - **v3.8.1:** External review cycle integrated. Adds a worked AIC rubric, a signable version of the student compact, an excerpt of the Study Partner Protocol, and complete Part glossaries. Holds the AI tutor to what a course has covered ("map plus pin"), names office hours as an instructor's lost early-warning signal, adds student buy-in as the condition design cannot supply, and adds persistence erosion as a fourth learning-science mechanism. Appendices are now numbered and navigable. 224 pages.
 - **v3.2.2:** Broadening pass: removed gratuitous math jargon from two general checklists so they read for any field.
 - **v3.2.1:** Finalized the genesis, naming the sensitivity-analysis textbook written with Leon Arriola and rewriting the passage in first person.
