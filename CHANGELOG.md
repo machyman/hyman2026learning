@@ -2,7 +2,36 @@
 
 Notable changes to the *Learning with AI* book and its companion repository. Most recent first.
 
-## v1.1.0 (2026-07-13)
+**Two version lines run through this file.** Repository releases are numbered `v1.x.y`, and each one is
+archived with its own Zenodo DOI. That is the number to cite. The book has a separate version line,
+`v3.x.y`, and every release states which book version it carries. Entries below the v1.0.0 release of
+2026-07-11 predate the archived releases and are labeled by book version.
+
+## v1.3.0 (2026-07-18, book v3.13.0)
+
+The adoption-infrastructure release. Three audiences in one push: instructors get the teaching-preparation guide the book now points to, students get a research on-ramp, and the book's third audience, departments and institutions, gets its folder.
+
+- **New: [companion/instructor-capabilities/](companion/instructor-capabilities/)**, a practical guide to AI for teaching preparation. For each capability: what the tool is good for, how to use it well, what a good result looks like, and how to obtain current ones. Most have free versions.
+- **New: [students/undergraduate-research.md](students/undergraduate-research.md)**, for an undergraduate starting a first mentored research project: an REU, an honors or senior thesis, a lab project, a first poster. It carries the Part I practices into the research setting and hands off to the book's appendix on ethical AI-assisted scientific writing when work heads toward a journal.
+- **New: [institutions/](institutions/)**, Part III's framework in paste-and-adapt form. The [departmental adoption kit](institutions/department-adoption-kit.md): a model policy statement, the shared vocabulary, the four assignment categories, and a one-semester rollout. The [policy self-audit](institutions/policy-self-audit.md): 32 checks marked institution, department, or gap, with benchmarks from published policy research. The [regulatory landscape note](institutions/regulatory-landscape.md): a dated, counsel-first orientation to where AI use crosses from policy into law, reviewed each semester.
+- **Book PDF updated to v3.13.0** (228 pages). A focused Part III update: regulation named as a governance category, the missing-middle finding cited, a date-and-cadence rule for policy, a procurement clause on the access risk, an empirical corroboration, and a pointer to the new research guide.
+- **README**: the chair path in "Find your path" now routes to `institutions/`; a new audience table lists the folder; the layered-explanation prompt and the worked course case study now appear in the materials tables.
+- **This changelog rebuilt**: release entries dual-label their book version, the missing v1.0.0 and v1.2.0 entries were written from the release record, and historical book-version entries carry a `Book` prefix.
+
+The manuscript remains under review with SIAM Books; v3.12.1 is the version the reviewers hold.
+
+
+## v1.2.0 (2026-07-17, book v3.11.7)
+
+A refresh of the companion materials, with two new resources.
+
+- **New: [companion/layered-explanation/](companion/layered-explanation/)**, a template for getting AI to explain a difficult concept at three levels at once: an everyday analogy, your working level, and one step deeper. Paired with the new study move in Part I.
+- **New: [companion/course-case-study/](companion/course-case-study/)**, a first numerical-analysis course designed end to end with the book's framework. A syllabus AI policy, three representative assignments with their AI-use categories, an in-person exam, and the reasoning behind each choice. A response to instructors who asked to see how the pieces fit together into one design.
+- **Book PDF updated to v3.11.7** (228 pages), adding an exam-weight assessment model, a passage on mathematical judgment, and the author's own account of the recognition-production gap.
+- Repository README and errata updated to match.
+
+
+## v1.1.0 (2026-07-13, book v3.10.1)
 
 The adoption release. The book now states how Part I reaches students, and the repository hands instructors the schedule for doing it.
 
@@ -13,7 +42,16 @@ The adoption release. The book now states how Part I reaches students, and the r
 - **Cleanup:** em-dashes removed from companion-papers metadata per the manuscript prose standards.
 
 
-## v3.8.1 (2026-07-11)
+## v1.0.0 (2026-07-11)
+
+The first archived release of the companion materials, and the start of the Zenodo DOI chain. These are the practical materials the book points readers to: protocols a student can paste into an AI tool, rubrics and assignment templates an instructor can adapt, policy language a department can start from. All of it is MIT licensed. Copy it, cut it, rename it, make it yours.
+
+- **[students/](students/)**: a pre-submission checklist, disclosure templates, guidance on sharing AI conversations, and worked study sessions in mathematics, physics, statistics, and computing.
+- **[instructors/](instructors/)**: assignment templates, assessment models, syllabus language, discipline overlays, a first-time guide, and the worked AI-as-Collaborator rubric with writing and coding variants.
+- **[companion/](companion/)**: the Study Partner Protocol, the Define Personal Preferences guide, and the student compact.
+
+
+## Book v3.8.1 (2026-07-11)
 
 Integration of an external review cycle, plus several additions prompted by teachers and students.
 
@@ -42,36 +80,36 @@ Integration of an external review cycle, plus several additions prompted by teac
 
 224 pages.
 
-## v3.2.2 (2026-07-03)
+## Book v3.2.2 (2026-07-03)
 
 - Broadening pass for a general STEM audience: removed gratuitous math jargon from two general-purpose checklists ("differentiate your integral" became "reach the same result by a second method"; "lemma or theorem" became "an established result"). Length-neutral; other flagged passages were already discipline-diverse and left unchanged.
 
-## v3.2.1 (2026-07-03)
+## Book v3.2.1 (2026-07-03)
 
 - Finalized the Preface genesis: named the sensitivity-analysis textbook written with Leon Arriola, and rewrote the passage in first person to match the Acknowledgments.
 
-## v3.2.0 (2026-07-01)
+## Book v3.2.0 (2026-07-01)
 
 - Added a new Preface subsection, "How this book began," telling the book's genesis: writing a textbook with Leon Arriola and realizing it ignored the AI tools students already use alongside their books, then discovering how little guidance existed on learning and teaching with AI. Presented as a hybrid with the graduate-mathematics origin, which now distinguishes the framework's origin from the book's.
 
-## v3.1.1 (2026-07-01)
+## Book v3.1.1 (2026-07-01)
 
 - Added Svetlana Barkanova (Memorial University of Newfoundland) to the Acknowledgments, crediting her feedback that broadened the detector-fairness argument beyond language to neurodiversity.
 
-## v3.1.0 (2026-07-01)
+## Book v3.1.0 (2026-07-01)
 
 - Integrated reviewer feedback (Svetlana Barkanova, Memorial University of Newfoundland). Defined the assignment-category acronyms (NAI, AIT, AIC, AIS) at first use in the abstract, disclosure paragraph, and figure caption.
 - Added a paragraph on neurodiversity and detector fairness to the academic-integrity discussion: the same detection mechanism that flags non-native writers also exposes autistic and neurodivergent students, and the risk extends to automated proctoring and behavior analytics.
 - Cross-referenced the companion study-sessions from the verification section so students can find worked examples.
 - Content audit clean: all object counts identical to v3.0.1; 222 pages.
 
-## v3.0.1 (2026-06-30)
+## Book v3.0.1 (2026-06-30)
 
 - Converted the book to the official SIAM book format (SIAMbook2023 class, 7x10 trim, Times + Helvetica). Format-only change; the text is unchanged except for folding the Foreword into the Preface. 222 pages; 87 bibliography entries.
 - Prepared as the display copy for the SIAM Annual Meeting.
 - Added a reader-feedback system to the repository: a feedback guide (`FEEDBACK.md`), GitHub issue-form templates, a seeded reader FAQ, and an errata log ready for corrections.
 
-## v2.17.2 (2026-06-29)
+## Book v2.17.2 (2026-06-29)
 
 - Closing pass of the AI-panel revision arc (two rounds of multi-model review integrated across all three Parts).
 - Redesigned the Learning Spiral (centered question, five-step never-closing cycle).
@@ -79,12 +117,12 @@ Integration of an external review cycle, plus several additions prompted by teac
 - Added a closing institutional theory-of-change frame (the incentive gradient and two structural levers).
 - Subtitle updated to "STEM Education"; prose refined to a consistent plain, declarative voice. 226 pages; 87 bibliography entries.
 
-## v2.15 – v2.17 (2026-06)
+## Book v2.15 – v2.17 (2026-06)
 
 - Per-section readability and scholarly-prose-refinement passes across the manuscript.
 - Reviewer-panel integration cycles (round 1 and round 2 multi-model review); acknowledgments and citation updates.
 
-## v2.14.38 (2026-06-11)
+## Book v2.14.38 (2026-06-11)
 
 - Expanded the "About the companion repository" section to cover the new guided materials.
 - Companion repository enhanced with student-facing and instructor-facing materials:
@@ -93,18 +131,18 @@ Integration of an external review cycle, plus several additions prompted by teac
 - Repository operational artifacts completed so that in-text links from the book resolve (SPP, DPP, checklist, disclosure templates, sharing guide, briefings, ERRATA).
 - README rebuilt as a persona-routing hub. 217 pages.
 
-## v2.14.37 (2026-06)
+## Book v2.14.37 (2026-06)
 
 - Reviewer-feedback integration cycle: undergraduate "first attempt" on-ramp to the Learning Spiral (Part I), institutional detector-equity guidance (Part III), and the cross-unit enrollment-competition (RCM) risk in the institutional analysis. 216 pages.
 
-## v2.9 – v2.14 (2026-05 to 2026-06)
+## Book v2.9 – v2.14 (2026-05 to 2026-06)
 
 - Round-2 reviewer release and subsequent integration cycles: learning-science grounding in Part II, historical-pattern and principled-skepticism framing, and companion-paper references.
 
-## v2.8 (2026-05-13)
+## Book v2.8 (2026-05-13)
 
 - SIAM submission baseline (round 1).
 
-## v1.0 (2026-05-04)
+## Book v1.0 (2026-05-04)
 
 - Original SIAM submission baseline. 141 pages.
