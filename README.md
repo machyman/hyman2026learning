@@ -6,7 +6,7 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-**Current version:** v3.13.0 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 228 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+**Current version:** v3.14.0 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 228 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
 
 **Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
@@ -83,7 +83,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v3_13_0.pdf](book/learning_with_ai_v3_13_0.pdf) |
+| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v3_14_0.pdf](book/learning_with_ai_v3_14_0.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | `companion-papers/hyman2026next/` |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | `companion-papers/hyman2026teaching/` |
 | License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, [CHANGELOG.md](CHANGELOG.md), [ERRATA.md](ERRATA.md) |
@@ -121,7 +121,8 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v3.13.0 (current):** A focused Part III update. Regulation is named as a category in privacy and data governance; the missing-middle finding is cited from a 2026 mapping of all fifty US flagship public universities; policies gain a date-and-review-cadence rule; the unequal-access risk gains a procurement clause; a 2026 systematic review corroborates the Part's architecture; and the scientific-writing appendix points to the new undergraduate research guide. Two bibliography additions. 228 pages.
+- **v3.14.0 (current):** Adds the second direction of mathematical judgment to Part I's verification section: sensing that an answer is wrong protects against a bad result, while asking which assumption a right answer depends on protects against a shallow one. The verification checklist now asks not only whether the assumptions were identified but which ones the answer rests on. The numerical-analysis case study and the statistics study session gain the same move in their own registers. 228 pages.
+- **v3.13.0:** A focused Part III update. Regulation is named as a category in privacy and data governance; the missing-middle finding is cited from a 2026 mapping of all fifty US flagship public universities; policies gain a date-and-review-cadence rule; the unequal-access risk gains a procurement clause; a 2026 systematic review corroborates the Part's architecture; and the scientific-writing appendix points to the new undergraduate research guide. Two bibliography additions. 228 pages.
 - **v3.12.1:** Reworks the Part II teaching-preparation section from a capability catalog into a practical-guide pointer. The companion guide at `companion/instructor-capabilities/` now gives, for each capability, what it is good for, how to use it well, what a good result looks like, and how to obtain current tools (most with free versions). 228 pages.
 - **v3.12.0:** Adds a Part II section surveying what AI can do for teaching preparation (capability categories, not products), with a companion catalog. Plus all v3.11.x additions: exam-weight model, layered-explanation move, mathematical-judgment passage, and the recognition-production account. 228 pages.
 - **v3.11.7:** Quality-pass roll-up plus reviewer-driven additions. Every figure and table caption states what to notice; the translation-test figure carries its own key; a redundant block was compressed; the implementation timeline was scaled to fit. Two load-bearing claims were brought into line with their evidence. New: an exam-weight assessment model, a three-level layered-explanation study move, a passage on mathematical judgment, and the author's own account of the recognition-production gap. New companion materials: a layered-explanation prompt and a complete worked numerical-analysis course. 228 pages.

@@ -49,6 +49,12 @@ To test their reasoning, the student deliberately asks the AI for the easy answe
 
 > **What to notice:** This is the move the whole session is built around. The AI's confident, agreeable phrasing was exactly the kind of certainty the student had to refuse. Checking the AI was only possible because the student understood the problem well enough to see the gap between "consistent with" and "shows." That understanding is what the session was for.
 
+One more question is worth asking, and it is the one that makes this session transfer. The student found the flaw. Now name what the conclusion was resting on:
+
+> **Student:** The report's conclusion needs the two groups to be alike apart from tutoring. That is the assumption doing all the work, and nothing in the report supports it. The sample being large does not help. A bigger sample of the wrong comparison is still the wrong comparison.
+
+> **What to notice:** There is a difference between finding an error and knowing which assumption an argument depends on. The second is what lets you check an argument you have never seen before, including one an AI hands you with no flaw you can point to yet. Ask it of any result: which assumption here is essential, and which is only convenient? A large sample is convenient. Comparable groups are essential. Getting that backwards is how careful arithmetic ends up supporting a wrong conclusion.
+
 ## Reflect and disclose
 
 The student writes the final answer in their own words:

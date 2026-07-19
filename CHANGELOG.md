@@ -7,6 +7,17 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 `v3.x.y`, and every release states which book version it carries. Entries below the v1.0.0 release of
 2026-07-11 predate the archived releases and are labeled by book version.
 
+## v1.4.0 (2026-07-19, book v3.14.0)
+
+The judgment release, prompted by a reader's question. The book already taught students to sense that a result is wrong before locating the error. This adds the harder direction: interrogating a result that is right.
+
+- **Book PDF updated to v3.14.0** (228 pages). Part I's verification section gains a paragraph on which assumption an answer actually depends on, using a statistical test as the example, since a test run on data that violates independence returns a number that looks exactly like a valid one. The verification checklist now asks which assumptions the answer rests on, not only whether they were identified.
+- **[companion/course-case-study/](companion/course-case-study/)**: two new questions in the worked numerical-analysis course. An essentiality question in the iterative-methods assignment, asking whether positive definiteness is essential or convenient and what the weakest sufficient condition is; and a counterfactual prediction in the computational project, asking students to predict what happens to the observed order of convergence when smoothness fails, then test it.
+- **[students/study-sessions/](students/study-sessions/)**: the statistics session now names the move it was already teaching. Having found the flaw in a causal claim, the student states what the conclusion rested on, and the session gives the reader the portable question: which assumption here is essential, and which is only convenient?
+
+With thanks to Thomas Hou, whose question about mathematical taste prompted all three.
+
+
 ## v1.3.0 (2026-07-18, book v3.13.0)
 
 The adoption-infrastructure release. Three audiences in one push: instructors get the teaching-preparation guide the book now points to, students get a research on-ramp, and the book's third audience, departments and institutions, gets its folder.

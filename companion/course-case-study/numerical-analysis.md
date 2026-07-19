@@ -55,7 +55,7 @@ verification a visible habit rather than an afterthought.
 
 ## 3. Three representative assignments
 
-### Assignment A — Floating point and error (No AI)
+### Assignment A: Floating point and error (No AI)
 
 *Protects: the ability to reason about error by hand.*
 
@@ -69,7 +69,7 @@ the absolute error is small.
   loses even more significance, and one where it loses none. Explain the difference." Transfer, not
   recall: it cannot be answered by pattern-matching a worked example.
 
-### Assignment B — Iterative methods, with AI as tutor (AIT)
+### Assignment B: Iterative methods, with AI as tutor (AIT)
 
 *Protects: independent reconstruction of an argument the student first meets with help.*
 
@@ -85,11 +85,17 @@ The submitted work is then done unaided: reconstruct the convergence argument fr
   decreases every step. Here is their argument. What is wrong with it, and for what matrices does the
   claim actually hold?" This is exactly the skill AI makes more valuable: judging a plausible-sounding
   but flawed argument, the kind AI itself will sometimes produce.
+- **The essentiality question.** "The convergence argument assumes the matrix is positive definite. Is
+  that hypothesis essential, or is it convenient? State the weakest condition you can find under which
+  the argument still goes through, and name the step that forces it." The repair question asks what is
+  wrong with a flawed argument. This one asks why a correct argument is shaped the way it is. It is the
+  harder habit, and the one AI is least able to supply, because a system that reproduces a theorem
+  correctly has no stake in which hypothesis was doing the work.
 - **Why AIT and not AIC.** The learning goal is that the student can produce the argument. AI as tutor
   helps them get there; AI on the submission would let a fluent explanation stand in for the ability to
   reconstruct it, which is the recognition--production gap the book warns against.
 
-### Assignment C — A small computational project, with AI as collaborator (AIC)
+### Assignment C: A small computational project, with AI as collaborator (AIC)
 
 *Protects: verification and judgment in realistic, tool-assisted work.*
 
@@ -97,7 +103,7 @@ Students implement a method (for example, a finite-difference solver for a bound
 study its convergence numerically, and write up what they find. AI is permitted on the submission: for
 code, for debugging, for drafting the write-up.
 
-Two requirements carry the assessment:
+Three requirements carry the assessment:
 
 1. **Verification is graded, not assumed.** The write-up must include a convergence study that checks the
    observed order against the theoretical one, and must state what would have signaled a bug had the
@@ -106,6 +112,12 @@ Two requirements carry the assessment:
 2. **A judgment paragraph.** "Before you ran the final version, what did you expect the answer to look
    like, and how would you have known if it was wrong?" This makes the pre-error intuition visible and
    gradeable.
+
+3. **A counterfactual prediction.** The error bound assumes the solution is smooth. "Predict what should
+   happen to the observed order of convergence when it is not, then test the prediction against a problem
+   with a corner or a jump in a coefficient." A student who can predict the failure understands the
+   theorem. A student who can only run the code does not, and the convergence study alone will not tell
+   them apart.
 
 - **Disclosure example (what a good one looks like).** "I used AI to draft the solver and to find a
   sign error in the boundary handling. I verified the result with a convergence study (observed order
