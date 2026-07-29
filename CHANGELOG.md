@@ -4,8 +4,33 @@ Notable changes to the *Learning with AI* book and its companion repository. Mos
 
 **Two version lines run through this file.** Repository releases are numbered `v1.x.y`, and each one is
 archived with its own Zenodo DOI. That is the number to cite. The book has a separate version line,
-`v3.x.y`, and every release states which book version it carries. Entries below the v1.0.0 release of
+`v4.x.y`, and every release states which book version it carries. Entries below the v1.0.0 release of
 2026-07-11 predate the archived releases and are labeled by book version.
+
+## v1.5.0 (2026-07-29, book v4.15.0)
+
+The catch-up release. The repository PDF had fallen four major versions behind the manuscript, so this
+release carries the book forward from v3.14.0 to v4.15.0 in one step. Nothing else in the repository changes.
+
+- **Book PDF updated to v4.15.0** (238 pages, up from 228). The largest single change is in the
+  scientific-writing appendix, where verification moved from an individual standard to a collective one:
+  authors hold responsibility together, each essential part has a qualified owner, and no single author needs
+  to understand the whole. The hard floor stays, which is that no essential part goes unowned.
+- **Citation accuracy.** Every flagship empirical claim was checked against its primary source. Twenty claims
+  were narrowed to what their sources actually support, and eleven were corrected outright where the book had
+  described a finding the study did not report.
+- **New evidence and framing.** The book now positions its four assignment categories against the AI
+  Assessment Scale, carries an evidence-status table and a departmental self-study, explains why AI produces
+  confident errors rather than only that it does, and answers a published argument that assessment reform
+  belongs at the level of disciplinary societies rather than departments.
+- **Part II.** An automation-bias passage opens the assessment-models chapter, and a seeded-error check joins
+  the instruments.
+- **Part III.** A reviewer response on faculty paid by the course: where attendance is unpaid time, the
+  artifacts have to carry the whole load.
+- **Index rebuilt**, 221 entries to 262. A senior reviewer asked four questions the book already answered and
+  could not find the answers, because the index was built on the author's vocabulary rather than on the
+  questions readers arrive with. Entries now cover the problem a recommendation solves, not only the name of
+  the solution.
 
 ## v1.4.0 (2026-07-19, book v3.14.0)
 
