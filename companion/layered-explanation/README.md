@@ -32,7 +32,7 @@ you can produce it without the AI in front of you.
    idea finally clicks, not any single explanation on its own.
 2. **Answer the check questions with the window closed.** If you cannot, you have found what to work on
    next, which is the point.
-3. **Then rebuild the idea in your own words** — a few sentences, a diagram, or a worked example from
+3. **Then rebuild the idea in your own words**, a few sentences, a diagram, or a worked example from
    memory. This is the step that turns a good explanation into something you know.
 4. **If a level still does not land, go back one level.** A hint that keeps missing usually rests on an
    idea underneath it. Make that idea solid first, then climb back up.

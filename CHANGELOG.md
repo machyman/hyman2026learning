@@ -7,6 +7,28 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 `v4.x.y`, and every release states which book version it carries. Entries below the v1.0.0 release of
 2026-07-11 predate the archived releases and are labeled by book version.
 
+## v1.6.0 (2026-07-29, book v4.17.2)
+
+A correctness release. The v1.5.0 PDF carried seven wrong page numbers in its front matter, and this
+release replaces it.
+
+- **Book PDF updated to v4.17.2** (238 pages, unchanged in length from v4.15.0).
+- **Seven front-matter page numbers corrected.** Six entries in the table of contents and one in the
+  list of tables pointed at the wrong pages. The cause was a build that ran one typesetting pass short,
+  so index output shifted pagination after the front matter had already been written. Every draft from
+  v4.13.1 through v4.17.0 carried the fault, including the v4.15.0 PDF in release v1.5.0. Body text was
+  never affected and the page count was never wrong. If you were navigating Chapter 9 by the table of
+  contents in the previous PDF, that is why the pages did not match.
+- **Two bibliography entries were printing internal editorial notes.** Verification annotations had been
+  written into a field the bibliography style prints rather than one it ignores. Moved. Reader-facing
+  bibliographic detail was kept.
+- **One acknowledgment sentence tightened.** No change of substance.
+- **Book content otherwise carried forward** from v4.15.0 through v4.16.0, v4.17.0, v4.17.1 and v4.17.2:
+  student buy-in evidence in Chapter 8, a named coupling mechanism in the Preface, a narrowed Part II
+  forward pointer, and reviewer acknowledgments. See the version history in the README.
+
+Nothing else in the repository changes. The companion materials are unaffected.
+
 ## v1.5.0 (2026-07-29, book v4.15.0)
 
 The catch-up release. The repository PDF had fallen four major versions behind the manuscript, so this

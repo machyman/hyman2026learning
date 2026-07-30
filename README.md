@@ -6,7 +6,7 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-**Current version:** v4.15.0 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 238 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+**Current version:** v4.17.2 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 238 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
 
 **Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
@@ -83,7 +83,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v4_15_0.pdf](book/learning_with_ai_v4_15_0.pdf) |
+| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v4_17_2.pdf](book/learning_with_ai_v4_17_2.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | `companion-papers/hyman2026next/` |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | `companion-papers/hyman2026teaching/` |
 | License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, [CHANGELOG.md](CHANGELOG.md), [ERRATA.md](ERRATA.md) |
@@ -121,7 +121,18 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v4.15.0 (current):** Four major revisions since v3.14.0. Verification is now framed as a collective standard in the scientific-writing appendix, with responsibility held by named owners rather than by one author who understands everything. A citation-accuracy pass checked every flagship claim against its primary source and narrowed twenty of them. The book positions its four assignment categories against the AI Assessment Scale, adds an evidence-status table and a departmental self-study, names why AI produces confident errors, and answers a published argument that assessment reform belongs to disciplinary societies rather than to departments. Part II gains an automation-bias passage and a seeded-error check. Part III answers a reviewer on faculty who are paid by the course. The index was rebuilt around the questions readers arrive with rather than the book's own vocabulary, growing from 221 entries to 262.
+- **v4.17.2 (current):** Bibliography metadata fix and an acknowledgment tightening. Two entries were
+  printing internal verification notes to readers; the text moved to a field the bibliography style does
+  not print. One acknowledgment sentence dropped a redundant clause. 238 pages, 107 references.
+- **v4.17.1:** Corrects seven front-matter page numbers in the table of contents and list of tables. The
+  build recipe had been running one pass short, so those numbers were stale in every draft from v4.13.1
+  through v4.17.0, including the v4.15.0 PDF this release replaces. Body text was never affected and the
+  page count was never wrong.
+- **v4.17.0:** Names the mechanism of the coupling the three-scales figure asserts, narrows a Part II
+  forward pointer to the promise its target section keeps, and adds a reviewer acknowledgment.
+- **v4.16.0:** Student buy-in evidence in Chapter 8. The chapter had named a student's reason to engage
+  as the deepest lever and then declined to pull it.
+- **v4.15.0:** Four major revisions since v3.14.0. Verification is now framed as a collective standard in the scientific-writing appendix, with responsibility held by named owners rather than by one author who understands everything. A citation-accuracy pass checked every flagship claim against its primary source and narrowed twenty of them. The book positions its four assignment categories against the AI Assessment Scale, adds an evidence-status table and a departmental self-study, names why AI produces confident errors, and answers a published argument that assessment reform belongs to disciplinary societies rather than to departments. Part II gains an automation-bias passage and a seeded-error check. Part III answers a reviewer on faculty who are paid by the course. The index was rebuilt around the questions readers arrive with rather than the book's own vocabulary, growing from 221 entries to 262.
 - **v3.14.0:** Adds the second direction of mathematical judgment to Part I's verification section: sensing that an answer is wrong protects against a bad result, while asking which assumption a right answer depends on protects against a shallow one. The verification checklist now asks not only whether the assumptions were identified but which ones the answer rests on. The numerical-analysis case study and the statistics study session gain the same move in their own registers. 228 pages.
 - **v3.13.0:** A focused Part III update. Regulation is named as a category in privacy and data governance; the missing-middle finding is cited from a 2026 mapping of all fifty US flagship public universities; policies gain a date-and-review-cadence rule; the unequal-access risk gains a procurement clause; a 2026 systematic review corroborates the Part's architecture; and the scientific-writing appendix points to the new undergraduate research guide. Two bibliography additions. 228 pages.
 - **v3.12.1:** Reworks the Part II teaching-preparation section from a capability catalog into a practical-guide pointer. The companion guide at `companion/instructor-capabilities/` now gives, for each capability, what it is good for, how to use it well, what a good result looks like, and how to obtain current tools (most with free versions). 228 pages.

@@ -1,6 +1,6 @@
 # Errata
 
-Confirmed corrections to *Learning with AI*, listed with the version in which the error was identified. No errata are confirmed for the current version (v4.15.0) yet.
+Confirmed corrections to *Learning with AI*, listed with the version in which the error was identified. No errata are confirmed for the current version (v4.17.2) yet.
 
 ## How to report a correction
 
