@@ -6,7 +6,7 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-**Current version:** v4.17.2 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 238 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+**Current version:** v4.21.2 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 231 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
 
 **Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
@@ -28,7 +28,7 @@ This repository hosts practical materials that go with the book. Start with whic
 
 *Learning with AI* is a framework for engaging with AI in higher education across three audiences:
 
-- **Part I, Students:** How to use AI to learn rather than to substitute for learning. Introduces the Core / AI-assisted / Trustworthy (CAT) framework, the Learning Spiral, the Student's Trilemma, the translation test, and operational practices for thoughtful AI use.
+- **Part I, Students:** How to use AI to learn rather than to substitute for learning. Introduces the Core Competence, AI-assisted Practice, and Trustworthiness (CAT) framework, the Learning Spiral, the Student's Trilemma, the translation test, and operational practices for thoughtful AI use.
 - **Part II, Instructors:** How to design courses and assessments that work with AI rather than around it. Develops the Instructor's Trilemma, the four assignment categories (NAI / AIT / AIC / AIS), three assessment models, and a calibration-restoring design philosophy.
 - **Part III, Departments and Institutions:** How to set policy that protects learning without pretending AI can be kept outside academic life. Develops the institutional vocabulary for AI-era curriculum, assessment, and academic-integrity procedure.
 
@@ -83,7 +83,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v4_17_2.pdf](book/learning_with_ai_v4_17_2.pdf) |
+| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v4_21_2.pdf](book/learning_with_ai_v4_21_2.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | `companion-papers/hyman2026next/` |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | `companion-papers/hyman2026teaching/` |
 | License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, [CHANGELOG.md](CHANGELOG.md), [ERRATA.md](ERRATA.md) |
@@ -121,7 +121,21 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v4.17.2 (current):** Bibliography metadata fix and an acknowledgment tightening. Two entries were
+- **v4.21.2 (current):** Three printed repository paths gained their `.md` extensions, so every path the
+  book prints now resolves as printed. 231 pages, 109 references.
+- **v4.21.1:** The `institutions/` materials are now reachable from the text. The book printed nine
+  repository paths and none under `institutions/`, so the departmental adoption kit, the policy
+  self-audit, and the regulatory landscape note were live here and unreachable from the book.
+- **v4.21.0:** An adoption on-ramp for instructors. The three moves that change a course without adopting
+  a full assessment model are now framed as a starting point rather than a concession, with a three-term
+  path from those moves to a model.
+- **v4.20.0:** The sycophancy evidence upgraded from a policy document to the *Science* research article
+  it describes, plus a finding on why asking an AI to be neutral does not produce neutrality.
+- **v4.19.0:** Two experiential passages, one on what AI can carry so that capacity stays available for
+  the work no tool does, and one on how a request for help becomes a request for output.
+- **v4.18.0 to v4.18.3:** Front matter trimmed from 25 pages to 17, moving Chapter 1 eight pages earlier.
+  238 pages to 230. Reviewer edits on course-level variables and Part II cross-referencing.
+- **v4.17.2:** Bibliography metadata fix and an acknowledgment tightening. Two entries were
   printing internal verification notes to readers; the text moved to a field the bibliography style does
   not print. One acknowledgment sentence dropped a redundant clause. 238 pages, 107 references.
 - **v4.17.1:** Corrects seven front-matter page numbers in the table of contents and list of tables. The

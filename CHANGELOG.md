@@ -7,6 +7,38 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 `v4.x.y`, and every release states which book version it carries. Entries below the v1.0.0 release of
 2026-07-11 predate the archived releases and are labeled by book version.
 
+## v1.7.0 (2026-07-31, book v4.21.2)
+
+Refreshes the book PDF from v4.17.2 to v4.21.2, five book versions, and corrects two things in this
+repository's own documentation.
+
+**Book changes carried by this release.**
+
+- **Front matter trimmed** from 25 pages to 17, moving Chapter 1 eight pages earlier and the book from
+  238 pages to 230. Body page numbers were unaffected.
+- **Two experiential passages in Part I**, one on what AI can carry so that capacity stays available for
+  the work no tool does, and one tracing how a request for help becomes a request for output.
+- **The sycophancy evidence upgraded** from a policy document to the *Science* research article it
+  describes, with a finding on why asking an AI to be neutral does not produce neutrality.
+- **An adoption on-ramp for instructors**, framing the three moves that change a course without adopting
+  a full assessment model as a starting point rather than a concession, with a three-term path to a model.
+- **The `institutions/` materials made reachable.** The book printed nine repository paths and none under
+  `institutions/`, so the departmental adoption kit, the policy self-audit, and the regulatory landscape
+  note were live here and unreachable from the text.
+- **Three printed paths gained their `.md` extensions**, so every repository path the book prints now
+  resolves as printed.
+
+**Repository changes.**
+
+- `README.md` CAT expansion corrected to the book's canonical wording, "Core Competence, AI-assisted
+  Practice, and Trustworthiness". It had read "Core / AI-assisted / Trustworthy".
+- `README.md` and `ERRATA.md` patched to v4.21.2, 231 pages.
+- `book/learning_with_ai_v4_17_2.pdf` replaced by `book/learning_with_ai_v4_21_2.pdf`.
+
+Bibliography 107 to 109 entries. Index 264 to 275 entries.
+
+---
+
 ## v1.6.0 (2026-07-29, book v4.17.2)
 
 A correctness release. The v1.5.0 PDF carried seven wrong page numbers in its front matter, and this
