@@ -13,11 +13,12 @@ Fixes six broken links on the companion site and refreshes the book PDF from v4.
 
 **Broken links fixed.**
 
-- **The worked course case study now opens.** The file was always present and correct; it was named
-  `numerical-analysis.md` inside `companion/course-case-study/`, while every other content directory in
-  this repository serves its index from `README.md`. The site links to the directory, so the link
-  resolved to nothing. Renamed to `README.md`, which is the convention the other seven content
-  directories already follow. **No content changed.**
+- **The worked course case study now opens.** The file was always present and correct. It is named
+  `numerical-analysis.md` inside `companion/course-case-study/`, and the site links to the directory,
+  which had no index page to serve. The directory now has a `README.md` index, following the pattern
+  `students/study-sessions/` already uses: the index lists the examples and each example keeps its own
+  descriptive filename. **`numerical-analysis.md` is unchanged and stays**, so a second case study can
+  be added beside it without restructuring.
 - **The four top-level directories gained index pages.** `students/`, `instructors/`, `institutions/`,
   and `companion/` had no `README.md`, so links to the directories themselves did not resolve. Each now
   lists what it contains, with a one-line description per item.
