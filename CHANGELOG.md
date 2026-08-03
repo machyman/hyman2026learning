@@ -7,6 +7,36 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 `v4.x.y`, and every release states which book version it carries. Entries below the v1.0.0 release of
 2026-07-11 predate the archived releases and are labeled by book version.
 
+## v1.9.0 (2026-08-03, book v4.23.2)
+
+Refreshes the book from v4.22.4 to v4.23.2, adds contributor guidance, and gives the two companion
+papers their own index pages.
+
+**New: how to contribute.**
+
+- `CONTRIBUTING.md` sets out what is most useful to add, the two conventions this repository follows,
+  and the fifteen paths the book prints, which cannot be renamed once the book is in print. Reporting
+  an error in the book itself still goes through [FEEDBACK.md](FEEDBACK.md).
+
+**Navigation.**
+
+- `companion-papers/hyman2026next/` and `companion-papers/hyman2026teaching/` now have index pages, so
+  a link to either directory resolves. The papers themselves are unchanged.
+
+**Book changes carried by this release.**
+
+- Part II gained a section on writing a problem so that working it runs the Learning Spiral, with the
+  follow-up questions built into the problem statement rather than left to the student's discipline.
+- The preface now says where the practical, tool-specific material lives, which is this repository.
+- Privacy guidance moved to the point where a student is first asked to upload course material.
+- The instructor guide now points to the appendix on ethical AI-assisted writing, and the student
+  guide to the math-specific quick reference.
+- Two reviewers were added to the acknowledgments, and the section now opens by saying what it is for.
+
+Bibliography 109 entries. Index 284 entries. 233 pages.
+
+---
+
 ## v1.8.0 (2026-07-31, book v4.22.4)
 
 Fixes six broken links on the companion site and refreshes the book PDF from v4.21.2 to v4.22.4.

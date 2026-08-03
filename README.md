@@ -6,7 +6,7 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-**Current version:** v4.22.4 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 233 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+**Current version:** v4.23.2 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 233 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
 
 **Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
@@ -83,7 +83,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v4_22_4.pdf](book/learning_with_ai_v4_22_4.pdf) |
+| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v4_23_2.pdf](book/learning_with_ai_v4_23_2.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | `companion-papers/hyman2026next/` |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | `companion-papers/hyman2026teaching/` |
 | License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, [CHANGELOG.md](CHANGELOG.md), [ERRATA.md](ERRATA.md) |
@@ -121,7 +121,8 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v4.22.4 (current):** The opening was restructured so the book starts sooner: the AI-disclosure statement moved to an appendix, and two passages that previewed Part I moved into it. Every term that appears in both glossaries now has one definition, used identically in the body and in both glossaries.
+- **v4.23.2 (current):** Part II gained a section on writing a problem so that working it runs the Learning Spiral, with the follow-up questions built into the problem statement. The preface now says where the practical, tool-specific material lives. Privacy guidance moved to the point where a student is first asked to upload course material, and the instructor guide now points to the appendix on ethical AI-assisted writing.
+- **v4.22.4:** The opening was restructured so the book starts sooner: the AI-disclosure statement moved to an appendix, and two passages that previewed Part I moved into it. Every term that appears in both glossaries now has one definition, used identically in the body and in both glossaries.
 - **v4.21.2:** Three printed repository paths gained their `.md` extensions, so every path the
   book prints now resolves as printed. 231 pages, 109 references.
 - **v4.21.1:** The `institutions/` materials are now reachable from the text. The book printed nine
@@ -185,6 +186,6 @@ Department of Mathematics, Tulane University
 
 ## Found an error or have a question?
 
-Corrections, questions, and suggestions are welcome, whether or not you use GitHub. Email <mhyman@tulane.edu> (for a correction, please include the page number and the book version), or open a GitHub issue. See **[how to give feedback](FEEDBACK.md)**. Confirmed corrections are listed in [ERRATA.md](ERRATA.md), and common questions in the [FAQ](FAQ.md).
+Corrections, questions, and suggestions are welcome, whether or not you use GitHub. Email <mhyman@tulane.edu> (for a correction, please include the page number and the book version), or open a GitHub issue. See **[how to give feedback](FEEDBACK.md)**. To add or improve the companion materials themselves, see **[how to contribute](CONTRIBUTING.md)**. Confirmed corrections are listed in [ERRATA.md](ERRATA.md), and common questions in the [FAQ](FAQ.md).
 
 *This repository is the companion archive for the book. The book is under review with SIAM Books.*
