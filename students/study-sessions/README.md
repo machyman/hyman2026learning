@@ -6,10 +6,10 @@ These extend the annotated dialogues in Part I of the book, with longer, messier
 
 ## Sessions
 
-- **Statistics / data reasoning: is this relationship causal?** (`statistics-causal-claim.md`). A student decides whether an observed relationship supports a causal claim, and catches the AI's agreeable answer.
-- **Coding / debugging: finding a bug yourself** (`coding-debugging.md`). A student locates a bug with the AI's help rather than its fix, then catches a new bug the AI's own fix introduces.
-- **Physics: which principle applies?** (`physics-which-principle.md`). A student catches the AI solving a collision with the wrong conservation principle, a clean answer that is physically wrong.
-- **Mathematics: is this count right?** (`mathematics-counting-argument.md`). A student audits a confident counting rule from the AI, catches that it double-counts by testing a small case, and finds the failing step.
+- **Statistics / data reasoning: is this relationship causal?** ([`statistics-causal-claim.md`](statistics-causal-claim.md)). A student decides whether an observed relationship supports a causal claim, and catches the AI's agreeable answer.
+- **Coding / debugging: finding a bug yourself** ([`coding-debugging.md`](coding-debugging.md)). A student locates a bug with the AI's help rather than its fix, then catches a new bug the AI's own fix introduces.
+- **Physics: which principle applies?** ([`physics-which-principle.md`](physics-which-principle.md)). A student catches the AI solving a collision with the wrong conservation principle, a clean answer that is physically wrong.
+- **Mathematics: is this count right?** ([`mathematics-counting-argument.md`](mathematics-counting-argument.md)). A student audits a confident counting rule from the AI, catches that it double-counts by testing a small case, and finds the failing step.
 
 *These four sessions are the core library. Runnable notebook versions of the code-based sessions are planned as a separate track once the core is set.*
 

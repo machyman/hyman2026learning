@@ -10,7 +10,7 @@ course.
 
 ## Case studies
 
-- **Introductory numerical analysis** (`numerical-analysis.md`). A first course for senior
+- **Introductory numerical analysis** ([`numerical-analysis.md`](numerical-analysis.md)). A first course for senior
   undergraduates and beginning graduate students. Syllabus AI policy, three representative assignments
   spanning No AI, AI as Tutor, and AI as Collaborator, an in-person closed-book exam, and the grade
   weighting with its rationale.
