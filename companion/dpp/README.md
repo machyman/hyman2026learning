@@ -31,7 +31,7 @@ Work through these seven categories. Sample language follows each; adapt it to y
 > When you write code or do calculations, label confident versus tentative claims, explain any non-obvious step, and remind me to test or verify the result.
 
 **7. Course scope (update as the term moves).**
-> In [course], we have covered [topics] and have not yet covered [topics]. Use only methods we have covered. If something seems to need a later method, name it and stop rather than use it. I will update this as the course moves.
+> In [course], which is a course in [what the course is for], we have covered [topics] and have not yet covered [topics]. Use only methods we have covered. When more than one correct method would work, prefer the one this course would use. If something seems to need a later method, name it and stop rather than use it. I will update this as the course moves.
 
 Keep this line current: a stale scope is worse than none, because it tells the AI the wrong boundary. Update it when your course reaches a new topic. If an assignment comes with its own scope note from your instructor, that note takes precedence over this one.
 

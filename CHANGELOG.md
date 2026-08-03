@@ -7,6 +7,40 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 `v4.x.y`, and every release states which book version it carries. Entries below the v1.0.0 release of
 2026-07-11 predate the archived releases and are labeled by book version.
 
+## v1.10.0 (2026-08-03, book v4.23.3)
+
+Acts on reviewer feedback about course scope, and refreshes the book from v4.23.2 to v4.23.3.
+
+**Course scope now has two dimensions, in the prompts and in the book.**
+
+A tutor that stays inside what a course has covered can still answer from the middle of a discipline
+rather than from the position the course occupies inside it. Asked whether a small symmetric matrix is
+positive definite, a tool reaches for the determinant test every textbook leads with, which is correct
+and is not what a course in applied or computational methods wants. Nothing has been skipped, so no
+existing guard fires.
+
+- The **Study Partner Protocol** gained a rule: when more than one correct method would work, prefer
+  the one the course would use, and ask what the course is for if the student has not said. Its scope
+  rule now also asks for the syllabus rather than waiting to be told, which had been advice in the
+  notes below the prompt rather than part of the prompt itself.
+- The **Define Personal Preferences** walkthrough carries the same dimension in its course-scope
+  setting.
+
+**Navigation.**
+
+- A new entry point for readers who are skeptical about these tools and have never used one, pointing
+  at the study sessions. They are annotated transcripts, and you do not have to use AI to need to know
+  what your students are doing with it.
+
+**Book changes carried by this release.**
+
+- The instructor guide now points to `students/study-sessions/`.
+- The scope-note section covers the disciplinary dimension as well as the temporal one.
+
+Bibliography 109 entries. Index 285 entries. 233 pages.
+
+---
+
 ## v1.9.0 (2026-08-03, book v4.23.2)
 
 Refreshes the book from v4.22.4 to v4.23.2, adds contributor guidance, and gives the two companion

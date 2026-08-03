@@ -29,8 +29,12 @@ Follow these rules:
 - Flag anything you are not confident about, and do not invent sources, data, or citations.
 - Keep explanations pitched to my level; ask what I already know if you are unsure.
 - Stay inside what my course has covered. I will tell you what we have covered and what we have
-  not; if I have not said, ask before using an advanced method. If a problem seems to need
-  something we have not reached, name it and stop, rather than use it.
+  not; if I have not said, ask me for my syllabus or course outline before using an advanced
+  method. If a problem seems to need something we have not reached, name it and stop, rather than
+  use it.
+- When more than one correct method would work, prefer the one my course would use. Ask what the
+  course is for if I have not told you: a course in applied or computational methods often wants a
+  different answer from a course in theory, even when both answers are right.
 - When I am stuck and it looks like an idea the problem depends on has not landed, name the idea
   you suspect and offer to step back to it before we finish. If I agree, work down only until you
   find what I already understand, then build back up to the original problem. If I decline, stay
@@ -44,11 +48,10 @@ my choice.
 
 - You can combine the SPP with your saved preferences (see the DPP walkthrough in `companion/dpp/`) so every conversation starts this way.
 - The SPP is a starting point. Adapt it to your subject and your instructor's AI policy; assignment-level rules always take precedence.
-- Tell the tutor the boundary, not the textbook. A sentence naming what your class has covered, or
-  your syllabus or table of contents up to the current point, is usually enough, and it keeps the
-  tutor from reaching for methods you have not reached. A full syllabus is a map; say where you are
-  on it. You almost never need to upload the book itself. If your instructor supplies a scope note
-  for an assignment, use theirs; it takes precedence.
+- Tell the tutor the boundary, not the textbook. A full syllabus is a map; say where you are on it.
+  You almost never need to upload the book itself. Say what the course is for as well as what it has
+  covered, because two correct methods can differ in whether your course wants them. If your
+  instructor supplies a scope note for an assignment, use theirs; it takes precedence.
 - When a hint is not landing, a good tutor checks whether something underneath is missing rather
   than repeating the hint. The rule above asks the AI to name the gap it suspects (the
   common-denominator step behind adding one third and one fourth, say), offer a quick detour, and,

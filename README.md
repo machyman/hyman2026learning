@@ -6,7 +6,7 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-**Current version:** v4.23.2 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 233 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+**Current version:** v4.23.3 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 233 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
 
 **Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
@@ -19,6 +19,7 @@ This repository hosts practical materials that go with the book. Start with whic
 - **New to using AI for coursework?** Start with [students/start-here.md](students/start-here.md). It covers what these tools are good and bad for, the one rule worth keeping, and how to set up an AI study partner.
 - **Using AI to get answers, and want to learn instead?** Read [students/from-answers-to-learning.md](students/from-answers-to-learning.md). It is written for the switch from extracting answers to building understanding.
 - **Studying a STEM subject?** Work through the [students/study-sessions/](students/study-sessions/) library: four worked sessions, in statistics, coding, physics, and mathematics, each showing a student using AI to study while keeping the thinking and the verification their own.
+- **Skeptical about these tools, and have never used one?** Read one of the [students/study-sessions/](students/study-sessions/): they are annotated transcripts of a real study session, turn by turn, with a note after each move saying what to notice. You do not have to use AI to need to know what your students are doing with it.
 - **An instructor teaching with AI for the first time?** Start with [instructors/first-time-guide.md](instructors/first-time-guide.md), then use the rest of the [instructors/](instructors/) toolkit: a worked course redesign, assignment templates, assessment models, ready syllabus language, and a faculty FAQ.
 - **A department chair, dean, or administrator?** Start with the [departmental adoption kit](institutions/department-adoption-kit.md): a model policy statement, the shared vocabulary, and a one-semester rollout. Run the [policy self-audit](institutions/policy-self-audit.md) to see what your institution covers and what falls to you, and keep the [regulatory landscape note](institutions/regulatory-landscape.md) beside anything that touches proctoring, admissions, or automated grading. Part III of the book carries the full framework.
 
@@ -83,7 +84,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v4_23_2.pdf](book/learning_with_ai_v4_23_2.pdf) |
+| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v4_23_3.pdf](book/learning_with_ai_v4_23_3.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | `companion-papers/hyman2026next/` |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | `companion-papers/hyman2026teaching/` |
 | License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, [CHANGELOG.md](CHANGELOG.md), [ERRATA.md](ERRATA.md) |
@@ -121,7 +122,8 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v4.23.2 (current):** Part II gained a section on writing a problem so that working it runs the Learning Spiral, with the follow-up questions built into the problem statement. The preface now says where the practical, tool-specific material lives. Privacy guidance moved to the point where a student is first asked to upload course material, and the instructor guide now points to the appendix on ethical AI-assisted writing.
+- **v4.23.3 (current):** The instructor guide now points to the worked study sessions in this repository, which are useful for showing a colleague what a student session looks like. Course-scope guidance gained a second dimension: an AI answers from the middle of a discipline rather than from the position your course occupies inside it, so a scope note should name what the course is for and not only what it has covered.
+- **v4.23.2:** Part II gained a section on writing a problem so that working it runs the Learning Spiral, with the follow-up questions built into the problem statement. The preface now says where the practical, tool-specific material lives. Privacy guidance moved to the point where a student is first asked to upload course material, and the instructor guide now points to the appendix on ethical AI-assisted writing.
 - **v4.22.4:** The opening was restructured so the book starts sooner: the AI-disclosure statement moved to an appendix, and two passages that previewed Part I moved into it. Every term that appears in both glossaries now has one definition, used identically in the body and in both glossaries.
 - **v4.21.2:** Three printed repository paths gained their `.md` extensions, so every path the
   book prints now resolves as printed. 231 pages, 109 references.
