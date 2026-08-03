@@ -7,6 +7,37 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 `v4.x.y`, and every release states which book version it carries. Entries below the v1.0.0 release of
 2026-07-11 predate the archived releases and are labeled by book version.
 
+## v1.8.0 (2026-07-31, book v4.22.4)
+
+Fixes six broken links on the companion site and refreshes the book PDF from v4.21.2 to v4.22.4.
+
+**Broken links fixed.**
+
+- **The worked course case study now opens.** The file was always present and correct; it was named
+  `numerical-analysis.md` inside `companion/course-case-study/`, while every other content directory in
+  this repository serves its index from `README.md`. The site links to the directory, so the link
+  resolved to nothing. Renamed to `README.md`, which is the convention the other seven content
+  directories already follow. **No content changed.**
+- **The four top-level directories gained index pages.** `students/`, `instructors/`, `institutions/`,
+  and `companion/` had no `README.md`, so links to the directories themselves did not resolve. Each now
+  lists what it contains, with a one-line description per item.
+
+**Book changes carried by this release.**
+
+- The opening was restructured so the book reaches its first chapter two pages sooner. The
+  AI-disclosure statement moved from the front matter to an appendix, and two passages that previewed
+  Part I moved into Part I.
+- Every term appearing in both of the book's glossaries now has a single definition, used identically
+  in the body and in both glossaries.
+- Four terms that were used throughout but never defined in the body now carry definitions where a
+  reader first meets them.
+- Smaller corrections: an acknowledgment count, three printed repository paths, and section naming in
+  Part III.
+
+Bibliography 109 entries. Index 281 entries. 233 pages.
+
+---
+
 ## v1.7.0 (2026-07-31, book v4.21.2)
 
 Refreshes the book PDF from v4.17.2 to v4.21.2, five book versions, and corrects two things in this

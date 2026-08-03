@@ -6,7 +6,7 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-**Current version:** v4.21.2 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 231 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+**Current version:** v4.22.4 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 233 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
 
 **Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
@@ -83,7 +83,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v4_21_2.pdf](book/learning_with_ai_v4_21_2.pdf) |
+| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v4_22_4.pdf](book/learning_with_ai_v4_22_4.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | `companion-papers/hyman2026next/` |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | `companion-papers/hyman2026teaching/` |
 | License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, [CHANGELOG.md](CHANGELOG.md), [ERRATA.md](ERRATA.md) |
@@ -121,7 +121,8 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v4.21.2 (current):** Three printed repository paths gained their `.md` extensions, so every path the
+- **v4.22.4 (current):** The opening was restructured so the book starts sooner: the AI-disclosure statement moved to an appendix, and two passages that previewed Part I moved into it. Every term that appears in both glossaries now has one definition, used identically in the body and in both glossaries.
+- **v4.21.2:** Three printed repository paths gained their `.md` extensions, so every path the
   book prints now resolves as printed. 231 pages, 109 references.
 - **v4.21.1:** The `institutions/` materials are now reachable from the text. The book printed nine
   repository paths and none under `institutions/`, so the departmental adoption kit, the policy
