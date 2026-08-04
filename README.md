@@ -6,7 +6,7 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-**Current version:** v4.23.3 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 233 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+**Current version:** v4.23.8 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 233 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
 
 **Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
@@ -54,6 +54,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 | **Sharing AI conversations**: how to share a read-only chat link with an instructor, by platform | [students/sharing-ai-conversations.md](students/sharing-ai-conversations.md) |
 | **Pre-submission checklist**: the student checklist from Part I | [students/checklist.md](students/checklist.md) |
 | **Disclosure templates**: short and fuller AI-use disclosure statements | [students/disclosure-templates.md](students/disclosure-templates.md) |
+| **Spiral problems**: a method for recasting single-answer problems so that working them runs the Learning Spiral, with worked before-and-after pairs from three disciplines | [companion/spiral-problems/](companion/spiral-problems/) |
 | **The Student Compact**: the five-part compact from Part I, printable and signable | [companion/compact/](companion/compact/) |
 | **Layered explanation**: a prompt that explains a hard concept at three levels at once, an everyday analogy, your working level, and one step deeper | [companion/layered-explanation/](companion/layered-explanation/) |
 
@@ -84,7 +85,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v4_23_3.pdf](book/learning_with_ai_v4_23_3.pdf) |
+| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v4_23_8.pdf](book/learning_with_ai_v4_23_8.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | `companion-papers/hyman2026next/` |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | `companion-papers/hyman2026teaching/` |
 | License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, [CHANGELOG.md](CHANGELOG.md), [ERRATA.md](ERRATA.md) |
@@ -122,7 +123,8 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v4.23.3 (current):** The instructor guide now points to the worked study sessions in this repository, which are useful for showing a colleague what a student session looks like. Course-scope guidance gained a second dimension: an AI answers from the middle of a discipline rather than from the position your course occupies inside it, so a scope note should name what the course is for and not only what it has covered.
+- **v4.23.8 (current):** Part II gained a section on writing a problem so that working it runs the Learning Spiral, pointing to the worked recasts in this repository. The preface says where the practical, tool-specific material lives. Privacy guidance moved to the point where a student is first asked to upload course material. Scope notes now name what a course is for as well as what it has covered. Four reviewers were added to the acknowledgments.
+- **v4.23.3:** The instructor guide now points to the worked study sessions in this repository, which are useful for showing a colleague what a student session looks like. Course-scope guidance gained a second dimension: an AI answers from the middle of a discipline rather than from the position your course occupies inside it, so a scope note should name what the course is for and not only what it has covered.
 - **v4.23.2:** Part II gained a section on writing a problem so that working it runs the Learning Spiral, with the follow-up questions built into the problem statement. The preface now says where the practical, tool-specific material lives. Privacy guidance moved to the point where a student is first asked to upload course material, and the instructor guide now points to the appendix on ethical AI-assisted writing.
 - **v4.22.4:** The opening was restructured so the book starts sooner: the AI-disclosure statement moved to an appendix, and two passages that previewed Part I moved into it. Every term that appears in both glossaries now has one definition, used identically in the body and in both glossaries.
 - **v4.21.2:** Three printed repository paths gained their `.md` extensions, so every path the

@@ -22,19 +22,20 @@ In rough order of what the repository needs:
 - **Translations and adaptations.** The MIT license permits them; a pointer from the relevant index
   page helps others find them.
 
-## One hard rule: fifteen paths are printed in the book
+## One hard rule: seventeen paths are printed in the book
 
 The book prints these paths. **Once it is in print they cannot be changed**, so a rename here becomes
 a permanent dead reference for every reader:
 
 ```
 companion/compact/            companion/dpp/           companion/instructor-capabilities/
-companion/layered-explanation/                         companion/spp/
+companion/layered-explanation/                         companion/spiral-problems/
+companion/spp/
 institutions/department-adoption-kit.md                institutions/policy-self-audit.md
 institutions/regulatory-landscape.md
 instructors/briefings.md      instructors/rubrics/     instructors/what-to-assign.md
 students/checklist.md         students/sharing-ai-conversations.md
-students/start-here.md        students/undergraduate-research.md
+students/start-here.md        students/study-sessions/ students/undergraduate-research.md
 ```
 
 Improve their contents freely. **Do not rename or move them**, and do not remove the `README.md` from
@@ -58,17 +59,9 @@ write it.
 
 ## Timing, while the book is in production
 
-<!-- MAC: pick one. Default below is (b). -->
-
-<!-- (a) Merge as they come.
-Contributions are merged as they are reviewed. -->
-
-Until the book is published, contributions that **change one of the fifteen printed paths above** are
+Until the book is published, contributions that **change one of the seventeen printed paths above** are
 held on a branch and merged after publication. Everything else is merged normally. Reviewers are
-reading the current site, and those fifteen files are the surface the book commits to.
-
-<!-- (c) Hold everything.
-Contributions are held on branches until the book is published, then merged together. -->
+reading the current site, and those seventeen files are the surface the book commits to.
 
 ## What to expect
 

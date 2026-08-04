@@ -7,6 +7,46 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 `v4.x.y`, and every release states which book version it carries. Entries below the v1.0.0 release of
 2026-07-11 predate the archived releases and are labeled by book version.
 
+## v1.11.0 (2026-08-03, book v4.23.8)
+
+Adds an instructor page on writing problems that run the Learning Spiral, finalizes the contribution
+timing policy, and refreshes the book from v4.23.3 to v4.23.8.
+
+**New: spiral problems.**
+
+- `companion/spiral-problems/` carries the recast as a method any course can run: keep the task, open
+  with a commitment, write the ask in, add a second road to the answer, close by opening, and fit the
+  order to the problem. Worked before-and-after pairs from a writing course, a data course, and a
+  first-year lab, a six-question test read as your weakest student would read it, and a twelve-move
+  repertoire of next questions in the Polya tradition. The book states the principle in Part II; this
+  page carries the range one example cannot.
+- Listed in `companion/README.md` and on the front page beside the other companion materials.
+
+**Contribution policy finalized.**
+
+- The timing clause in `CONTRIBUTING.md` is settled: until the book is published, contributions that
+  change one of the printed paths are held on a branch and merged after publication; everything else
+  merges normally. The editorial comment carrying the alternatives is removed.
+- The printed-path list grows from fifteen entries to seventeen, adding `students/study-sessions/` and
+  `companion/spiral-problems/`, which the book began printing at v4.23.3 and v4.23.7.
+
+**Book changes carried by this release.**
+
+- Part II gained a section on writing a problem so that working it runs the Learning Spiral, with the
+  follow-up questions built into the problem statement rather than left to the student's discipline.
+- The preface says where the practical, tool-specific material lives, which is this repository.
+- Privacy guidance moved to the point where a student is first asked to upload course material.
+- Scope notes now name what a course is for as well as what it has covered, because a tool can answer
+  from the middle of a discipline rather than from the position a course occupies inside it.
+- The instructor guide points to the appendix on ethical AI-assisted writing and to the study
+  sessions; the student guide points to the math-specific quick reference.
+- Four reviewers were added to the acknowledgments, and the section now opens by saying what it is
+  for.
+
+Bibliography 110 entries. Index 286 entries. 233 pages.
+
+---
+
 ## v1.10.0 (2026-08-03, book v4.23.3)
 
 Acts on reviewer feedback about course scope, and refreshes the book from v4.23.2 to v4.23.3.
