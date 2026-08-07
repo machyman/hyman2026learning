@@ -1,16 +1,18 @@
 # Errata
 
-Confirmed corrections to *Learning with AI*, listed with the version in which the error was identified. No errata are confirmed for the current version (v4.23.8) yet.
+Confirmed corrections to *Learning with AI*, listed with the version in which the error was identified. No errata are confirmed for the current version (v4.29.0) yet.
 
 ## How to report a correction
 
-Use the [feedback form](FEEDBACK.md) (no account needed) or, on GitHub, open a [correction issue](https://github.com/machyman/hyman2026learning/issues/new/choose). Please include the page number and the printing or version, which appear on the title page.
+Use the [feedback form](FEEDBACK.md) (no account needed) or, on GitHub, open a [correction issue](https://github.com/machyman/hyman2026learning/issues/new/choose). Please include the page number and the version, which appears in the PDF filename (for example, `learning_with_ai_v4_29_0.pdf`). The draft's title page carries a build date rather than a version.
 
 ## Confirmed corrections
 
 | Version identified | Page | Location | Error | Correction | Date |
 |---|---|---|---|---|---|
-| _(none yet)_ | | | | | |
+| v4.23.8 | 211 | Bibliography, entry 86 | Author name broken across two lines, rendering as "George P" then "'olya" | Reads "George Pólya". Body text was always correct | 2026-08-06 |
+| v4.23.8 | 203-214 | Bibliography, 16 entries | Editorial working notes printed to readers, including reminders about pending archival snapshots | Notes moved to a non-printing field. No bibliographic content changed | 2026-08-06 |
+| v4.23.8 | 21 pages, incl. 97, 99, 102, 195 | Tables in Parts II and III; bibliography URLs | Text ran past the right margin and was cut off at the page edge, most visibly in the suggested-weighting tables, where values read "30-" with the range missing | Table columns given explicit widths and URLs made breakable. All margins verified clear | 2026-08-06 |
 
 Corrections that cannot appear in the current printing are folded into the next edition.
 

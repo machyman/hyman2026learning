@@ -7,6 +7,27 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 `v4.x.y`, and every release states which book version it carries. Entries below the v1.0.0 release of
 2026-07-11 predate the archived releases and are labeled by book version.
 
+## v1.12.0 (2026-08-06, book v4.29.0)
+
+Refreshes the book PDF and corrects three claims this repository was making about it.
+
+The book itself changed in four ways since v4.23.8. Every place where text ran past the margin is
+fixed: ten tables, the bibliography URLs, and a running head that overran on two pages. A
+bibliography entry that rendered broken is repaired. Sixteen bibliography entries stopped printing
+the author's internal working notes to readers. The front matter now routes each reader by naming
+the problem they arrived with rather than by Part number.
+
+Three corrections in this repository:
+
+- `CONTRIBUTING.md` protected seventeen printed paths while the book prints twenty-three. Six were
+  unprotected, including two files a contributor could have renamed in good faith. All
+  twenty-three are now listed.
+- `book/README.md` stated the page count as 238. The book is 237, and was 233 at v4.23.8.
+- `ERRATA.md` asked readers to report the version from the title page. The draft's title page
+  carries a build date rather than a version, so it now asks for the version in the PDF filename.
+
+`book/learning_with_ai_v4_23_8.pdf` is removed in the same commit.
+
 ## v1.11.0 (2026-08-03, book v4.23.8)
 
 Adds an instructor page on writing problems that run the Learning Spiral, finalizes the contribution

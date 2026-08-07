@@ -8,7 +8,7 @@ Email **<mhyman@tulane.edu>** with `Learning with AI` in the subject line.
 
 **If you are reporting a correction, please include:**
 
-1. **The page number**, and the version from the title page (for example, v3.8.1).
+1. **The page number**, and the version from the PDF filename (for example, `learning_with_ai_v4_29_0.pdf`).
 2. **What it says now**, quoted or paraphrased, so it can be found.
 3. **What is wrong**, and what it should say if you know.
 
