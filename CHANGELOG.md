@@ -7,6 +7,21 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 `v4.x.y`, and every release states which book version it carries. Entries below the v1.0.0 release of
 2026-07-11 predate the archived releases and are labeled by book version.
 
+## v1.14.0 (2026-08-11, book v4.30.17)
+
+Refreshes the public book PDF to v4.30.17 and corrects the front page to match.
+
+The v4.29.0 PDF staged in v1.12.0 was never uploaded, so this release supersedes that refresh
+directly: the public PDF moves from v4.23.8 to v4.30.17 in one step. Since v4.29.0 the book gained
+paragraphs in both guides teaching the presentation of evidence of thinking, a pairing of the two
+Chapter 4 endpoint prompts into a reusable frame (specify before, audit after), opening questions
+and in-place exercises in Part I, examiner-consistency guidance for the oral-defense model, two
+chapter epigraphs, and two acknowledgments. 239 pages, 115 references.
+
+- `book/learning_with_ai_v4_30_17.pdf` is new; no older PDF remains in `book/`.
+- `README.md` front matter, PDF link, and version history updated; `book/README.md` version and
+  page count updated.
+
 ## v1.13.0 (2026-08-11, book v4.29.0)
 
 Adds one instructor artifact. No book PDF change; this release carries the same book build as
