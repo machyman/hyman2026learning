@@ -69,6 +69,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 | **Assignment templates**: reusable patterns that grade the judgment, not the product | [instructors/assignment-templates.md](instructors/assignment-templates.md) |
 | **Assessment models**: low-stakes ways to see unaided competence | [instructors/assessment-models.md](instructors/assessment-models.md) |
 | **Syllabus briefings**: three ready-to-use syllabus paragraphs (restrictive / default / permissive) | [instructors/briefings.md](instructors/briefings.md) |
+| **Syllabus guide**: making the whole syllabus AI-ready, section by section, beyond the policy paragraph | [instructors/syllabus-guide.md](instructors/syllabus-guide.md) |
 | **Rubrics**: the worked AIC rubric from Part II, with writing and coding variants | [instructors/rubrics/](instructors/rubrics/) |
 | **Faculty FAQ**: short answers to common questions | [instructors/faculty-faq.md](instructors/faculty-faq.md) |
 | **AI tools for teaching preparation**: a working guide to prep tools (what each is good for, how to use it well, what a good result looks like, and how to obtain current ones) | [companion/instructor-capabilities/](companion/instructor-capabilities/) |

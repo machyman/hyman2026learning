@@ -7,6 +7,18 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 `v4.x.y`, and every release states which book version it carries. Entries below the v1.0.0 release of
 2026-07-11 predate the archived releases and are labeled by book version.
 
+## v1.13.0 (2026-08-11, book v4.29.0)
+
+Adds one instructor artifact. No book PDF change; this release carries the same book build as
+v1.12.0.
+
+- New: `instructors/syllabus-guide.md`, a section-by-section guide to making a whole syllabus
+  AI-ready. The syllabus briefings supply the AI policy paragraph; this guide covers the other
+  syllabus sections AI touches, opens with a collision check for inherited template language that
+  contradicts an AI policy, and adds the section most templates lack entirely: a line disclosing
+  the instructor's own AI use.
+- `instructors/README.md` and the front-page instructor table gain a linked row for the new guide.
+
 ## v1.12.0 (2026-08-06, book v4.29.0)
 
 Refreshes the book PDF and corrects three claims this repository was making about it.

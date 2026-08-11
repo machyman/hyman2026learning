@@ -14,6 +14,7 @@ and when** to decide which student materials to hand out and in what order.
 | [assignment-templates.md](assignment-templates.md) | Reusable patterns that grade the judgment, not the product |
 | [assessment-models.md](assessment-models.md) | Low-stakes ways to see unaided competence |
 | [briefings.md](briefings.md) | Three ready-to-use syllabus paragraphs: restrictive, default, permissive |
+| [syllabus-guide.md](syllabus-guide.md) | A section-by-section guide to making the whole syllabus AI-ready, beyond the policy paragraph |
 | [rubrics/](rubrics/) | The worked AIC rubric from Part II, with writing and coding variants |
 | [faculty-faq.md](faculty-faq.md) | Short answers to common questions |
 
