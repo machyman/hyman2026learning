@@ -7,6 +7,56 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 `v4.x.y`, and every release states which book version it carries. Entries below the v1.0.0 release of
 2026-07-11 predate the archived releases and are labeled by book version.
 
+## v1.15.0 (2026-08-13, book v4.31.0)
+
+Refreshes the public book PDF to v4.31.0, and records a link repair that reached the site on
+2026-08-13 without a release entry of its own.
+
+**The book.** The appendix on ethical AI-assisted scientific writing now states one standard in both
+places it appears. Its pre-submission checklist asked each author to declare they understand every
+equation and analysis in the paper; the appendix text three pages earlier said the opposite, that on
+a multi-author paper the work divides and no single author need hold the whole. The appendix text
+was rewritten to the collective standard in an earlier revision and the checklist was never brought
+along. The checklist now asks what each author answers for and who answers for the rest, and asks
+each author to accept that a question raised about any part of the paper will be investigated and
+resolved.
+
+The standard itself is now stated against the ICMJE recommendations on authorship, which divide
+contribution the same way the appendix does while keeping each author's duty to see questions
+resolved undivided. Both halves are cited, because the divided half alone would be a partial reading
+of the source.
+
+The appendix also now opens by saying plainly what it had only implied at its close: AI-assisted
+work is held to the ordinary standard of scholarly work, and what the tool changes is how hard a
+lapse is to see, which is why the appendix asks for disclosure and verification rather than for a
+different standard.
+
+239 pages, 115 references, both unchanged.
+
+**The link repair, released here after the fact.** The `how to contribute` link on the rendered site
+resolved to `CONTRIBUTING.md` and returned the file unrendered, while its neighbour on the same
+README line, `how to give feedback`, rendered correctly. GitHub Pages runs
+`jekyll-optional-front-matter`, which deliberately skips a fixed list of meta files, `README`,
+`CONTRIBUTING`, `CODE_OF_CONDUCT`, `LICENSE`, so a skipped file stays a static file and
+`jekyll-relative-links` leaves links to it unrewritten. `FEEDBACK.md`, `ERRATA.md`, `FAQ.md`, and
+`CHANGELOG.md` are not on that list, so they became pages and their links rewrote to `.html`. This
+was the only affected link in the repository; no link points at `LICENSE` or `CITATION.cff`, both of
+which the site config excludes. Contributing means opening an issue or a pull request, so the link
+now points at the repository copy rather than the rendered copy, and an absolute URL is unaffected
+by the link-rewriting plugin either way.
+
+That change was pushed on 2026-08-13 and this file did not record it. The entry appears here rather
+than as its own release, because a release whose only content is a note about a change already live
+is a worse record than one entry naming both.
+
+**Files.**
+
+- `book/learning_with_ai_v4_31_0.pdf` is new; `book/learning_with_ai_v4_30_17.pdf` is removed, and no
+  older PDF remains in `book/`.
+- `README.md` and `book/README.md` state the current version.
+- `ERRATA.md` referred to v4.29.0 in its status line and in its reporting example, two versions after
+  the repository had moved on; both now read v4.31.0. No erratum was added or removed.
+
 ## v1.14.0 (2026-08-11, book v4.30.17)
 
 Refreshes the public book PDF to v4.30.17 and corrects the front page to match.

@@ -6,7 +6,7 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-**Current version:** v4.30.17 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 239 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+**Current version:** v4.31.0 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 239 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
 
 **Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
@@ -86,7 +86,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v4_30_17.pdf](book/learning_with_ai_v4_30_17.pdf) |
+| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v4_31_0.pdf](book/learning_with_ai_v4_31_0.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | `companion-papers/hyman2026next/` |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | `companion-papers/hyman2026teaching/` |
 | License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, [CHANGELOG.md](CHANGELOG.md), [ERRATA.md](ERRATA.md) |
@@ -124,7 +124,8 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v4.30.17 (current):** Both guides now teach how to present evidence of thinking, not only ask for it: students lead with the moment the tool handed them something plausible they did not accept, and instructors model one presentation before grading any. Chapter 4's two endpoint prompts now pair into a reusable frame around any prompt between them: specify before, audit after. Part I opens with questions a student answers before beginning, and short exercises sit where ideas are introduced. The oral-defense chapter gained examiner-consistency guidance, and two chapter epigraphs were added. 239 pages, 115 references.
+- **v4.31.0 (current):** The appendix on ethical AI-assisted scientific writing now states one standard consistently. Its pre-submission checklist had asked each author to declare they understand every equation in the paper, while the appendix text said the opposite: on a multi-author paper the work divides, and no single author need hold the whole. The checklist now asks what each author answers for and who answers for the rest. The standard itself is stated against the ICMJE authorship criteria, which divide contribution the same way while keeping each author's duty to see that any question raised about any part is resolved. The appendix also now opens by saying plainly that AI-assisted work is held to the ordinary standard of scholarly work, and that what the tool changes is how hard a lapse is to see. 239 pages, 115 references.
+- **v4.30.17:** Both guides now teach how to present evidence of thinking, not only ask for it: students lead with the moment the tool handed them something plausible they did not accept, and instructors model one presentation before grading any. Chapter 4's two endpoint prompts now pair into a reusable frame around any prompt between them: specify before, audit after. Part I opens with questions a student answers before beginning, and short exercises sit where ideas are introduced. The oral-defense chapter gained examiner-consistency guidance, and two chapter epigraphs were added. 239 pages, 115 references.
 - **v4.29.0:** Every margin overflow in the book closed: ten tables that ran past the text block, the bibliography URLs that ran off the page, and a running head that overran on two pages. A broken bibliography entry was repaired. Sixteen bibliography entries stopped printing internal working notes to readers. The front matter now opens each reader's route by naming the problem they arrived with rather than the Part number.
 - **v4.23.8:** Part II gained a section on writing a problem so that working it runs the Learning Spiral, pointing to the worked recasts in this repository. The preface says where the practical, tool-specific material lives. Privacy guidance moved to the point where a student is first asked to upload course material. Scope notes now name what a course is for as well as what it has covered. Four reviewers were added to the acknowledgments.
 - **v4.23.3:** The instructor guide now points to the worked study sessions in this repository, which are useful for showing a colleague what a student session looks like. Course-scope guidance gained a second dimension: an AI answers from the middle of a discipline rather than from the position your course occupies inside it, so a scope note should name what the course is for and not only what it has covered.
