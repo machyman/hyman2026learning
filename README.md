@@ -193,6 +193,6 @@ Department of Mathematics, Tulane University
 
 ## Found an error or have a question?
 
-Corrections, questions, and suggestions are welcome, whether or not you use GitHub. Email <mhyman@tulane.edu> (for a correction, please include the page number and the book version), or open a GitHub issue. See **[how to give feedback](FEEDBACK.md)**. To add or improve the companion materials themselves, see **[how to contribute](CONTRIBUTING.md)**. Confirmed corrections are listed in [ERRATA.md](ERRATA.md), and common questions in the [FAQ](FAQ.md).
+Corrections, questions, and suggestions are welcome, whether or not you use GitHub. Email <mhyman@tulane.edu> (for a correction, please include the page number and the book version), or open a GitHub issue. See **[how to give feedback](FEEDBACK.md)**. To add or improve the companion materials themselves, see **[how to contribute](https://github.com/machyman/hyman2026learning/blob/main/CONTRIBUTING.md)**. Confirmed corrections are listed in [ERRATA.md](ERRATA.md), and common questions in the [FAQ](FAQ.md).
 
 *This repository is the companion archive for the book. The book is under review with SIAM Books.*
