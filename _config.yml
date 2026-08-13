@@ -11,6 +11,17 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+# CONTRIBUTING.md must be listed here or it will not render as a page.
+# GitHub Pages runs jekyll-optional-front-matter, which deliberately skips a short
+# list of meta files (README, CONTRIBUTING, CODE_OF_CONDUCT, LICENSE). A skipped file
+# stays a static file, so machyman.github.io/hyman2026learning/CONTRIBUTING.md serves
+# raw Markdown, and jekyll-relative-links leaves links to it unrewritten. Listing it
+# here makes it a page; the FEEDBACK.md and ERRATA.md links inside it then rewrite
+# to .html automatically. The alternative is YAML front matter at the top of
+# CONTRIBUTING.md, which github.com renders as a visible table on the repo page.
+include:
+  - CONTRIBUTING.md
+
 exclude:
   - LICENSE
   - CITATION.cff
