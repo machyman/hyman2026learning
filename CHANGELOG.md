@@ -9,6 +9,43 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 
 
 
+
+## v1.18.0 — 2026-08-20 — book v4.42.0
+
+Carries book **v4.42.0**, 245 pages, 120 references, replacing v4.40.0.
+
+**Every example, figure, table and worked dialogue now states its point.** Leaving the reader to infer
+what an example is for is treated as a defect. Four figure captions were corrected against what the
+figures actually print rather than against their own wording, which is a different check: the opening
+figure claimed the triangle edges name the three failure modes, and that figure carries no edge labels
+at all. Two trilemma diagrams had labels that had drifted off the edges they name, and in one the label
+printed through the line. Takeaway lines were added to the three institutional tables that had only a
+title, and to the worked dialogues, four of which had run one into the next with nothing said about any
+of them.
+
+**A detailed reading by Warren MacEvoy of Colorado Mesa University prompted a second round**, and eight
+findings from it are in this release.
+
+The student guide now says plainly that configuring an AI changes how it answers, not whether it is
+right. The tutors in the studies behind the book had the solution to each problem loaded into their
+prompts, along with the mistakes teachers said students commonly make; a student configuring a general
+assistant has neither, which is why verification stands in for the answer key rather than being
+diligence for its own sake.
+
+The effect sizes from the field experiment now carry their scope: three randomly assigned groups in one
+secondary-mathematics setting, to be read as evidence for a pattern rather than as numbers that will
+reproduce. The guardrailed arm is now reported as producing no exam loss **and no gain**, which is what
+the source says and what the previous wording invited readers to misread.
+
+The student trilemma's third corner now names real understanding rather than its demonstration, which
+matches the instructor's figure and the book's own argument that performance and competence have come
+apart. Disclosure now covers work that produces no shareable transcript, where a person steers an
+automated process over many cycles. The distinction between proof-based and computational work again
+explains what it changes about AI use. *Calibration error*, a defined term used throughout the book,
+now appears in all three glossaries and in the index. And the evidence table's untested rows now name
+what would test them, so a department that adopts the framework and records the answers has run the
+first study of it.
+
 ## v1.17.0 — 2026-08-19 — book v4.40.0
 
 Carries book **v4.40.0**, 245 pages, 120 references, replacing v4.39.0.
