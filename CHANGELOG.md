@@ -7,6 +7,38 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 `v4.x.y`, and every release states which book version it carries. Entries below the v1.0.0 release of
 2026-07-11 predate the archived releases and are labeled by book version.
 
+
+## v1.16.0 — 2026-08-19 — book v4.39.0
+
+Carries book **v4.39.0**, 245 pages, 120 references, replacing v4.31.0.
+
+**One vocabulary across all three Parts.** The book defines its terms in three glossaries, one per
+Part. Nine terms appearing in more than one of them had drifted apart. Every shared term now opens
+with the same sentence in every glossary; Part-specific detail follows it rather than replacing it.
+
+The one that mattered most was *disclosure*. The student guide asked for a clear statement of how AI
+was used; the institutional framework required the tools used, what they contributed, and how the
+student verified the result. A student following the student guide would have written a disclosure
+that fell short of the standard set elsewhere in the same book. The three-component definition now
+appears in all three Parts, including the instructor guide, which had not defined the term at all.
+
+**The academic-integrity procedure is stated once in full.** It appeared in three places at differing
+lengths. A check found that no version contained all of the safeguards the others did: the step that
+asks an instructor to identify a specific concern rather than a general suspicion appeared only in
+the shortest version, and the step that records the concern, the evidence, the student's response and
+the decision appeared only in the longest. The full procedure is now given once, and the shorter
+versions are marked as summaries of it and keep both of those steps.
+
+**Minimum independent competence now reads as a requirement.** The section carried that word in its
+title while its text recommended rather than required, and the appendices had always stated it as a
+requirement. The framework and the appendices now agree.
+
+**A contents-page defect was corrected**, where a Part title had grown long enough that its page
+number printed against the last word with no space.
+
+Prompted in part by a detailed reading from Joshua Agbomola, whose notes on the appendix count, the
+contents entry, and consistency between the Parts are reflected above.
+
 ## v1.15.0 (2026-08-13, book v4.31.0)
 
 Refreshes the public book PDF to v4.31.0, and records a link repair that reached the site on
