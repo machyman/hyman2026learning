@@ -17,7 +17,7 @@ Before opening the AI, the student thinks it through:
 
 > *My attempt:* After they couple, there is twice as much cart moving as before, but only the push that the first cart brought into the collision. So the combined carts should move slower than the first cart did. I would guess about half the original speed, though I am not certain why, or what exactly is conserved here.
 
-> **What to notice:** The student reasoned physically before reaching for the AI, and landed on a sensible expectation (slower, roughly half) and the right question (what is conserved?). They have something to check the AI against, which turns out to matter.
+> **What to notice:** The student reasoned physically before reaching for the AI, and landed on a sensible expectation (slower, and roughly half if the same push now has to move twice the cart) and the right question (what is conserved?). They have something to check the AI against, which turns out to matter.
 
 ## Ask for help, not the answer
 
@@ -72,4 +72,4 @@ The student writes the answer in their own words:
 - **Verify** meant putting that half against the AI's 0.7 and asking which principle fit the physics, not just whether the arithmetic was clean.
 - The answer and the reasoning are the student's.
 
-The same pattern works across physics: decide which law actually applies before trusting any number, and sanity-check every answer against a rough estimate, because a clean answer from the wrong principle still looks clean.
+**That is the verify step: check the answer against your own estimate, and when they disagree, ask which principle the AI actually used.**

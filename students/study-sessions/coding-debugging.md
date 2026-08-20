@@ -93,4 +93,4 @@ def highest_score(scores):
 - **Verify** caught the new bug the AI's fix introduced (the empty-list crash). The book's warning that AI is unreliable at confirming its own code is exactly what played out, and the student's understanding is what caught it.
 - The final code is the student's, edge cases and all.
 
-The same pattern works for any debugging: read your own code first, ask the AI to help you locate the problem rather than remove it, and test anything the AI hands you against the cases it did not mention.
+**That is the verify step: test what the AI hands you against the cases it did not mention, because its fix can carry a bug of its own.**

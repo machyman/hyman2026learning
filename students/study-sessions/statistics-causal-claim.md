@@ -75,4 +75,4 @@ And a brief disclosure:
 - **Verify** caught its agreeable, fluent answer; the trap of adopting the model's certainty was avoided only because the student understood the problem.
 - The answer is the student's, and they can defend it.
 
-The same pattern works in any data-reasoning course: state your own read, ask the AI to widen or stress-test it rather than conclude, and check every confident claim against what the design can actually support.
+**That is the verify step: check every confident claim against what the design can actually support, because agreement is not evidence.**

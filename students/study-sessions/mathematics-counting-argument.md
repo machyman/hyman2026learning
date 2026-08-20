@@ -65,4 +65,4 @@ The student tests the corrected rule on the case they trust before believing it 
 - **Verify** meant testing its general argument on the smallest case the student could verify, then pinpointing the exact step that failed, not just spotting a bad number.
 - The rule and the reasoning are the student's.
 
-The same pattern works for any counting argument or short proof: when you are unsure whether the reasoning holds, test it on the smallest case you can work out by hand. If the argument disagrees with what you can see directly, the argument is where the mistake is, and tracking down the failing step is how you fix it.
+**That is the verify step: test every confident answer against one small case you can check yourself.**

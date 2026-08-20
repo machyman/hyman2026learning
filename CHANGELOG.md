@@ -8,6 +8,33 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 2026-07-11 predate the archived releases and are labeled by book version.
 
 
+
+## v1.17.0 — 2026-08-19 — book v4.40.0
+
+Carries book **v4.40.0**, 245 pages, 120 references, replacing v4.39.0.
+
+**Every example, figure and table should say what to take from it.** Leaving the point to be inferred
+is treated as a defect, and this release begins that pass through the book and these materials.
+
+**Four figure captions were corrected against what the figures actually print**, rather than against
+their own wording. The opening figure claimed the triangle edges name the three failure modes; that
+figure has no edge labels at all, and the claim had survived every draft because the caption was
+checked as text and never against the rendered page. Two trilemma diagrams had edge labels that had
+drifted off their edges, and in one the label printed through the line it sat on; both now compute
+their label positions from the edges themselves, as the one correct diagram already did. A figure
+captioned "choosing the assignment color" now says category, which is the word the rest of the book
+uses.
+
+**Takeaway lines were added** to the three institutional tables that previously carried only a title,
+and to six of the eight worked dialogues, four of which had run one into the next with nothing said
+about any of them.
+
+**The four study sessions here now close with a single line naming the framework step** they
+illustrate, in place of a closing paragraph. The physics session also now says, at the point the
+student first guesses "about half", why half is the sensible guess: the same push has to move twice
+the cart. A professional editor reading a summary of that session could not follow where half came
+from, which is how the gap was found.
+
 ## v1.16.0 — 2026-08-19 — book v4.39.0
 
 Carries book **v4.39.0**, 245 pages, 120 references, replacing v4.31.0.
