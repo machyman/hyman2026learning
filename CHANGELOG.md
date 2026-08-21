@@ -12,24 +12,33 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 
 
 
-## v1.18.2 — 2026-08-20 — site link repair, no book change
 
-Carries book **v4.42.1** unchanged. This release fixes the rendered site, not the manuscript.
+## v1.19.0 — 2026-08-20 — the site can serve a directory address, and companion papers are PDFs only
 
-**The two companion papers were not linked from anywhere.** They appeared in the front-page table as
-plain code text rather than as links, so a reader had a path to read and nothing to click. Both are
-now links.
+**No address ending in a folder name could be opened on this site.** Seventeen folders each held a
+README and none held an index page. On github.com a folder shows its README automatically; a published
+site has no such rule. **Twelve of the paths printed in the book are folder addresses**, and they would
+have failed permanently once the book was in print.
 
-**Directory links did not resolve on the rendered site.** Fifty-four links across the site pointed at
-directories, and the site had no index page in any of them. On github.com a directory shows its
-README automatically; the published site has no such rule, so those links had nothing to serve. The
-site configuration already documented this problem for one file, `CONTRIBUTING.md`, and solved it
-there; the same fix is now applied to all eighteen directory READMEs, and the links point at those
-pages directly.
+Every folder README now carries a short header naming the page and the address it answers to, which
+makes it a real page at that address. An earlier attempt the same day listed the READMEs in the site
+configuration instead; that did not work, and the configuration now records why.
 
-Twelve of the paths printed in the book are directory paths of this kind. They resolve when a reader
-follows a link from the site, which is the normal route. **A directory path typed straight into the
-address bar may still not resolve**, and confirming that requires opening the published site.
+**The two companion papers are reachable again**, offering the PDF directly and the folder. They had
+been shown as plain text rather than links.
+
+**Their LaTeX source, bibliographies and internal revision notes have been withdrawn.** Each folder now
+holds the PDF and a description. They were the only source files here; the book's own source is not
+published in this repository, so keeping theirs was an inconsistency. Both papers will be posted to
+arXiv before the book is published, and arXiv will be the single version to cite. The revision notes
+were internal handoff documents written for the author.
+
+**The companion papers index has been rewritten** so adding a paper is a one-row change, and it lists
+work in preparation: *Designing STEM Textbooks for Readers Who Have AI*.
+
+**Book updated to v4.43.1**, in which the companion papers are cited four times each rather than once,
+and a sentence stating that the repository holds two of them has been removed, since a printed count
+would have been wrong once a third exists.
 
 ## v1.18.1 — 2026-08-20 — book v4.42.1
 

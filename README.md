@@ -6,7 +6,7 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-**Current version:** v4.43.0 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 247 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+**Current version:** v4.43.1 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 247 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
 
 **Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
@@ -86,7 +86,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** (pre-edit draft; see [book/](book/)) | [book/learning_with_ai_v4_43_0.pdf](book/learning_with_ai_v4_43_0.pdf) |
+| **Book PDF** (pre-edit draft; see [book/](book/)) | [book/learning_with_ai_v4_43_1.pdf](book/learning_with_ai_v4_43_1.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | [PDF](companion-papers/hyman2026next/hyman2026next.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026next/) |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | [PDF](companion-papers/hyman2026teaching/hyman2026teaching.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026teaching/) |
 | License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, [CHANGELOG.md](CHANGELOG.md), [ERRATA.md](ERRATA.md) |
@@ -124,7 +124,8 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v4.43.0 (current):** The two companion papers are now cited four times each rather than once, across the front matter and all three Parts, so a reader who wants the fuller argument can find it from wherever they are. Both will be posted to arXiv before publication.
+- **v4.43.1 (current):** A front-matter sentence said the repository holds two companion papers. A third is in preparation, so the book no longer states a number it does not control.
+- **v4.43.0:** The two companion papers are now cited four times each rather than once, across the front matter and all three Parts, so a reader who wants the fuller argument can find it from wherever they are. Both will be posted to arXiv before publication.
 - **v4.42.1:** Completes two changes that the previous release had only half made. The account-configuration template, which is the piece students copy into their AI settings and keep, now says that nothing in it makes the AI correct: every setting changes how the assistant responds, not what it knows. And the field-experiment figures, which appear in two places in the book, now agree with each other and with the source: the guardrailed tutor produced no exam loss and no exam gain. 247 pages, 120 references.
 - **v4.42.0:** Every example, figure, table and worked dialogue now states what the reader should take from it, rather than leaving the point to be inferred. Four figure captions were corrected against what the figures actually print: the opening figure claimed the triangle edges name the three failure modes when it carries no edge labels at all, and two diagrams had labels that had drifted off their edges or printed through them. A detailed reading by Warren MacEvoy of Colorado Mesa University then prompted a further round. The student guide now says that configuring an AI changes how it answers, not whether it is right, and that the tutors in the studies had the worked solutions loaded in advance while a student's configured assistant does not. The effect sizes from the field experiment now carry their scope, and the guardrailed arm is reported as producing no exam loss and no gain, which is what the source says. The student trilemma's third corner now names real understanding rather than its demonstration, matching the instructor's figure. Disclosure now covers work that produces no shareable transcript at all. 245 pages, 120 references.
 - **v4.40.0:** Every example, figure and table should tell the reader what to take from it; leaving the point to be inferred is treated as a defect. This release begins that pass. Four figure captions were corrected against what the figures actually print rather than against their own wording: the opening figure claimed the triangle edges name the three failure modes when that figure carries no edge labels at all, two trilemma diagrams had labels that drifted off their edges or printed through them, and a figure captioned "choosing the assignment color" now says category, which is the word the rest of the book uses. Takeaway lines were added to the three institutional tables that previously carried only a title, and to six of the eight worked dialogues, four of which had run one into the next with nothing said about any of them. 245 pages, 120 references.

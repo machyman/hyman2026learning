@@ -14,11 +14,7 @@ what skill means rather than eliminating skill.
 | File | What it is |
 |---|---|
 | [hyman2026next.pdf](hyman2026next.pdf) | Compiled paper, 10 pages |
-| [hyman2026next_v1_0.tex](hyman2026next_v1_0.tex) | Locked LaTeX source |
-| [hyman2026next.bib](hyman2026next.bib) | Bibliography, 23 entries |
-| [Delta_v2_to_v1_0.md](Delta_v2_to_v1_0.md) | Change summary for the v1.0 lock |
 
-Compile with `pdflatex`, `bibtex`, then `pdflatex` twice. Natbib backend, standard TeXLive.
 
-Fuller context, including what changed at the v1.0 lock, is in the
-[companion papers index](../).
+This paper will be posted to arXiv before the book is published; cite the arXiv version once it
+exists. Other papers are listed in the [companion papers index](../).

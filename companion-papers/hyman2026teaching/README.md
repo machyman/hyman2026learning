@@ -15,11 +15,7 @@ political grounds.
 | File | What it is |
 |---|---|
 | [hyman2026teaching.pdf](hyman2026teaching.pdf) | Compiled paper |
-| [hyman2026teaching_v1_0.tex](hyman2026teaching_v1_0.tex) | Locked LaTeX source |
-| [hyman2026teaching.bib](hyman2026teaching.bib) | Bibliography |
-| [Delta_v1_0.md](Delta_v1_0.md) | Change summary for the v1.0 lock |
 
-Compile with `pdflatex`, `bibtex`, then `pdflatex` twice. Natbib backend, standard TeXLive.
 
-Fuller context, including what changed at the v1.0 lock, is in the
-[companion papers index](../).
+This paper will be posted to arXiv before the book is published; cite the arXiv version once it
+exists. Other papers are listed in the [companion papers index](../).
