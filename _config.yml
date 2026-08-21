@@ -21,6 +21,27 @@ relative_links:
 # CONTRIBUTING.md, which github.com renders as a visible table on the repo page.
 include:
   - CONTRIBUTING.md
+# Every directory README must be listed for the same reason CONTRIBUTING.md is:
+# jekyll-optional-front-matter skips files named README, so without this they stay
+# static and no page is generated. Links to them then serve raw Markdown or 404.
+  - README.md
+  - book/README.md
+  - companion-papers/README.md
+  - companion-papers/hyman2026next/README.md
+  - companion-papers/hyman2026teaching/README.md
+  - companion/README.md
+  - companion/compact/README.md
+  - companion/course-case-study/README.md
+  - companion/dpp/README.md
+  - companion/instructor-capabilities/README.md
+  - companion/layered-explanation/README.md
+  - companion/spiral-problems/README.md
+  - companion/spp/README.md
+  - institutions/README.md
+  - instructors/README.md
+  - instructors/rubrics/README.md
+  - students/README.md
+  - students/study-sessions/README.md
 
 exclude:
   - LICENSE

@@ -11,6 +11,26 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 
 
 
+
+## v1.18.2 — 2026-08-20 — site link repair, no book change
+
+Carries book **v4.42.1** unchanged. This release fixes the rendered site, not the manuscript.
+
+**The two companion papers were not linked from anywhere.** They appeared in the front-page table as
+plain code text rather than as links, so a reader had a path to read and nothing to click. Both are
+now links.
+
+**Directory links did not resolve on the rendered site.** Fifty-four links across the site pointed at
+directories, and the site had no index page in any of them. On github.com a directory shows its
+README automatically; the published site has no such rule, so those links had nothing to serve. The
+site configuration already documented this problem for one file, `CONTRIBUTING.md`, and solved it
+there; the same fix is now applied to all eighteen directory READMEs, and the links point at those
+pages directly.
+
+Twelve of the paths printed in the book are directory paths of this kind. They resolve when a reader
+follows a link from the site, which is the normal route. **A directory path typed straight into the
+address bar may still not resolve**, and confirming that requires opening the published site.
+
 ## v1.18.1 — 2026-08-20 — book v4.42.1
 
 Carries book **v4.42.1**, 247 pages, 120 references, replacing v4.42.0.
@@ -442,8 +462,8 @@ release carries the book forward from v3.14.0 to v4.15.0 in one step. Nothing el
 The judgment release, prompted by a reader's question. The book already taught students to sense that a result is wrong before locating the error. This adds the harder direction: interrogating a result that is right.
 
 - **Book PDF updated to v3.14.0** (228 pages). Part I's verification section gains a paragraph on which assumption an answer actually depends on, using a statistical test as the example, since a test run on data that violates independence returns a number that looks exactly like a valid one. The verification checklist now asks which assumptions the answer rests on, not only whether they were identified.
-- **[companion/course-case-study/](companion/course-case-study/)**: two new questions in the worked numerical-analysis course. An essentiality question in the iterative-methods assignment, asking whether positive definiteness is essential or convenient and what the weakest sufficient condition is; and a counterfactual prediction in the computational project, asking students to predict what happens to the observed order of convergence when smoothness fails, then test it.
-- **[students/study-sessions/](students/study-sessions/)**: the statistics session now names the move it was already teaching. Having found the flaw in a causal claim, the student states what the conclusion rested on, and the session gives the reader the portable question: which assumption here is essential, and which is only convenient?
+- **[companion/course-case-study/](companion/course-case-study/README.md)**: two new questions in the worked numerical-analysis course. An essentiality question in the iterative-methods assignment, asking whether positive definiteness is essential or convenient and what the weakest sufficient condition is; and a counterfactual prediction in the computational project, asking students to predict what happens to the observed order of convergence when smoothness fails, then test it.
+- **[students/study-sessions/](students/study-sessions/README.md)**: the statistics session now names the move it was already teaching. Having found the flaw in a causal claim, the student states what the conclusion rested on, and the session gives the reader the portable question: which assumption here is essential, and which is only convenient?
 
 With thanks to Thomas Hou, whose question about mathematical taste prompted all three.
 
@@ -452,9 +472,9 @@ With thanks to Thomas Hou, whose question about mathematical taste prompted all 
 
 The adoption-infrastructure release. Three audiences in one push: instructors get the teaching-preparation guide the book now points to, students get a research on-ramp, and the book's third audience, departments and institutions, gets its folder.
 
-- **New: [companion/instructor-capabilities/](companion/instructor-capabilities/)**, a practical guide to AI for teaching preparation. For each capability: what the tool is good for, how to use it well, what a good result looks like, and how to obtain current ones. Most have free versions.
+- **New: [companion/instructor-capabilities/](companion/instructor-capabilities/README.md)**, a practical guide to AI for teaching preparation. For each capability: what the tool is good for, how to use it well, what a good result looks like, and how to obtain current ones. Most have free versions.
 - **New: [students/undergraduate-research.md](students/undergraduate-research.md)**, for an undergraduate starting a first mentored research project: an REU, an honors or senior thesis, a lab project, a first poster. It carries the Part I practices into the research setting and hands off to the book's appendix on ethical AI-assisted scientific writing when work heads toward a journal.
-- **New: [institutions/](institutions/)**, Part III's framework in paste-and-adapt form. The [departmental adoption kit](institutions/department-adoption-kit.md): a model policy statement, the shared vocabulary, the four assignment categories, and a one-semester rollout. The [policy self-audit](institutions/policy-self-audit.md): 32 checks marked institution, department, or gap, with benchmarks from published policy research. The [regulatory landscape note](institutions/regulatory-landscape.md): a dated, counsel-first orientation to where AI use crosses from policy into law, reviewed each semester.
+- **New: [institutions/](institutions/README.md)**, Part III's framework in paste-and-adapt form. The [departmental adoption kit](institutions/department-adoption-kit.md): a model policy statement, the shared vocabulary, the four assignment categories, and a one-semester rollout. The [policy self-audit](institutions/policy-self-audit.md): 32 checks marked institution, department, or gap, with benchmarks from published policy research. The [regulatory landscape note](institutions/regulatory-landscape.md): a dated, counsel-first orientation to where AI use crosses from policy into law, reviewed each semester.
 - **Book PDF updated to v3.13.0** (228 pages). A focused Part III update: regulation named as a governance category, the missing-middle finding cited, a date-and-cadence rule for policy, a procurement clause on the access risk, an empirical corroboration, and a pointer to the new research guide.
 - **README**: the chair path in "Find your path" now routes to `institutions/`; a new audience table lists the folder; the layered-explanation prompt and the worked course case study now appear in the materials tables.
 - **This changelog rebuilt**: release entries dual-label their book version, the missing v1.0.0 and v1.2.0 entries were written from the release record, and historical book-version entries carry a `Book` prefix.
@@ -466,8 +486,8 @@ The manuscript remains under review with SIAM Books; v3.12.1 is the version the 
 
 A refresh of the companion materials, with two new resources.
 
-- **New: [companion/layered-explanation/](companion/layered-explanation/)**, a template for getting AI to explain a difficult concept at three levels at once: an everyday analogy, your working level, and one step deeper. Paired with the new study move in Part I.
-- **New: [companion/course-case-study/](companion/course-case-study/)**, a first numerical-analysis course designed end to end with the book's framework. A syllabus AI policy, three representative assignments with their AI-use categories, an in-person exam, and the reasoning behind each choice. A response to instructors who asked to see how the pieces fit together into one design.
+- **New: [companion/layered-explanation/](companion/layered-explanation/README.md)**, a template for getting AI to explain a difficult concept at three levels at once: an everyday analogy, your working level, and one step deeper. Paired with the new study move in Part I.
+- **New: [companion/course-case-study/](companion/course-case-study/README.md)**, a first numerical-analysis course designed end to end with the book's framework. A syllabus AI policy, three representative assignments with their AI-use categories, an in-person exam, and the reasoning behind each choice. A response to instructors who asked to see how the pieces fit together into one design.
 - **Book PDF updated to v3.11.7** (228 pages), adding an exam-weight assessment model, a passage on mathematical judgment, and the author's own account of the recognition-production gap.
 - Repository README and errata updated to match.
 
@@ -487,9 +507,9 @@ The adoption release. The book now states how Part I reaches students, and the r
 
 The first archived release of the companion materials, and the start of the Zenodo DOI chain. These are the practical materials the book points readers to: protocols a student can paste into an AI tool, rubrics and assignment templates an instructor can adapt, policy language a department can start from. All of it is MIT licensed. Copy it, cut it, rename it, make it yours.
 
-- **[students/](students/)**: a pre-submission checklist, disclosure templates, guidance on sharing AI conversations, and worked study sessions in mathematics, physics, statistics, and computing.
-- **[instructors/](instructors/)**: assignment templates, assessment models, syllabus language, discipline overlays, a first-time guide, and the worked AI-as-Collaborator rubric with writing and coding variants.
-- **[companion/](companion/)**: the Study Partner Protocol, the Define Personal Preferences guide, and the student compact.
+- **[students/](students/README.md)**: a pre-submission checklist, disclosure templates, guidance on sharing AI conversations, and worked study sessions in mathematics, physics, statistics, and computing.
+- **[instructors/](instructors/README.md)**: assignment templates, assessment models, syllabus language, discipline overlays, a first-time guide, and the worked AI-as-Collaborator rubric with writing and coding variants.
+- **[companion/](companion/README.md)**: the Study Partner Protocol, the Define Personal Preferences guide, and the student compact.
 
 
 ## Book v3.8.1 (2026-07-11)
@@ -506,8 +526,8 @@ Integration of an external review cycle, plus several additions prompted by teac
 
 **New in this repository**
 
-- **[instructors/rubrics/](instructors/rubrics/)**: the worked AIC rubric from Part II, with variants for writing and coding courses.
-- **[companion/compact/](companion/compact/)**: the five-part student compact, printable and signable.
+- **[instructors/rubrics/](instructors/rubrics/README.md)**: the worked AIC rubric from Part II, with variants for writing and coding courses.
+- **[companion/compact/](companion/compact/README.md)**: the five-part student compact, printable and signable.
 - The Study Partner Protocol now holds the tutor to what the course has covered, and steps back to find where a student's understanding breaks before building up again.
 - Define Personal Preferences gains a course-scope setting.
 

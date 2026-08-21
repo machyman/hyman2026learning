@@ -4,7 +4,7 @@ Complete courses designed with the framework end to end: the design decision tha
 policy, the syllabus AI-use language, representative assignments with their categories, the exam, and
 the reasoning behind each choice.
 
-These extend the assignment templates and assessment models in [`instructors/`](../../instructors/),
+These extend the assignment templates and assessment models in [`instructors/`](../../instructors/README.md),
 which give the pieces separately. A case study shows the pieces fitting together into one coherent
 course.
 

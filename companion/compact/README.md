@@ -79,7 +79,7 @@ Copy the block below onto a single page. It is sized to print on US Letter or A4
 
 - Pre-submission checklist: [../../students/checklist.md](../../students/checklist.md)
 - Disclosure templates: [../../students/disclosure-templates.md](../../students/disclosure-templates.md)
-- Study Partner Protocol: [../spp/](../spp/)
-- Define Personal Preferences: [../dpp/](../dpp/)
+- Study Partner Protocol: [../spp/](../spp/README.md)
+- Define Personal Preferences: [../dpp/](../dpp/README.md)
 
 *From* Learning with AI: A Framework for Students, Instructors, and Universities *(Part I). Repository materials are MIT-licensed.*

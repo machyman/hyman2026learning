@@ -76,7 +76,7 @@ catches. A skeleton:
 > [what it deliberately postpones]. When you use an AI tutor, give it this paragraph.
 
 The last sentence is not decoration. The scope note does double duty: the
-[Study Partner Protocol](../companion/spp/) carries a matching scope field, so students paste your
+[Study Partner Protocol](../companion/spp/README.md) carries a matching scope field, so students paste your
 paragraph straight into their tutor setup and every student's AI holds the same boundary.
 
 ## 5. Grading: split one component, move nothing else
@@ -94,7 +94,7 @@ Two supporting lines worth adding:
 > presenting that evidence is treated as missing instruction, not missing ability. I will show you
 > a worked example before any are graded.
 
-The [assignment templates](assignment-templates.md) and [rubrics](rubrics/) grade the judgment
+The [assignment templates](assignment-templates.md) and [rubrics](rubrics/README.md) grade the judgment
 rather than the product; the [assessment models](assessment-models.md) give low-stakes ways to see
 unaided competence alongside the AI-permitted work.
 
@@ -124,8 +124,8 @@ attendance carrot available. Office hours are the human rung of the help ladder:
 Two schedule entries make the whole policy operational:
 
 - **Week 1:** students configure their AI tool once ([Define Personal
-  Preferences](../companion/dpp/)) and load the course scope note into the
-  [Study Partner Protocol](../companion/spp/).
+  Preferences](../companion/dpp/README.md)) and load the course scope note into the
+  [Study Partner Protocol](../companion/spp/README.md).
 - **The first AI-permitted assignment:** assign the matching student materials
   ([students/start-here.md](../students/start-here.md)) as the reading for that week. Students
   reliably meet this material when an instructor ties it to the first assignment that needs it,
