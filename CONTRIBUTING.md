@@ -14,8 +14,8 @@ In rough order of what the repository needs:
 
 - **Worked examples.** A study session, a course case study, a redesigned assignment. These are the
   materials the book points to and the ones readers actually use. See
-  [`students/study-sessions/`](students/study-sessions/README.md) and
-  [`companion/course-case-study/`](companion/course-case-study/README.md) for the shape.
+  [`students/study-sessions/`](students/study-sessions/) and
+  [`companion/course-case-study/`](companion/course-case-study/) for the shape.
 - **Tool-specific guidance.** The book is deliberately tool-agnostic because products change faster
   than print. This is where that material belongs, and where it can be revised when a tool changes.
 - **Corrections and clarifications** to anything already here.

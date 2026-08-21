@@ -182,8 +182,8 @@ off.
 
 - **From Part I of the book:** the Learning Spiral (try first, then verify) and the translation test (can
   you rebuild it as your own) carry straight into research.
-- **In this repository:** the [Study Partner Protocol](../companion/spp/README.md) and [Define Personal
-  Preferences](../companion/dpp/README.md) set up your tool; the [disclosure templates](disclosure-templates.md) and
+- **In this repository:** the [Study Partner Protocol](../companion/spp/) and [Define Personal
+  Preferences](../companion/dpp/) set up your tool; the [disclosure templates](disclosure-templates.md) and
   the [pre-submission checklist](checklist.md) help you finish honestly.
 - **For manuscript-grade work:** the book's appendix on ethical AI-assisted scientific writing is the
   standard for anything you submit to a journal.

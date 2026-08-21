@@ -21,28 +21,11 @@ relative_links:
 # CONTRIBUTING.md, which github.com renders as a visible table on the repo page.
 include:
   - CONTRIBUTING.md
-# Every directory README must be listed for the same reason CONTRIBUTING.md is:
-# jekyll-optional-front-matter skips files named README, so without this they stay
-# static and no page is generated. Links to them then serve raw Markdown or 404.
-  - README.md
-  - book/README.md
-  - companion-papers/README.md
-  - companion-papers/hyman2026next/README.md
-  - companion-papers/hyman2026teaching/README.md
-  - companion/README.md
-  - companion/compact/README.md
-  - companion/course-case-study/README.md
-  - companion/dpp/README.md
-  - companion/instructor-capabilities/README.md
-  - companion/layered-explanation/README.md
-  - companion/spiral-problems/README.md
-  - companion/spp/README.md
-  - institutions/README.md
-  - instructors/README.md
-  - instructors/rubrics/README.md
-  - students/README.md
-  - students/study-sessions/README.md
-
+# Directory READMEs are NOT listed here. That was tried on 2026-08-20 and did not produce working
+# pages: jekyll-optional-front-matter skips files named README and `include` does not override it.
+# Each directory README now carries YAML front matter with a permalink instead. A file with front
+# matter is a page unconditionally, no plugin involved, and the permalink puts it at the directory
+# URL, which is the form the book prints.
 exclude:
   - LICENSE
   - CITATION.cff

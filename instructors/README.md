@@ -1,3 +1,8 @@
+---
+title: For instructors
+permalink: /instructors/
+---
+
 # Instructor materials
 
 Companion materials for Part II of *Learning with AI: A Framework for Students, Instructors, and
@@ -15,11 +20,11 @@ and when** to decide which student materials to hand out and in what order.
 | [assessment-models.md](assessment-models.md) | Low-stakes ways to see unaided competence |
 | [briefings.md](briefings.md) | Three ready-to-use syllabus paragraphs: restrictive, default, permissive |
 | [syllabus-guide.md](syllabus-guide.md) | A section-by-section guide to making the whole syllabus AI-ready, beyond the policy paragraph |
-| [rubrics/](rubrics/README.md) | The worked AIC rubric from Part II, with writing and coding variants |
+| [rubrics/](rubrics/) | The worked AIC rubric from Part II, with writing and coding variants |
 | [faculty-faq.md](faculty-faq.md) | Short answers to common questions |
 
 A full course designed end to end with the framework is in
-[`companion/course-case-study/`](../companion/course-case-study/README.md). A guide to AI tools for teaching
-preparation is in [`companion/instructor-capabilities/`](../companion/instructor-capabilities/README.md).
+[`companion/course-case-study/`](../companion/course-case-study/). A guide to AI tools for teaching
+preparation is in [`companion/instructor-capabilities/`](../companion/instructor-capabilities/).
 
-Back to the [main page](../README.md).
+Back to the [main page](../).

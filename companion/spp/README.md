@@ -1,3 +1,8 @@
+---
+title: Student practice problems
+permalink: /companion/spp/
+---
+
 # Study Partner Protocol (SPP)
 
 A paste-in prompt that turns an AI assistant into a study partner, one that helps you learn the material rather than handing you finished work. It is the operational form of the "ask for help, not replacement" habit from Part I of *Learning with AI*.

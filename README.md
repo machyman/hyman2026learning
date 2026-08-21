@@ -6,7 +6,7 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-**Current version:** v4.42.1 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 247 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+**Current version:** v4.43.0 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 247 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
 
 **Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
@@ -18,9 +18,9 @@ This repository hosts practical materials that go with the book. Start with whic
 
 - **New to using AI for coursework?** Start with [students/start-here.md](students/start-here.md). It covers what these tools are good and bad for, the one rule worth keeping, and how to set up an AI study partner.
 - **Using AI to get answers, and want to learn instead?** Read [students/from-answers-to-learning.md](students/from-answers-to-learning.md). It is written for the switch from extracting answers to building understanding.
-- **Studying a STEM subject?** Work through the [students/study-sessions/](students/study-sessions/README.md) library: four worked sessions, in statistics, coding, physics, and mathematics, each showing a student using AI to study while keeping the thinking and the verification their own.
-- **Skeptical about these tools, and have never used one?** Read one of the [students/study-sessions/](students/study-sessions/README.md): they are annotated transcripts of a real study session, turn by turn, with a note after each move saying what to notice. You do not have to use AI to need to know what your students are doing with it.
-- **An instructor teaching with AI for the first time?** Start with [instructors/first-time-guide.md](instructors/first-time-guide.md), then use the rest of the [instructors/](instructors/README.md) toolkit: a worked course redesign, assignment templates, assessment models, ready syllabus language, and a faculty FAQ.
+- **Studying a STEM subject?** Work through the [students/study-sessions/](students/study-sessions/) library: four worked sessions, in statistics, coding, physics, and mathematics, each showing a student using AI to study while keeping the thinking and the verification their own.
+- **Skeptical about these tools, and have never used one?** Read one of the [students/study-sessions/](students/study-sessions/): they are annotated transcripts of a real study session, turn by turn, with a note after each move saying what to notice. You do not have to use AI to need to know what your students are doing with it.
+- **An instructor teaching with AI for the first time?** Start with [instructors/first-time-guide.md](instructors/first-time-guide.md), then use the rest of the [instructors/](instructors/) toolkit: a worked course redesign, assignment templates, assessment models, ready syllabus language, and a faculty FAQ.
 - **A department chair, dean, or administrator?** Start with the [departmental adoption kit](institutions/department-adoption-kit.md): a model policy statement, the shared vocabulary, and a one-semester rollout. Run the [policy self-audit](institutions/policy-self-audit.md) to see what your institution covers and what falls to you, and keep the [regulatory landscape note](institutions/regulatory-landscape.md) beside anything that touches proctoring, admissions, or automated grading. Part III of the book carries the full framework.
 
 ---
@@ -47,16 +47,16 @@ The book teaches the framework; this repository hosts the operational artifacts 
 | --- | --- |
 | **Start here**: orientation for a student new to using AI for coursework | [students/start-here.md](students/start-here.md) |
 | **From answers to learning**: the switch from extracting answers to building understanding | [students/from-answers-to-learning.md](students/from-answers-to-learning.md) |
-| **Study sessions**: four worked study sessions (statistics, coding, physics, mathematics) | [students/study-sessions/](students/study-sessions/README.md) |
+| **Study sessions**: four worked study sessions (statistics, coding, physics, mathematics) | [students/study-sessions/](students/study-sessions/) |
 | **Undergraduate research**: using AI in a first mentored research project (REU, thesis, lab, poster), and the on-ramp to the graduate standard | [students/undergraduate-research.md](students/undergraduate-research.md) |
-| **Study Partner Protocol (SPP)**: paste-in prompt that turns an assistant into a study partner | [companion/spp/](companion/spp/README.md) |
-| **Define Personal Preferences (DPP)**: walkthrough for configuring an AI tool's persistent settings | [companion/dpp/](companion/dpp/README.md) |
+| **Study Partner Protocol (SPP)**: paste-in prompt that turns an assistant into a study partner | [companion/spp/](companion/spp/) |
+| **Define Personal Preferences (DPP)**: walkthrough for configuring an AI tool's persistent settings | [companion/dpp/](companion/dpp/) |
 | **Sharing AI conversations**: how to share a read-only chat link with an instructor, by platform | [students/sharing-ai-conversations.md](students/sharing-ai-conversations.md) |
 | **Pre-submission checklist**: the student checklist from Part I | [students/checklist.md](students/checklist.md) |
 | **Disclosure templates**: short and fuller AI-use disclosure statements | [students/disclosure-templates.md](students/disclosure-templates.md) |
-| **Spiral problems**: a method for recasting single-answer problems so that working them runs the Learning Spiral, with worked before-and-after pairs from three disciplines | [companion/spiral-problems/](companion/spiral-problems/README.md) |
-| **The Student Compact**: the five-part compact from Part I, printable and signable | [companion/compact/](companion/compact/README.md) |
-| **Layered explanation**: a prompt that explains a hard concept at three levels at once, an everyday analogy, your working level, and one step deeper | [companion/layered-explanation/](companion/layered-explanation/README.md) |
+| **Spiral problems**: a method for recasting single-answer problems so that working them runs the Learning Spiral, with worked before-and-after pairs from three disciplines | [companion/spiral-problems/](companion/spiral-problems/) |
+| **The Student Compact**: the five-part compact from Part I, printable and signable | [companion/compact/](companion/compact/) |
+| **Layered explanation**: a prompt that explains a hard concept at three levels at once, an everyday analogy, your working level, and one step deeper | [companion/layered-explanation/](companion/layered-explanation/) |
 
 **For instructors**
 
@@ -65,14 +65,14 @@ The book teaches the framework; this repository hosts the operational artifacts 
 | **What to assign, and when**: the adoption quickstart, a one-page schedule for handing these materials to students | [instructors/what-to-assign.md](instructors/what-to-assign.md) |
 | **First-time guide**: orientation for an instructor new to teaching with AI | [instructors/first-time-guide.md](instructors/first-time-guide.md) |
 | **Semester redesign**: a worked example of redesigning one course for a term | [instructors/semester-redesign.md](instructors/semester-redesign.md) |
-| **Worked course case study**: a first numerical-analysis course designed end to end with the framework, with a syllabus AI policy, three assignments, an in-person exam, and the reasoning behind each choice | [companion/course-case-study/](companion/course-case-study/README.md) |
+| **Worked course case study**: a first numerical-analysis course designed end to end with the framework, with a syllabus AI policy, three assignments, an in-person exam, and the reasoning behind each choice | [companion/course-case-study/](companion/course-case-study/) |
 | **Assignment templates**: reusable patterns that grade the judgment, not the product | [instructors/assignment-templates.md](instructors/assignment-templates.md) |
 | **Assessment models**: low-stakes ways to see unaided competence | [instructors/assessment-models.md](instructors/assessment-models.md) |
 | **Syllabus briefings**: three ready-to-use syllabus paragraphs (restrictive / default / permissive) | [instructors/briefings.md](instructors/briefings.md) |
 | **Syllabus guide**: making the whole syllabus AI-ready, section by section, beyond the policy paragraph | [instructors/syllabus-guide.md](instructors/syllabus-guide.md) |
-| **Rubrics**: the worked AIC rubric from Part II, with writing and coding variants | [instructors/rubrics/](instructors/rubrics/README.md) |
+| **Rubrics**: the worked AIC rubric from Part II, with writing and coding variants | [instructors/rubrics/](instructors/rubrics/) |
 | **Faculty FAQ**: short answers to common questions | [instructors/faculty-faq.md](instructors/faculty-faq.md) |
-| **AI tools for teaching preparation**: a working guide to prep tools (what each is good for, how to use it well, what a good result looks like, and how to obtain current ones) | [companion/instructor-capabilities/](companion/instructor-capabilities/README.md) |
+| **AI tools for teaching preparation**: a working guide to prep tools (what each is good for, how to use it well, what a good result looks like, and how to obtain current ones) | [companion/instructor-capabilities/](companion/instructor-capabilities/) |
 
 **For departments and institutions**
 
@@ -86,9 +86,9 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** (pre-edit draft; see [book/README.md](book/README.md)) | [book/learning_with_ai_v4_42_1.pdf](book/learning_with_ai_v4_42_1.pdf) |
-| **Companion paper:** *AI and the Next Layer of Human Work* | [companion-papers/hyman2026next/README.md](companion-papers/hyman2026next/README.md) |
-| **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | [companion-papers/hyman2026teaching/README.md](companion-papers/hyman2026teaching/README.md) |
+| **Book PDF** (pre-edit draft; see [book/](book/)) | [book/learning_with_ai_v4_43_0.pdf](book/learning_with_ai_v4_43_0.pdf) |
+| **Companion paper:** *AI and the Next Layer of Human Work* | [PDF](companion-papers/hyman2026next/hyman2026next.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026next/) |
+| **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | [PDF](companion-papers/hyman2026teaching/hyman2026teaching.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026teaching/) |
 | License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, [CHANGELOG.md](CHANGELOG.md), [ERRATA.md](ERRATA.md) |
 
 All repository materials are released under the MIT license and may be freely used, adapted, translated, and redistributed with attribution. The book itself remains under SIAM copyright.
@@ -97,7 +97,7 @@ All repository materials are released under the MIT license and may be freely us
 
 ## How to use this material
 
-**Students**: read the Foreword and Part I, then set up your AI once with the DPP walkthrough ([companion/dpp/](companion/dpp/README.md)) and keep the SPP prompt ([companion/spp/](companion/spp/README.md)) handy. If you are new to this, [students/start-here.md](students/start-here.md) is the place to begin; if you have been using AI mainly to get answers, [students/from-answers-to-learning.md](students/from-answers-to-learning.md) is written for you. Use the checklist before submitting and the disclosure templates when your instructor asks.
+**Students**: read the Foreword and Part I, then set up your AI once with the DPP walkthrough ([companion/dpp/](companion/dpp/)) and keep the SPP prompt ([companion/spp/](companion/spp/)) handy. If you are new to this, [students/start-here.md](students/start-here.md) is the place to begin; if you have been using AI mainly to get answers, [students/from-answers-to-learning.md](students/from-answers-to-learning.md) is written for you. Use the checklist before submitting and the disclosure templates when your instructor asks.
 
 **Instructors**: read the Foreword and Part II, then start with [instructors/first-time-guide.md](instructors/first-time-guide.md) and work through the toolkit. Adapt one of the three syllabus briefings ([instructors/briefings.md](instructors/briefings.md)) to your course's AI policy, redesign a first assignment with the templates, and add one of the assessment models.
 
@@ -124,7 +124,8 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v4.42.1 (current):** Completes two changes that the previous release had only half made. The account-configuration template, which is the piece students copy into their AI settings and keep, now says that nothing in it makes the AI correct: every setting changes how the assistant responds, not what it knows. And the field-experiment figures, which appear in two places in the book, now agree with each other and with the source: the guardrailed tutor produced no exam loss and no exam gain. 247 pages, 120 references.
+- **v4.43.0 (current):** The two companion papers are now cited four times each rather than once, across the front matter and all three Parts, so a reader who wants the fuller argument can find it from wherever they are. Both will be posted to arXiv before publication.
+- **v4.42.1:** Completes two changes that the previous release had only half made. The account-configuration template, which is the piece students copy into their AI settings and keep, now says that nothing in it makes the AI correct: every setting changes how the assistant responds, not what it knows. And the field-experiment figures, which appear in two places in the book, now agree with each other and with the source: the guardrailed tutor produced no exam loss and no exam gain. 247 pages, 120 references.
 - **v4.42.0:** Every example, figure, table and worked dialogue now states what the reader should take from it, rather than leaving the point to be inferred. Four figure captions were corrected against what the figures actually print: the opening figure claimed the triangle edges name the three failure modes when it carries no edge labels at all, and two diagrams had labels that had drifted off their edges or printed through them. A detailed reading by Warren MacEvoy of Colorado Mesa University then prompted a further round. The student guide now says that configuring an AI changes how it answers, not whether it is right, and that the tutors in the studies had the worked solutions loaded in advance while a student's configured assistant does not. The effect sizes from the field experiment now carry their scope, and the guardrailed arm is reported as producing no exam loss and no gain, which is what the source says. The student trilemma's third corner now names real understanding rather than its demonstration, matching the instructor's figure. Disclosure now covers work that produces no shareable transcript at all. 245 pages, 120 references.
 - **v4.40.0:** Every example, figure and table should tell the reader what to take from it; leaving the point to be inferred is treated as a defect. This release begins that pass. Four figure captions were corrected against what the figures actually print rather than against their own wording: the opening figure claimed the triangle edges name the three failure modes when that figure carries no edge labels at all, two trilemma diagrams had labels that drifted off their edges or printed through them, and a figure captioned "choosing the assignment color" now says category, which is the word the rest of the book uses. Takeaway lines were added to the three institutional tables that previously carried only a title, and to six of the eight worked dialogues, four of which had run one into the next with nothing said about any of them. 245 pages, 120 references.
 - **v4.39.0:** One vocabulary now runs across all three Parts. Nine terms that appeared in more than one glossary had drifted apart, and the definitions are reconciled: a shared opening sentence in every glossary, with Part-specific detail after it. The most consequential was *disclosure*, where the student guide asked for a clear statement of how AI was used while the institutional framework required the tools, their contribution, and how the work was verified. A student following the student guide would have written a disclosure that fell short of the standard the same book sets. The academic-integrity procedure is now stated once in full, with the shorter versions elsewhere marked as summaries of it, after a check found that no version of the procedure contained all of the safeguards. The minimum independent-competence requirement now reads as a requirement in the framework itself, matching the appendices that had always stated it that way. 245 pages, 120 references.

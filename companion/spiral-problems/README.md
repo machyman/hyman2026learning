@@ -1,3 +1,8 @@
+---
+title: Spiral problems
+permalink: /companion/spiral-problems/
+---
+
 # Spiral problems
 
 *Recasting single-answer problems so that working them runs the Learning Spiral*

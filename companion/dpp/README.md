@@ -1,3 +1,8 @@
+---
+title: Disclosure practice problems
+permalink: /companion/dpp/
+---
+
 # Define Personal Preferences (DPP)
 
 A short walkthrough for configuring your AI tool's persistent settings the first time you use it. Most AI platforms let you set preferences (sometimes called custom instructions, system prompts, or memory) that apply to every conversation. Ten minutes here means every later conversation is pitched closer to your actual level and goals, and you keep a record of the use boundaries you have committed to.

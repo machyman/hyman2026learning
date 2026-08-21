@@ -150,19 +150,19 @@ to write it.
   all of this.
 - [What to assign, and when](../instructors/what-to-assign.md): the one-page adoption schedule, with a
   three-item minimum for faculty with no bandwidth.
-- [Assignment templates](../instructors/assignment-templates.md) and [rubrics](../instructors/rubrics/README.md):
+- [Assignment templates](../instructors/assignment-templates.md) and [rubrics](../instructors/rubrics/):
   ready AIC and AIS assignments with grading support.
 - [Assessment models](../instructors/assessment-models.md): checking understanding by course size.
 - [Faculty FAQ](../instructors/faculty-faq.md): short answers to the questions that come up in the
   department meeting.
 - [Semester redesign guide](../instructors/semester-redesign.md): for faculty ready to rework a course
   rather than patch it.
-- [A worked course case study](../companion/course-case-study/README.md): one course designed end to end with
+- [A worked course case study](../companion/course-case-study/): one course designed end to end with
   this framework, with the reasoning behind each choice.
 
 For students, the parallel set: [start here](../students/start-here.md), the
 [disclosure templates](../students/disclosure-templates.md), and the
-[student compact](../companion/compact/README.md), which some departments adopt as a shared signing document.
+[student compact](../companion/compact/), which some departments adopt as a shared signing document.
 
 ## Where this comes from
 

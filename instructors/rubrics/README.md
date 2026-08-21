@@ -1,3 +1,8 @@
+---
+title: Rubrics
+permalink: /instructors/rubrics/
+---
+
 # Rubrics for AI-permitted assignments
 
 Editable rubrics for the assignment categories in Part II of *Learning with AI*. The core rubric below is the worked example printed in the book. The variants adapt it to writing and coding courses without changing what it measures.

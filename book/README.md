@@ -1,16 +1,21 @@
+---
+title: The book
+permalink: /book/
+---
+
 # The book
 
 **Current version:** v4.42.1 &nbsp;·&nbsp; **Pages:** 247
 
 **`learning_with_ai_v4_42_1.pdf`** is the current working draft of *Learning with AI: A Framework for Students, Instructors, and Universities* (247 pages).
 
-The filename carries the draft version, so it changes with each refresh. If a link to an older filename fails, the current PDF is listed in the main [README](../README.md), which also records what changed in each version.
+The filename carries the draft version, so it changes with each refresh. If a link to an older filename fails, the current PDF is listed in the main [README](../), which also records what changed in each version.
 
 ## Please read this before relying on the PDF
 
 This is the **author's pre-edit draft**, posted here with SIAM's permission while the book is under review.
 
-**It will be withdrawn once SIAM begins copy-editing.** At that point the edited text becomes SIAM's, and this repository will link to the SIAM publisher page instead of hosting a PDF. If you are reading this and the PDF is gone, that is why, and the link you want is on the main [README](../README.md).
+**It will be withdrawn once SIAM begins copy-editing.** At that point the edited text becomes SIAM's, and this repository will link to the SIAM publisher page instead of hosting a PDF. If you are reading this and the PDF is gone, that is why, and the link you want is on the main [README](../).
 
 Two consequences worth knowing:
 

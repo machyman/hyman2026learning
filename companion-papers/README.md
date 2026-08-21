@@ -1,3 +1,8 @@
+---
+title: Companion papers
+permalink: /companion-papers/
+---
+
 # Companion Papers for *Learning with AI*
 
 Two companion position papers develop intellectual foundations the book draws on. Both are at their canonical **v1.0 lock state** (2026-05-25) and are included in this directory with source, bibliography, compiled PDF, and a Delta document.

@@ -1,3 +1,8 @@
+---
+title: Instructor capabilities
+permalink: /companion/instructor-capabilities/
+---
+
 # AI tools for teaching preparation
 
 *A companion working guide for* Learning with AI: A Framework for Students, Instructors, and Universities.

@@ -1,3 +1,8 @@
+---
+title: Teaching AI Responsibly to Principled Skeptics
+permalink: /companion-papers/hyman2026teaching/
+---
+
 # Teaching AI Responsibly to Principled Skeptics
 
 Companion position paper for *Learning with AI*, bibkey `hyman2026teaching`, at its v1.0 lock state
@@ -17,4 +22,4 @@ political grounds.
 Compile with `pdflatex`, `bibtex`, then `pdflatex` twice. Natbib backend, standard TeXLive.
 
 Fuller context, including what changed at the v1.0 lock, is in the
-[companion papers index](../README.md).
+[companion papers index](../).

@@ -1,10 +1,15 @@
+---
+title: Course case study
+permalink: /companion/course-case-study/
+---
+
 # Course case studies
 
 Complete courses designed with the framework end to end: the design decision that comes before any
 policy, the syllabus AI-use language, representative assignments with their categories, the exam, and
 the reasoning behind each choice.
 
-These extend the assignment templates and assessment models in [`instructors/`](../../instructors/README.md),
+These extend the assignment templates and assessment models in [`instructors/`](../../instructors/),
 which give the pieces separately. A case study shows the pieces fitting together into one coherent
 course.
 
@@ -24,4 +29,4 @@ of decisions transfers: decide what students must be able to do unaided before w
 label each assignment so its category is unambiguous, and make sure at least one assessment shows
 competence without AI.
 
-Back to the [companion index](../README.md).
+Back to the [companion index](../).

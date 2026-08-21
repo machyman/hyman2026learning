@@ -1,3 +1,8 @@
+---
+title: Layered explanation
+permalink: /companion/layered-explanation/
+---
+
 # The Layered-Explanation Prompt
 
 *A companion template for* Learning with AI: A Framework for Students, Instructors, and Universities.

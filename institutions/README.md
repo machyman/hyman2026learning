@@ -1,3 +1,8 @@
+---
+title: For institutions
+permalink: /institutions/
+---
+
 # Departmental and institutional materials
 
 Companion materials for Part III of *Learning with AI: A Framework for Students, Instructors, and
@@ -12,4 +17,4 @@ see what the institution already covers and what it does not.
 | [policy-self-audit.md](policy-self-audit.md) | Thirty-two checks across six dimensions, mapping what the institution covers, what the department covers, and the gaps, with benchmarks from published policy research |
 | [regulatory-landscape.md](regulatory-landscape.md) | A dated orientation to where AI use crosses from policy into law, reviewed each semester |
 
-Back to the [main page](../README.md).
+Back to the [main page](../).

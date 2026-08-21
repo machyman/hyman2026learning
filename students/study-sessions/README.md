@@ -1,3 +1,8 @@
+---
+title: Study sessions
+permalink: /students/study-sessions/
+---
+
 # Study sessions
 
 Worked study sessions that show a student running the Learning Spiral on a genuinely messy problem, with AI as a study partner rather than an answer machine. Each session annotates the moves: where the student keeps the thinking, asks for hints instead of answers, and checks the AI rather than trusting it.
