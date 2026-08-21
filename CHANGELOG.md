@@ -10,6 +10,27 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 
 
 
+
+## v1.18.1 — 2026-08-20 — book v4.42.1
+
+Carries book **v4.42.1**, 247 pages, 120 references, replacing v4.42.0.
+
+**Completes two changes the previous release had only half made.**
+
+The account-configuration template is the piece students copy into their AI settings and keep. Its
+section on uncertainty already told readers that asking the assistant to flag its own doubts does not
+remove the need to verify, which is the right instruction with no reason attached. It now carries the
+reason: nothing in the template makes the AI correct, every setting changes how it responds rather
+than what it knows, and a configured assistant is as confident when wrong as when right.
+
+The field-experiment figures appear in two places in the book, and only one had been corrected. For
+two releases the two passages disagreed about the same study. Both now report that the guardrailed
+tutor produced no exam loss **and no exam gain**, which is what the source says.
+
+Page count is 247 rather than 245. The added passage falls against a page break, and a second page
+follows because the next Part opens on a right-hand page. A shorter wording was tried and produced the
+same count.
+
 ## v1.18.0 — 2026-08-20 — book v4.42.0
 
 Carries book **v4.42.0**, 245 pages, 120 references, replacing v4.40.0.

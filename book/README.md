@@ -1,8 +1,8 @@
 # The book
 
-**Current version:** v4.42.0 &nbsp;·&nbsp; **Pages:** 245
+**Current version:** v4.42.1 &nbsp;·&nbsp; **Pages:** 247
 
-**`learning_with_ai_v4_42_0.pdf`** is the current working draft of *Learning with AI: A Framework for Students, Instructors, and Universities* (245 pages).
+**`learning_with_ai_v4_42_1.pdf`** is the current working draft of *Learning with AI: A Framework for Students, Instructors, and Universities* (247 pages).
 
 The filename carries the draft version, so it changes with each refresh. If a link to an older filename fails, the current PDF is listed in the main [README](../README.md), which also records what changed in each version.
 
