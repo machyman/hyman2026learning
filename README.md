@@ -6,7 +6,7 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-**Current version:** v4.43.1 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 247 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+**Current version:** v4.49.2 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 249 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
 
 **Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
@@ -86,7 +86,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** (pre-edit draft; see [book/](book/)) | [book/learning_with_ai_v4_43_1.pdf](book/learning_with_ai_v4_43_1.pdf) |
+| **Book PDF** (pre-edit draft; see [book/](book/)) | [book/learning_with_ai_v4_49_2.pdf](book/learning_with_ai_v4_49_2.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | [PDF](companion-papers/hyman2026next/hyman2026next.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026next/) |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | [PDF](companion-papers/hyman2026teaching/hyman2026teaching.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026teaching/) |
 | License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, [CHANGELOG.md](CHANGELOG.md), [ERRATA.md](ERRATA.md) |
@@ -124,7 +124,8 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v4.43.1 (current):** A front-matter sentence said the repository holds two companion papers. A third is in preparation, so the book no longer states a number it does not control.
+- **v4.49.2 (current):** Three corrections and one addition, all from reading cited sources at source rather than from memory. A sector figure attributed to EDUCAUSE did not appear anywhere in that study and has been replaced with three figures the study does report. A claim about what students want from their institutions cited nothing and now rests on the survey that measures it. The AAUP contingent-faculty figures understated the source, used a wider denominator than the source, and labelled as adjuncts a category the source defines more broadly. Part III gains the institution-size divide, which sharpens its argument: the departmental layer matters most where institutional capacity is thinnest. One preprint citation was updated to its published version. See [ERRATA.md](ERRATA.md). 249 pages, 122 references.
+- **v4.43.1:** A front-matter sentence said the repository holds two companion papers. A third is in preparation, so the book no longer states a number it does not control.
 - **v4.43.0:** The two companion papers are now cited four times each rather than once, across the front matter and all three Parts, so a reader who wants the fuller argument can find it from wherever they are. Both will be posted to arXiv before publication.
 - **v4.42.1:** Completes two changes that the previous release had only half made. The account-configuration template, which is the piece students copy into their AI settings and keep, now says that nothing in it makes the AI correct: every setting changes how the assistant responds, not what it knows. And the field-experiment figures, which appear in two places in the book, now agree with each other and with the source: the guardrailed tutor produced no exam loss and no exam gain. 247 pages, 120 references.
 - **v4.42.0:** Every example, figure, table and worked dialogue now states what the reader should take from it, rather than leaving the point to be inferred. Four figure captions were corrected against what the figures actually print: the opening figure claimed the triangle edges name the three failure modes when it carries no edge labels at all, and two diagrams had labels that had drifted off their edges or printed through them. A detailed reading by Warren MacEvoy of Colorado Mesa University then prompted a further round. The student guide now says that configuring an AI changes how it answers, not whether it is right, and that the tutors in the studies had the worked solutions loaded in advance while a student's configured assistant does not. The effect sizes from the field experiment now carry their scope, and the guardrailed arm is reported as producing no exam loss and no gain, which is what the source says. The student trilemma's third corner now names real understanding rather than its demonstration, matching the instructor's figure. Disclosure now covers work that produces no shareable transcript at all. 245 pages, 120 references.
