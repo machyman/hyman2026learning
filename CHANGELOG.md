@@ -16,7 +16,7 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 ## v1.20.0 — 2026-08-26 — the book catches up, and three cited sources are corrected against themselves
 
 **The repository was six book versions behind.** It served v4.43.1 at 247 pages while the manuscript had
-reached v4.49.2 at 249. Every printed path still resolved, so nothing was broken, but readers were
+reached v4.49.3 at 249. Every printed path still resolved, so nothing was broken, but readers were
 reading older text than the author was writing. The cadence is now every minor version.
 
 **Three corrections came from reading cited sources at source rather than trusting the record.** A sector
@@ -34,7 +34,12 @@ its argument: the departmental layer matters most where institutional capacity i
 the ACM* in June 2026; the entry now points at the journal version. This is recorded under Reference
 status notes in ERRATA.md, which exists for exactly this.
 
-Book PDF: `book/learning_with_ai_v4_49_2.pdf` (249 pages, 122 references). The previous file,
+Also in this release, ruled at S60: a positioning citation to the Instats Institutional AI Readiness
+Pack, a new Part I section on what students can expect from their institution, the
+fabrication-not-plagiarism classification sentence in the integrity procedure, and a citation for the AI
+Assessment Scale adoption figures. Two references added, 124 total.
+
+Book PDF: `book/learning_with_ai_v4_49_3.pdf` (249 pages, 122 references). The previous file,
 `learning_with_ai_v4_43_1.pdf`, is removed; the filename carries the version, so links to the old name
 will not resolve. The current file is always linked from the main README.
 

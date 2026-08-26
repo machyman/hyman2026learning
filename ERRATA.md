@@ -1,10 +1,10 @@
 # Errata
 
-Confirmed corrections to *Learning with AI*, listed with the version in which the error was identified. Four corrections were identified in v4.49.0 to v4.49.1 by reading cited sources at source; all are already applied in v4.49.2 and are listed here because readers of earlier drafts saw the uncorrected text.
+Confirmed corrections to *Learning with AI*, listed with the version in which the error was identified. Four corrections were identified in v4.49.0 to v4.49.1 by reading cited sources at source; all are already applied in v4.49.3 and are listed here because readers of earlier drafts saw the uncorrected text.
 
 ## How to report a correction
 
-Use the [feedback form](FEEDBACK.md) (no account needed) or, on GitHub, open a [correction issue](https://github.com/machyman/hyman2026learning/issues/new/choose). Please include the page number and the version, which appears in the PDF filename (for example, `learning_with_ai_v4_49_2.pdf`). The draft's title page carries a build date rather than a version.
+Use the [feedback form](FEEDBACK.md) (no account needed) or, on GitHub, open a [correction issue](https://github.com/machyman/hyman2026learning/issues/new/choose). Please include the page number and the version, which appears in the PDF filename (for example, `learning_with_ai_v4_49_3.pdf`). The draft's title page carries a build date rather than a version.
 
 ## Confirmed corrections
 
