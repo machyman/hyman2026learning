@@ -13,6 +13,30 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 
 
 
+## v1.21.0 — 2026-08-27 — a dead cross-reference is repaired, the teaching paper reaches v1.7.0, and the self-audit gains the adoption-evidence table
+
+**One reader-visible defect is repaired.** Since v4.49.3, Section 6.5 of Part I ("What you can expect
+from your institution") pointed its cross-reference at an internal label that does not exist, and print
+page 64 read "Part ??" where it should read "Part III". One token, found at build verification; the
+warning had been sitting in the compile log. Listed in [ERRATA.md](ERRATA.md). Book PDF:
+`book/learning_with_ai_v4_49_4.pdf` (249 pages, 124 references). The previous file,
+`learning_with_ai_v4_49_3.pdf`, is removed; the filename carries the version, so links to the old name
+will not resolve. The current file is always linked from the main README.
+
+**The teaching companion paper advances to v1.7.0.** The abstract now leads with the formation
+precondition, and the paper cites Weinreich (2026) in both the faculty and administrator sections. The
+served filename is unversioned (`hyman2026teaching.pdf`), so the replacement is in place; the folder
+README records the version.
+
+**The departmental self-audit gains the adoption-evidence table**, ruled at S60 as Z4 and deliberately
+placed repo-side at zero book pages: the book's ten commitments, each paired with the artifact that
+shows it is real rather than claimed. It turns the artifact-per-indicator standard of the Instats
+Institutional AI Readiness Pack on the book's own framework.
+
+**A correction to the v1.20.0 entry below.** Its book-PDF line said "122 references" two paragraphs
+after correctly counting 124, and the main README carried the same stale figure. Both now read 124.
+
+
 ## v1.20.0 — 2026-08-26 — the book catches up, and three cited sources are corrected against themselves
 
 **The repository was six book versions behind.** It served v4.43.1 at 247 pages while the manuscript had
@@ -39,7 +63,7 @@ Pack, a new Part I section on what students can expect from their institution, t
 fabrication-not-plagiarism classification sentence in the integrity procedure, and a citation for the AI
 Assessment Scale adoption figures. Two references added, 124 total.
 
-Book PDF: `book/learning_with_ai_v4_49_3.pdf` (249 pages, 122 references). The previous file,
+Book PDF: `book/learning_with_ai_v4_49_3.pdf` (249 pages, 124 references). The previous file,
 `learning_with_ai_v4_43_1.pdf`, is removed; the filename carries the version, so links to the old name
 will not resolve. The current file is always linked from the main README.
 

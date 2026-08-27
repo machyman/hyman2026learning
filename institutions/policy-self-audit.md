@@ -138,6 +138,25 @@ and 2025; the useful comparison after that is not against them but against your 
 
 ---
 
+## Auditing your adoption of the book's commitments
+
+The six dimensions above audit a tool. This section audits an implementation: the book's ten
+commitments (the one-page adoption summary, Section 17.6.8), each paired with the artifact that would
+satisfy a skeptical auditor. A commitment without an artifact is a belief, not a practice.
+
+1. Teach students to use AI without surrendering their own thinking. **Artifact:** a named place in the curriculum where the habits of Part I are taught, not a link in a syllabus.
+2. Require every course to state its AI-use rules. **Artifact:** the category declared in every syllabus, checkable by reading them.
+3. Preserve meaningful assessment of independent competence. **Artifact:** the no-AI components named in each course's assessment plan, with their grade weight.
+4. Treat AI literacy as an educational outcome. **Artifact:** the outcome stated in a course description, workshop, or orientation a student can point to.
+5. Require verification of AI-assisted work. **Artifact:** the verification step written into assignment instructions or rubrics, not assumed.
+6. Normalize brief, factual disclosure by students and faculty. **Artifact:** the disclosure template in use, and a faculty example on file.
+7. Protect privacy, access, and equity. **Artifact:** the approved-tool list with its data terms, and a no-cost route to every tool recommended for coursework.
+8. Never treat detector output as sole or primary evidence. **Artifact:** the integrity procedure's written evidentiary standard, not a practice claim.
+9. Support faculty with templates, training, and TA calibration. **Artifact:** the templates in the shared drive, the training on the calendar, the calibration session on the term schedule.
+10. Review policies regularly as tools and practices change. **Artifact:** the review's calendar entry and the dated policy version it produced.
+
+---
+
 *Part of the companion repository for* Learning with AI: A Framework for Students, Instructors, and
 Universities *(James M. Hyman, SIAM Books). Benchmarks: J. LaFrance, "Governing Generative Artificial
 Intelligence," Educational Policy (2026); A. Papadimitriou, webinar presentation, Global Higher Ed

@@ -5,12 +5,12 @@ permalink: /companion-papers/hyman2026teaching/
 
 # Teaching AI Responsibly to Principled Skeptics
 
-Companion position paper for *Learning with AI*, bibkey `hyman2026teaching`, at its v1.0 lock state
-(2026-05-25).
+Companion position paper for *Learning with AI*, bibkey `hyman2026teaching`, at v1.7.0 (2026-08-26).
 
 It develops the principled-skepticism framework the book introduces in Part I, including the
 five-layer literacy framework and the case for principled refusal on environmental, ethical, or
-political grounds.
+political grounds. v1.7.0 leads the abstract with the formation precondition and cites Weinreich
+(2026) in both the faculty and administrator sections.
 
 | File | What it is |
 |---|---|
