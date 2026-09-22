@@ -13,6 +13,29 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 
 
 
+## v1.22.0 — 2026-09-22 — a third companion paper is deposited, and the instructor toolkit gains the Next-Move Memo and the grading-agreement check
+
+**A third companion paper, *Learning to Create with AI: Disciplines for Deep Learning, Critical Inquiry, and
+Creative Thought*, is deposited** at `companion-papers/hyman2026creative/`, on the same pattern as the other two: the
+compiled PDF (23 pages, dated September 2026, built 2026-09-20 against book v5.1.2) and a folder page describing it.
+The paper adapts six disciplines for creative learning to a generative-AI environment, adds a navigation layer for
+choosing the next move once inquiry branches, and separates assisted creative performance from learned creativity.
+It uses the book's own vocabulary and assignment categories rather than a competing framework. The book's citation
+key for it is `hyman2026creative`; the citation enters the book at its next version. The companion papers index
+gains one row, and its arXiv sentence now covers each paper rather than "both existing papers." The PDFs-only policy
+of v1.19.0 stands: no source is published here.
+
+**The instructor toolkit gains two materials.** [instructors/next-move-memo.md](instructors/next-move-memo.md)
+turns the paper's six-row Next-Move Memo into an assignment template, with the cadence, what AI may and may not
+do, what to grade, four mentoring questions, and a copy-paste form.
+[instructors/grading-agreement-check/](instructors/grading-agreement-check/) is the working form behind Part II's
+conditions for AI-assisted grading: the record to keep, the sample comparison, and a workbook in which every number
+is a formula: quadratic weighted kappa against the instructor and against a second grader, and the disagreements by
+rubric row and by student group. Its example scores are made up and say so.
+
+**The book PDF in this repository is unchanged** at `book/learning_with_ai_v4_49_4.pdf`.
+
+
 ## v1.21.0 — 2026-08-27 — a dead cross-reference is repaired, the teaching paper reaches v1.7.0, and the self-audit gains the adoption-evidence table
 
 **One reader-visible defect is repaired.** Since v4.49.3, Section 6.5 of Part I ("What you can expect
