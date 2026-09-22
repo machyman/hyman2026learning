@@ -71,6 +71,8 @@ The book teaches the framework; this repository hosts the operational artifacts 
 | **Syllabus briefings**: three ready-to-use syllabus paragraphs (restrictive / default / permissive) | [instructors/briefings.md](instructors/briefings.md) |
 | **Syllabus guide**: making the whole syllabus AI-ready, section by section, beyond the policy paragraph | [instructors/syllabus-guide.md](instructors/syllabus-guide.md) |
 | **Rubrics**: the worked AIC rubric from Part II, with writing and coding variants | [instructors/rubrics/](instructors/rubrics/) |
+| **Grading-agreement check**: before an AI tool scores student work, the record, the sample comparison, and a workbook for the three measures | [instructors/grading-agreement-check/](instructors/grading-agreement-check/) |
+| **Next-Move Memo**: a six-row memo that makes research judgment visible in project work | [instructors/next-move-memo.md](instructors/next-move-memo.md) |
 | **Faculty FAQ**: short answers to common questions | [instructors/faculty-faq.md](instructors/faculty-faq.md) |
 | **AI tools for teaching preparation**: a working guide to prep tools (what each is good for, how to use it well, what a good result looks like, and how to obtain current ones) | [companion/instructor-capabilities/](companion/instructor-capabilities/) |
 
@@ -89,6 +91,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 | **Book PDF** (pre-edit draft; see [book/](book/)) | [book/learning_with_ai_v4_49_4.pdf](book/learning_with_ai_v4_49_4.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | [PDF](companion-papers/hyman2026next/hyman2026next.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026next/) |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | [PDF](companion-papers/hyman2026teaching/hyman2026teaching.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026teaching/) |
+| **Companion paper:** *Learning to Create with AI* | [PDF](companion-papers/hyman2026creative/hyman2026creative.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026creative/) |
 | License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, [CHANGELOG.md](CHANGELOG.md), [ERRATA.md](ERRATA.md) |
 
 All repository materials are released under the MIT license and may be freely used, adapted, translated, and redistributed with attribution. The book itself remains under SIAM copyright.

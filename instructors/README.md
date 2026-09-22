@@ -21,6 +21,8 @@ and when** to decide which student materials to hand out and in what order.
 | [briefings.md](briefings.md) | Three ready-to-use syllabus paragraphs: restrictive, default, permissive |
 | [syllabus-guide.md](syllabus-guide.md) | A section-by-section guide to making the whole syllabus AI-ready, beyond the policy paragraph |
 | [rubrics/](rubrics/) | The worked AIC rubric from Part II, with writing and coding variants |
+| [grading-agreement-check/](grading-agreement-check/) | Before an AI tool scores student work: the record to keep, the sample comparison, and a workbook that computes the three agreement measures |
+| [next-move-memo.md](next-move-memo.md) | A six-row memo that makes research judgment visible in project work, from the companion paper *Learning to Create with AI* |
 | [faculty-faq.md](faculty-faq.md) | Short answers to common questions |
 
 A full course designed end to end with the framework is in
