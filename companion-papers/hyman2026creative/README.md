@@ -6,8 +6,8 @@ permalink: /companion-papers/hyman2026creative/
 # Learning to Create with AI
 
 Companion position paper for *Learning with AI*, bibkey `hyman2026creative`, dated September 2026
-(built 2026-09-20 against book v5.1.2). Full title: *Learning to Create with AI: Disciplines for Deep
-Learning, Critical Inquiry, and Creative Thought*.
+(built 2026-09-20 against book v5.1.2; revised 2026-09-22). Full title: *Learning to Create with AI:
+Disciplines for Deep Learning, Critical Inquiry, and Creative Thought*.
 
 It extends the book's Learning Spiral to creative inquiry. Six disciplines for deep learning, critical
 inquiry, and inventive thought are adapted to an environment where a fluent generative system is
