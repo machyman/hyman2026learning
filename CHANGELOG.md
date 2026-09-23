@@ -18,6 +18,10 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 **A third companion paper, *Learning to Create with AI: Disciplines for Deep Learning, Critical Inquiry, and
 Creative Thought*, is deposited** at `companion-papers/hyman2026creative/`, on the same pattern as the other two: the
 compiled PDF (23 pages, dated September 2026, built 2026-09-20 against book v5.1.2) and a folder page describing it.
+The deposited PDF was revised on 2026-09-22, before this release: seven references regain their capitals, the video
+transcript and the book entries are corrected, and seven wording corrections align the paper with the book and with
+its sources. The largest corrects the account of Cheng and colleagues, whose participants trusted sycophantic AI more,
+not less.
 The paper adapts six disciplines for creative learning to a generative-AI environment, adds a navigation layer for
 choosing the next move once inquiry branches, and separates assisted creative performance from learned creativity.
 It uses the book's own vocabulary and assignment categories rather than a competing framework. The book's citation
