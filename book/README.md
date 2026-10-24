@@ -1,14 +1,27 @@
-# The Book
+---
+title: The book
+permalink: /book/
+---
 
-*Foundations and Pitfalls in Epidemic Modeling: An Introduction to Formulating, Analyzing, and Fitting Models*
-— James M. Hyman, Zhuolin Qu, and Ling Xue.
+# The book
 
-**Status: under review with Springer** (Interdisciplinary Applied Mathematics series).
+**Current version:** v4.49.4 &nbsp;·&nbsp; **Pages:** 249
 
-With Springer's permission, the current pre-publication draft is posted for comment in
-[`../docs/`](../docs/): the PDF, [`hyman2026avoiding_v2_108_2.pdf`](../docs/hyman2026avoiding_v2_108_2.pdf),
-and the [claim audit ledger](../docs/AUDIT_LEDGER_v2_108_2.md). The draft is not the published book. When
-the book is published it will be available from Springer, and a link will be added here.
+**`learning_with_ai_v4_49_4.pdf`** is the current working draft of *Learning with AI: A Framework for Students, Instructors, and Universities* (249 pages).
 
-Comments and corrections on the draft are welcome through the repository's
-[issue tracker](https://github.com/machyman/hyman2026avoiding/issues/new/choose).
+The filename carries the draft version, so it changes with each refresh. If a link to an older filename fails, the current PDF is listed in the main [README](../), which also records what changed in each version.
+
+## Please read this before relying on the PDF
+
+This is the **author's pre-edit draft**, posted here with SIAM's permission while the book is under review.
+
+**It will be withdrawn once SIAM begins copy-editing.** At that point the edited text becomes SIAM's, and this repository will link to the SIAM publisher page instead of hosting a PDF. If you are reading this and the PDF is gone, that is why, and the link you want is on the main [README](../).
+
+Two consequences worth knowing:
+
+- **Cite the book, not this file.** Page numbers in this draft will not survive editing. Use `CITATION.cff` in the repository root, or the BibTeX entry in the main README.
+- **The companion materials are different.** Everything else in this repository is MIT-licensed and stays. Only the book PDF is subject to SIAM copyright and to this condition.
+
+## Found an error?
+
+Corrections to the book are collected rather than edited directly, and confirmed ones are carried into the next edition. See [FEEDBACK.md](../FEEDBACK.md) and [ERRATA.md](../ERRATA.md).
