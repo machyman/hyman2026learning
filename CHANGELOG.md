@@ -1,700 +1,140 @@
 # Changelog
 
-Notable changes to the *Learning with AI* book and its companion repository. Most recent first.
-
-**Two version lines run through this file.** Repository releases are numbered `v1.x.y`, and each one is
-archived with its own Zenodo DOI. That is the number to cite. The book has a separate version line,
-`v4.x.y`, and every release states which book version it carries. Entries below the v1.0.0 release of
-2026-07-11 predate the archived releases and are labeled by book version.
-
-
-
-
-
-
-
-## v1.22.0 — 2026-09-22 — a third companion paper is deposited, and the instructor toolkit gains the Next-Move Memo and the grading-agreement check
-
-**A third companion paper, *Learning to Create with AI: Disciplines for Deep Learning, Critical Inquiry, and
-Creative Thought*, is deposited** at `companion-papers/hyman2026creative/`, on the same pattern as the other two: the
-compiled PDF (23 pages, dated September 2026, built 2026-09-20 against book v5.1.2) and a folder page describing it.
-The deposited PDF was revised on 2026-09-22, before this release: seven references regain their capitals, the video
-transcript and the book entries are corrected, and seven wording corrections align the paper with the book and with
-its sources. The largest corrects the account of Cheng and colleagues, whose participants trusted sycophantic AI more,
-not less.
-The paper adapts six disciplines for creative learning to a generative-AI environment, adds a navigation layer for
-choosing the next move once inquiry branches, and separates assisted creative performance from learned creativity.
-It uses the book's own vocabulary and assignment categories rather than a competing framework. The book's citation
-key for it is `hyman2026creative`; the citation enters the book at its next version. The companion papers index
-gains one row, and its arXiv sentence now covers each paper rather than "both existing papers." The PDFs-only policy
-of v1.19.0 stands: no source is published here.
-
-**The instructor toolkit gains two materials.** [instructors/next-move-memo.md](instructors/next-move-memo.md)
-turns the paper's six-row Next-Move Memo into an assignment template, with the cadence, what AI may and may not
-do, what to grade, four mentoring questions, and a copy-paste form.
-[instructors/grading-agreement-check/](instructors/grading-agreement-check/) is the working form behind Part II's
-conditions for AI-assisted grading: the record to keep, the sample comparison, and a workbook in which every number
-is a formula: quadratic weighted kappa against the instructor and against a second grader, and the disagreements by
-rubric row and by student group. Its example scores are made up and say so.
-
-**The book PDF in this repository is unchanged** at `book/learning_with_ai_v4_49_4.pdf`.
-
-
-## v1.21.0 — 2026-08-27 — a dead cross-reference is repaired, the teaching paper reaches v1.7.0, and the self-audit gains the adoption-evidence table
-
-**One reader-visible defect is repaired.** Since v4.49.3, Section 6.5 of Part I ("What you can expect
-from your institution") pointed its cross-reference at an internal label that does not exist, and print
-page 64 read "Part ??" where it should read "Part III". One token, found at build verification; the
-warning had been sitting in the compile log. Listed in [ERRATA.md](ERRATA.md). Book PDF:
-`book/learning_with_ai_v4_49_4.pdf` (249 pages, 124 references). The previous file,
-`learning_with_ai_v4_49_3.pdf`, is removed; the filename carries the version, so links to the old name
-will not resolve. The current file is always linked from the main README.
-
-**The teaching companion paper advances to v1.7.0.** The abstract now leads with the formation
-precondition, and the paper cites Weinreich (2026) in both the faculty and administrator sections. The
-served filename is unversioned (`hyman2026teaching.pdf`), so the replacement is in place; the folder
-README records the version.
-
-**The departmental self-audit gains the adoption-evidence table**, ruled at S60 as Z4 and deliberately
-placed repo-side at zero book pages: the book's ten commitments, each paired with the artifact that
-shows it is real rather than claimed. It turns the artifact-per-indicator standard of the Instats
-Institutional AI Readiness Pack on the book's own framework.
-
-**A correction to the v1.20.0 entry below.** Its book-PDF line said "122 references" two paragraphs
-after correctly counting 124, and the main README carried the same stale figure. Both now read 124.
-
-
-## v1.20.0 — 2026-08-26 — the book catches up, and three cited sources are corrected against themselves
-
-**The repository was six book versions behind.** It served v4.43.1 at 247 pages while the manuscript had
-reached v4.49.3 at 249. Every printed path still resolved, so nothing was broken, but readers were
-reading older text than the author was writing. The cadence is now every minor version.
-
-**Three corrections came from reading cited sources at source rather than trusting the record.** A sector
-figure credited to the 2025 EDUCAUSE AI Landscape Study appears nowhere in that study; it is replaced with
-three figures the study does report. A claim about what students want from their institutions cited
-nothing and now rests on the one survey that measures demand rather than usage. The AAUP
-contingent-faculty figures understated the source, counted against a wider denominator than the source
-uses, and labelled as adjuncts a category the source defines to include part-time lecturers and graduate
-student employees. All three are listed in [ERRATA.md](ERRATA.md).
-
-**One addition.** Part III now carries the institution-size divide, which sharpens rather than decorates
-its argument: the departmental layer matters most where institutional capacity is thinnest.
-
-**One citation caught up with its source.** A preprint the book cites was published in *Communications of
-the ACM* in June 2026; the entry now points at the journal version. This is recorded under Reference
-status notes in ERRATA.md, which exists for exactly this.
-
-Also in this release, ruled at S60: a positioning citation to the Instats Institutional AI Readiness
-Pack, a new Part I section on what students can expect from their institution, the
-fabrication-not-plagiarism classification sentence in the integrity procedure, and a citation for the AI
-Assessment Scale adoption figures. Two references added, 124 total.
-
-Book PDF: `book/learning_with_ai_v4_49_3.pdf` (249 pages, 124 references). The previous file,
-`learning_with_ai_v4_43_1.pdf`, is removed; the filename carries the version, so links to the old name
-will not resolve. The current file is always linked from the main README.
-
-
-## v1.19.0 — 2026-08-20 — the site can serve a directory address, and companion papers are PDFs only
-
-**No address ending in a folder name could be opened on this site.** Seventeen folders each held a
-README and none held an index page. On github.com a folder shows its README automatically; a published
-site has no such rule. **Twelve of the paths printed in the book are folder addresses**, and they would
-have failed permanently once the book was in print.
-
-Every folder README now carries a short header naming the page and the address it answers to, which
-makes it a real page at that address. An earlier attempt the same day listed the READMEs in the site
-configuration instead; that did not work, and the configuration now records why.
-
-**The two companion papers are reachable again**, offering the PDF directly and the folder. They had
-been shown as plain text rather than links.
-
-**Their LaTeX source, bibliographies and internal revision notes have been withdrawn.** Each folder now
-holds the PDF and a description. They were the only source files here; the book's own source is not
-published in this repository, so keeping theirs was an inconsistency. Both papers will be posted to
-arXiv before the book is published, and arXiv will be the single version to cite. The revision notes
-were internal handoff documents written for the author.
-
-**The companion papers index has been rewritten** so adding a paper is a one-row change, and it lists
-work in preparation: *Designing STEM Textbooks for Readers Who Have AI*.
-
-**Book updated to v4.43.1**, in which the companion papers are cited four times each rather than once,
-and a sentence stating that the repository holds two of them has been removed, since a printed count
-would have been wrong once a third exists.
-
-## v1.18.1 — 2026-08-20 — book v4.42.1
-
-Carries book **v4.42.1**, 247 pages, 120 references, replacing v4.42.0.
-
-**Completes two changes the previous release had only half made.**
-
-The account-configuration template is the piece students copy into their AI settings and keep. Its
-section on uncertainty already told readers that asking the assistant to flag its own doubts does not
-remove the need to verify, which is the right instruction with no reason attached. It now carries the
-reason: nothing in the template makes the AI correct, every setting changes how it responds rather
-than what it knows, and a configured assistant is as confident when wrong as when right.
-
-The field-experiment figures appear in two places in the book, and only one had been corrected. For
-two releases the two passages disagreed about the same study. Both now report that the guardrailed
-tutor produced no exam loss **and no exam gain**, which is what the source says.
-
-Page count is 247 rather than 245. The added passage falls against a page break, and a second page
-follows because the next Part opens on a right-hand page. A shorter wording was tried and produced the
-same count.
-
-## v1.18.0 — 2026-08-20 — book v4.42.0
-
-Carries book **v4.42.0**, 245 pages, 120 references, replacing v4.40.0.
-
-**Every example, figure, table and worked dialogue now states its point.** Leaving the reader to infer
-what an example is for is treated as a defect. Four figure captions were corrected against what the
-figures actually print rather than against their own wording, which is a different check: the opening
-figure claimed the triangle edges name the three failure modes, and that figure carries no edge labels
-at all. Two trilemma diagrams had labels that had drifted off the edges they name, and in one the label
-printed through the line. Takeaway lines were added to the three institutional tables that had only a
-title, and to the worked dialogues, four of which had run one into the next with nothing said about any
-of them.
-
-**A detailed reading by Warren MacEvoy of Colorado Mesa University prompted a second round**, and eight
-findings from it are in this release.
-
-The student guide now says plainly that configuring an AI changes how it answers, not whether it is
-right. The tutors in the studies behind the book had the solution to each problem loaded into their
-prompts, along with the mistakes teachers said students commonly make; a student configuring a general
-assistant has neither, which is why verification stands in for the answer key rather than being
-diligence for its own sake.
-
-The effect sizes from the field experiment now carry their scope: three randomly assigned groups in one
-secondary-mathematics setting, to be read as evidence for a pattern rather than as numbers that will
-reproduce. The guardrailed arm is now reported as producing no exam loss **and no gain**, which is what
-the source says and what the previous wording invited readers to misread.
-
-The student trilemma's third corner now names real understanding rather than its demonstration, which
-matches the instructor's figure and the book's own argument that performance and competence have come
-apart. Disclosure now covers work that produces no shareable transcript, where a person steers an
-automated process over many cycles. The distinction between proof-based and computational work again
-explains what it changes about AI use. *Calibration error*, a defined term used throughout the book,
-now appears in all three glossaries and in the index. And the evidence table's untested rows now name
-what would test them, so a department that adopts the framework and records the answers has run the
-first study of it.
-
-## v1.17.0 — 2026-08-19 — book v4.40.0
-
-Carries book **v4.40.0**, 245 pages, 120 references, replacing v4.39.0.
-
-**Every example, figure and table should say what to take from it.** Leaving the point to be inferred
-is treated as a defect, and this release begins that pass through the book and these materials.
-
-**Four figure captions were corrected against what the figures actually print**, rather than against
-their own wording. The opening figure claimed the triangle edges name the three failure modes; that
-figure has no edge labels at all, and the claim had survived every draft because the caption was
-checked as text and never against the rendered page. Two trilemma diagrams had edge labels that had
-drifted off their edges, and in one the label printed through the line it sat on; both now compute
-their label positions from the edges themselves, as the one correct diagram already did. A figure
-captioned "choosing the assignment color" now says category, which is the word the rest of the book
-uses.
-
-**Takeaway lines were added** to the three institutional tables that previously carried only a title,
-and to six of the eight worked dialogues, four of which had run one into the next with nothing said
-about any of them.
-
-**The four study sessions here now close with a single line naming the framework step** they
-illustrate, in place of a closing paragraph. The physics session also now says, at the point the
-student first guesses "about half", why half is the sensible guess: the same push has to move twice
-the cart. A professional editor reading a summary of that session could not follow where half came
-from, which is how the gap was found.
-
-## v1.16.0 — 2026-08-19 — book v4.39.0
-
-Carries book **v4.39.0**, 245 pages, 120 references, replacing v4.31.0.
-
-**One vocabulary across all three Parts.** The book defines its terms in three glossaries, one per
-Part. Nine terms appearing in more than one of them had drifted apart. Every shared term now opens
-with the same sentence in every glossary; Part-specific detail follows it rather than replacing it.
-
-The one that mattered most was *disclosure*. The student guide asked for a clear statement of how AI
-was used; the institutional framework required the tools used, what they contributed, and how the
-student verified the result. A student following the student guide would have written a disclosure
-that fell short of the standard set elsewhere in the same book. The three-component definition now
-appears in all three Parts, including the instructor guide, which had not defined the term at all.
-
-**The academic-integrity procedure is stated once in full.** It appeared in three places at differing
-lengths. A check found that no version contained all of the safeguards the others did: the step that
-asks an instructor to identify a specific concern rather than a general suspicion appeared only in
-the shortest version, and the step that records the concern, the evidence, the student's response and
-the decision appeared only in the longest. The full procedure is now given once, and the shorter
-versions are marked as summaries of it and keep both of those steps.
-
-**Minimum independent competence now reads as a requirement.** The section carried that word in its
-title while its text recommended rather than required, and the appendices had always stated it as a
-requirement. The framework and the appendices now agree.
-
-**A contents-page defect was corrected**, where a Part title had grown long enough that its page
-number printed against the last word with no space.
-
-Prompted in part by a detailed reading from Joshua Agbomola, whose notes on the appendix count, the
-contents entry, and consistency between the Parts are reflected above.
-
-## v1.15.0 (2026-08-13, book v4.31.0)
-
-Refreshes the public book PDF to v4.31.0, and records a link repair that reached the site on
-2026-08-13 without a release entry of its own.
-
-**The book.** The appendix on ethical AI-assisted scientific writing now states one standard in both
-places it appears. Its pre-submission checklist asked each author to declare they understand every
-equation and analysis in the paper; the appendix text three pages earlier said the opposite, that on
-a multi-author paper the work divides and no single author need hold the whole. The appendix text
-was rewritten to the collective standard in an earlier revision and the checklist was never brought
-along. The checklist now asks what each author answers for and who answers for the rest, and asks
-each author to accept that a question raised about any part of the paper will be investigated and
-resolved.
-
-The standard itself is now stated against the ICMJE recommendations on authorship, which divide
-contribution the same way the appendix does while keeping each author's duty to see questions
-resolved undivided. Both halves are cited, because the divided half alone would be a partial reading
-of the source.
-
-The appendix also now opens by saying plainly what it had only implied at its close: AI-assisted
-work is held to the ordinary standard of scholarly work, and what the tool changes is how hard a
-lapse is to see, which is why the appendix asks for disclosure and verification rather than for a
-different standard.
-
-239 pages, 115 references, both unchanged.
-
-**The link repair, released here after the fact.** The `how to contribute` link on the rendered site
-resolved to `CONTRIBUTING.md` and returned the file unrendered, while its neighbour on the same
-README line, `how to give feedback`, rendered correctly. GitHub Pages runs
-`jekyll-optional-front-matter`, which deliberately skips a fixed list of meta files, `README`,
-`CONTRIBUTING`, `CODE_OF_CONDUCT`, `LICENSE`, so a skipped file stays a static file and
-`jekyll-relative-links` leaves links to it unrewritten. `FEEDBACK.md`, `ERRATA.md`, `FAQ.md`, and
-`CHANGELOG.md` are not on that list, so they became pages and their links rewrote to `.html`. This
-was the only affected link in the repository; no link points at `LICENSE` or `CITATION.cff`, both of
-which the site config excludes. Contributing means opening an issue or a pull request, so the link
-now points at the repository copy rather than the rendered copy, and an absolute URL is unaffected
-by the link-rewriting plugin either way.
-
-That change was pushed on 2026-08-13 and this file did not record it. The entry appears here rather
-than as its own release, because a release whose only content is a note about a change already live
-is a worse record than one entry naming both.
-
-**Files.**
-
-- `book/learning_with_ai_v4_31_0.pdf` is new; `book/learning_with_ai_v4_30_17.pdf` is removed, and no
-  older PDF remains in `book/`.
-- `README.md` and `book/README.md` state the current version.
-- `ERRATA.md` referred to v4.29.0 in its status line and in its reporting example, two versions after
-  the repository had moved on; both now read v4.31.0. No erratum was added or removed.
-
-## v1.14.0 (2026-08-11, book v4.30.17)
-
-Refreshes the public book PDF to v4.30.17 and corrects the front page to match.
-
-The v4.29.0 PDF staged in v1.12.0 was never uploaded, so this release supersedes that refresh
-directly: the public PDF moves from v4.23.8 to v4.30.17 in one step. Since v4.29.0 the book gained
-paragraphs in both guides teaching the presentation of evidence of thinking, a pairing of the two
-Chapter 4 endpoint prompts into a reusable frame (specify before, audit after), opening questions
-and in-place exercises in Part I, examiner-consistency guidance for the oral-defense model, two
-chapter epigraphs, and two acknowledgments. 239 pages, 115 references.
-
-- `book/learning_with_ai_v4_30_17.pdf` is new; no older PDF remains in `book/`.
-- `README.md` front matter, PDF link, and version history updated; `book/README.md` version and
-  page count updated.
-
-## v1.13.0 (2026-08-11, book v4.29.0)
-
-Adds one instructor artifact. No book PDF change; this release carries the same book build as
-v1.12.0.
-
-- New: `instructors/syllabus-guide.md`, a section-by-section guide to making a whole syllabus
-  AI-ready. The syllabus briefings supply the AI policy paragraph; this guide covers the other
-  syllabus sections AI touches, opens with a collision check for inherited template language that
-  contradicts an AI policy, and adds the section most templates lack entirely: a line disclosing
-  the instructor's own AI use.
-- `instructors/README.md` and the front-page instructor table gain a linked row for the new guide.
-
-## v1.12.0 (2026-08-06, book v4.29.0)
-
-Refreshes the book PDF and corrects three claims this repository was making about it.
-
-The book itself changed in four ways since v4.23.8. Every place where text ran past the margin is
-fixed: ten tables, the bibliography URLs, and a running head that overran on two pages. A
-bibliography entry that rendered broken is repaired. Sixteen bibliography entries stopped printing
-the author's internal working notes to readers. The front matter now routes each reader by naming
-the problem they arrived with rather than by Part number.
-
-Three corrections in this repository:
-
-- `CONTRIBUTING.md` protected seventeen printed paths while the book prints twenty-three. Six were
-  unprotected, including two files a contributor could have renamed in good faith. All
-  twenty-three are now listed.
-- `book/README.md` stated the page count as 238. The book is 237, and was 233 at v4.23.8.
-- `ERRATA.md` asked readers to report the version from the title page. The draft's title page
-  carries a build date rather than a version, so it now asks for the version in the PDF filename.
-
-`book/learning_with_ai_v4_23_8.pdf` is removed in the same commit.
-
-## v1.11.0 (2026-08-03, book v4.23.8)
-
-Adds an instructor page on writing problems that run the Learning Spiral, finalizes the contribution
-timing policy, and refreshes the book from v4.23.3 to v4.23.8.
-
-**New: spiral problems.**
-
-- `companion/spiral-problems/` carries the recast as a method any course can run: keep the task, open
-  with a commitment, write the ask in, add a second road to the answer, close by opening, and fit the
-  order to the problem. Worked before-and-after pairs from a writing course, a data course, and a
-  first-year lab, a six-question test read as your weakest student would read it, and a twelve-move
-  repertoire of next questions in the Polya tradition. The book states the principle in Part II; this
-  page carries the range one example cannot.
-- Listed in `companion/README.md` and on the front page beside the other companion materials.
-
-**Contribution policy finalized.**
-
-- The timing clause in `CONTRIBUTING.md` is settled: until the book is published, contributions that
-  change one of the printed paths are held on a branch and merged after publication; everything else
-  merges normally. The editorial comment carrying the alternatives is removed.
-- The printed-path list grows from fifteen entries to seventeen, adding `students/study-sessions/` and
-  `companion/spiral-problems/`, which the book began printing at v4.23.3 and v4.23.7.
-
-**Book changes carried by this release.**
-
-- Part II gained a section on writing a problem so that working it runs the Learning Spiral, with the
-  follow-up questions built into the problem statement rather than left to the student's discipline.
-- The preface says where the practical, tool-specific material lives, which is this repository.
-- Privacy guidance moved to the point where a student is first asked to upload course material.
-- Scope notes now name what a course is for as well as what it has covered, because a tool can answer
-  from the middle of a discipline rather than from the position a course occupies inside it.
-- The instructor guide points to the appendix on ethical AI-assisted writing and to the study
-  sessions; the student guide points to the math-specific quick reference.
-- Four reviewers were added to the acknowledgments, and the section now opens by saying what it is
-  for.
-
-Bibliography 110 entries. Index 286 entries. 233 pages.
-
----
-
-## v1.10.0 (2026-08-03, book v4.23.3)
-
-Acts on reviewer feedback about course scope, and refreshes the book from v4.23.2 to v4.23.3.
-
-**Course scope now has two dimensions, in the prompts and in the book.**
-
-A tutor that stays inside what a course has covered can still answer from the middle of a discipline
-rather than from the position the course occupies inside it. Asked whether a small symmetric matrix is
-positive definite, a tool reaches for the determinant test every textbook leads with, which is correct
-and is not what a course in applied or computational methods wants. Nothing has been skipped, so no
-existing guard fires.
-
-- The **Study Partner Protocol** gained a rule: when more than one correct method would work, prefer
-  the one the course would use, and ask what the course is for if the student has not said. Its scope
-  rule now also asks for the syllabus rather than waiting to be told, which had been advice in the
-  notes below the prompt rather than part of the prompt itself.
-- The **Define Personal Preferences** walkthrough carries the same dimension in its course-scope
-  setting.
-
-**Navigation.**
-
-- A new entry point for readers who are skeptical about these tools and have never used one, pointing
-  at the study sessions. They are annotated transcripts, and you do not have to use AI to need to know
-  what your students are doing with it.
-
-**Book changes carried by this release.**
-
-- The instructor guide now points to `students/study-sessions/`.
-- The scope-note section covers the disciplinary dimension as well as the temporal one.
-
-Bibliography 109 entries. Index 285 entries. 233 pages.
-
----
-
-## v1.9.0 (2026-08-03, book v4.23.2)
-
-Refreshes the book from v4.22.4 to v4.23.2, adds contributor guidance, and gives the two companion
-papers their own index pages.
-
-**New: how to contribute.**
-
-- `CONTRIBUTING.md` sets out what is most useful to add, the two conventions this repository follows,
-  and the fifteen paths the book prints, which cannot be renamed once the book is in print. Reporting
-  an error in the book itself still goes through [FEEDBACK.md](FEEDBACK.md).
-
-**Navigation.**
-
-- `companion-papers/hyman2026next/` and `companion-papers/hyman2026teaching/` now have index pages, so
-  a link to either directory resolves. The papers themselves are unchanged.
-
-**Book changes carried by this release.**
-
-- Part II gained a section on writing a problem so that working it runs the Learning Spiral, with the
-  follow-up questions built into the problem statement rather than left to the student's discipline.
-- The preface now says where the practical, tool-specific material lives, which is this repository.
-- Privacy guidance moved to the point where a student is first asked to upload course material.
-- The instructor guide now points to the appendix on ethical AI-assisted writing, and the student
-  guide to the math-specific quick reference.
-- Two reviewers were added to the acknowledgments, and the section now opens by saying what it is for.
-
-Bibliography 109 entries. Index 284 entries. 233 pages.
-
----
-
-## v1.8.0 (2026-07-31, book v4.22.4)
-
-Fixes six broken links on the companion site and refreshes the book PDF from v4.21.2 to v4.22.4.
-
-**Broken links fixed.**
-
-- **The worked course case study now opens.** The file was always present and correct. It is named
-  `numerical-analysis.md` inside `companion/course-case-study/`, and the site links to the directory,
-  which had no index page to serve. The directory now has a `README.md` index, following the pattern
-  `students/study-sessions/` already uses: the index lists the examples and each example keeps its own
-  descriptive filename. **`numerical-analysis.md` is unchanged and stays**, so a second case study can
-  be added beside it without restructuring.
-- **The four top-level directories gained index pages.** `students/`, `instructors/`, `institutions/`,
-  and `companion/` had no `README.md`, so links to the directories themselves did not resolve. Each now
-  lists what it contains, with a one-line description per item.
-
-**Book changes carried by this release.**
-
-- The opening was restructured so the book reaches its first chapter two pages sooner. The
-  AI-disclosure statement moved from the front matter to an appendix, and two passages that previewed
-  Part I moved into Part I.
-- Every term appearing in both of the book's glossaries now has a single definition, used identically
-  in the body and in both glossaries.
-- Four terms that were used throughout but never defined in the body now carry definitions where a
-  reader first meets them.
-- Smaller corrections: an acknowledgment count, three printed repository paths, and section naming in
-  Part III.
-
-Bibliography 109 entries. Index 281 entries. 233 pages.
-
----
-
-## v1.7.0 (2026-07-31, book v4.21.2)
-
-Refreshes the book PDF from v4.17.2 to v4.21.2, five book versions, and corrects two things in this
-repository's own documentation.
-
-**Book changes carried by this release.**
-
-- **Front matter trimmed** from 25 pages to 17, moving Chapter 1 eight pages earlier and the book from
-  238 pages to 230. Body page numbers were unaffected.
-- **Two experiential passages in Part I**, one on what AI can carry so that capacity stays available for
-  the work no tool does, and one tracing how a request for help becomes a request for output.
-- **The sycophancy evidence upgraded** from a policy document to the *Science* research article it
-  describes, with a finding on why asking an AI to be neutral does not produce neutrality.
-- **An adoption on-ramp for instructors**, framing the three moves that change a course without adopting
-  a full assessment model as a starting point rather than a concession, with a three-term path to a model.
-- **The `institutions/` materials made reachable.** The book printed nine repository paths and none under
-  `institutions/`, so the departmental adoption kit, the policy self-audit, and the regulatory landscape
-  note were live here and unreachable from the text.
-- **Three printed paths gained their `.md` extensions**, so every repository path the book prints now
-  resolves as printed.
-
-**Repository changes.**
-
-- `README.md` CAT expansion corrected to the book's canonical wording, "Core Competence, AI-assisted
-  Practice, and Trustworthiness". It had read "Core / AI-assisted / Trustworthy".
-- `README.md` and `ERRATA.md` patched to v4.21.2, 231 pages.
-- `book/learning_with_ai_v4_17_2.pdf` replaced by `book/learning_with_ai_v4_21_2.pdf`.
-
-Bibliography 107 to 109 entries. Index 264 to 275 entries.
-
----
-
-## v1.6.0 (2026-07-29, book v4.17.2)
-
-A correctness release. The v1.5.0 PDF carried seven wrong page numbers in its front matter, and this
-release replaces it.
-
-- **Book PDF updated to v4.17.2** (238 pages, unchanged in length from v4.15.0).
-- **Seven front-matter page numbers corrected.** Six entries in the table of contents and one in the
-  list of tables pointed at the wrong pages. The cause was a build that ran one typesetting pass short,
-  so index output shifted pagination after the front matter had already been written. Every draft from
-  v4.13.1 through v4.17.0 carried the fault, including the v4.15.0 PDF in release v1.5.0. Body text was
-  never affected and the page count was never wrong. If you were navigating Chapter 9 by the table of
-  contents in the previous PDF, that is why the pages did not match.
-- **Two bibliography entries were printing internal editorial notes.** Verification annotations had been
-  written into a field the bibliography style prints rather than one it ignores. Moved. Reader-facing
-  bibliographic detail was kept.
-- **One acknowledgment sentence tightened.** No change of substance.
-- **Book content otherwise carried forward** from v4.15.0 through v4.16.0, v4.17.0, v4.17.1 and v4.17.2:
-  student buy-in evidence in Chapter 8, a named coupling mechanism in the Preface, a narrowed Part II
-  forward pointer, and reviewer acknowledgments. See the version history in the README.
-
-Nothing else in the repository changes. The companion materials are unaffected.
-
-## v1.5.0 (2026-07-29, book v4.15.0)
-
-The catch-up release. The repository PDF had fallen four major versions behind the manuscript, so this
-release carries the book forward from v3.14.0 to v4.15.0 in one step. Nothing else in the repository changes.
-
-- **Book PDF updated to v4.15.0** (238 pages, up from 228). The largest single change is in the
-  scientific-writing appendix, where verification moved from an individual standard to a collective one:
-  authors hold responsibility together, each essential part has a qualified owner, and no single author needs
-  to understand the whole. The hard floor stays, which is that no essential part goes unowned.
-- **Citation accuracy.** Every flagship empirical claim was checked against its primary source. Twenty claims
-  were narrowed to what their sources actually support, and eleven were corrected outright where the book had
-  described a finding the study did not report.
-- **New evidence and framing.** The book now positions its four assignment categories against the AI
-  Assessment Scale, carries an evidence-status table and a departmental self-study, explains why AI produces
-  confident errors rather than only that it does, and answers a published argument that assessment reform
-  belongs at the level of disciplinary societies rather than departments.
-- **Part II.** An automation-bias passage opens the assessment-models chapter, and a seeded-error check joins
-  the instruments.
-- **Part III.** A reviewer response on faculty paid by the course: where attendance is unpaid time, the
-  artifacts have to carry the whole load.
-- **Index rebuilt**, 221 entries to 262. A senior reviewer asked four questions the book already answered and
-  could not find the answers, because the index was built on the author's vocabulary rather than on the
-  questions readers arrive with. Entries now cover the problem a recommendation solves, not only the name of
-  the solution.
-
-## v1.4.0 (2026-07-19, book v3.14.0)
-
-The judgment release, prompted by a reader's question. The book already taught students to sense that a result is wrong before locating the error. This adds the harder direction: interrogating a result that is right.
-
-- **Book PDF updated to v3.14.0** (228 pages). Part I's verification section gains a paragraph on which assumption an answer actually depends on, using a statistical test as the example, since a test run on data that violates independence returns a number that looks exactly like a valid one. The verification checklist now asks which assumptions the answer rests on, not only whether they were identified.
-- **[companion/course-case-study/](companion/course-case-study/)**: two new questions in the worked numerical-analysis course. An essentiality question in the iterative-methods assignment, asking whether positive definiteness is essential or convenient and what the weakest sufficient condition is; and a counterfactual prediction in the computational project, asking students to predict what happens to the observed order of convergence when smoothness fails, then test it.
-- **[students/study-sessions/](students/study-sessions/)**: the statistics session now names the move it was already teaching. Having found the flaw in a causal claim, the student states what the conclusion rested on, and the session gives the reader the portable question: which assumption here is essential, and which is only convenient?
-
-With thanks to Thomas Hou, whose question about mathematical taste prompted all three.
-
-
-## v1.3.0 (2026-07-18, book v3.13.0)
-
-The adoption-infrastructure release. Three audiences in one push: instructors get the teaching-preparation guide the book now points to, students get a research on-ramp, and the book's third audience, departments and institutions, gets its folder.
-
-- **New: [companion/instructor-capabilities/](companion/instructor-capabilities/)**, a practical guide to AI for teaching preparation. For each capability: what the tool is good for, how to use it well, what a good result looks like, and how to obtain current ones. Most have free versions.
-- **New: [students/undergraduate-research.md](students/undergraduate-research.md)**, for an undergraduate starting a first mentored research project: an REU, an honors or senior thesis, a lab project, a first poster. It carries the Part I practices into the research setting and hands off to the book's appendix on ethical AI-assisted scientific writing when work heads toward a journal.
-- **New: [institutions/](institutions/)**, Part III's framework in paste-and-adapt form. The [departmental adoption kit](institutions/department-adoption-kit.md): a model policy statement, the shared vocabulary, the four assignment categories, and a one-semester rollout. The [policy self-audit](institutions/policy-self-audit.md): 32 checks marked institution, department, or gap, with benchmarks from published policy research. The [regulatory landscape note](institutions/regulatory-landscape.md): a dated, counsel-first orientation to where AI use crosses from policy into law, reviewed each semester.
-- **Book PDF updated to v3.13.0** (228 pages). A focused Part III update: regulation named as a governance category, the missing-middle finding cited, a date-and-cadence rule for policy, a procurement clause on the access risk, an empirical corroboration, and a pointer to the new research guide.
-- **README**: the chair path in "Find your path" now routes to `institutions/`; a new audience table lists the folder; the layered-explanation prompt and the worked course case study now appear in the materials tables.
-- **This changelog rebuilt**: release entries dual-label their book version, the missing v1.0.0 and v1.2.0 entries were written from the release record, and historical book-version entries carry a `Book` prefix.
-
-The manuscript remains under review with SIAM Books; v3.12.1 is the version the reviewers hold.
-
-
-## v1.2.0 (2026-07-17, book v3.11.7)
-
-A refresh of the companion materials, with two new resources.
-
-- **New: [companion/layered-explanation/](companion/layered-explanation/)**, a template for getting AI to explain a difficult concept at three levels at once: an everyday analogy, your working level, and one step deeper. Paired with the new study move in Part I.
-- **New: [companion/course-case-study/](companion/course-case-study/)**, a first numerical-analysis course designed end to end with the book's framework. A syllabus AI policy, three representative assignments with their AI-use categories, an in-person exam, and the reasoning behind each choice. A response to instructors who asked to see how the pieces fit together into one design.
-- **Book PDF updated to v3.11.7** (228 pages), adding an exam-weight assessment model, a passage on mathematical judgment, and the author's own account of the recognition-production gap.
-- Repository README and errata updated to match.
-
-
-## v1.1.0 (2026-07-13, book v3.10.1)
-
-The adoption release. The book now states how Part I reaches students, and the repository hands instructors the schedule for doing it.
-
-- **New: [instructors/what-to-assign.md](instructors/what-to-assign.md)**, the adoption quickstart. A one-page schedule of what to hand students and when, with a three-item minimum for instructors with no bandwidth.
-- **Learning Spiral alignment.** The four study sessions now use the book's canonical step names: `Work independently` and `Verify` replace `Work it` and `Check the AI`. The physics session was restructured so the student works the momentum calculation themselves before checking the AI's energy answer. Step names in `start-here.md` and `from-answers-to-learning.md` aligned.
-- **first-time-guide.md** now links all seven instructor materials; the stale "planned materials" paragraph is gone.
-- **Book PDF updated to v3.10.1** (228 pages). Part II states the distribution model and points to the assignment schedule; two UNESCO figure captions repaired; acknowledgments correction.
-- **Cleanup:** em-dashes removed from companion-papers metadata per the manuscript prose standards.
-
-
-## v1.0.0 (2026-07-11)
-
-The first archived release of the companion materials, and the start of the Zenodo DOI chain. These are the practical materials the book points readers to: protocols a student can paste into an AI tool, rubrics and assignment templates an instructor can adapt, policy language a department can start from. All of it is MIT licensed. Copy it, cut it, rename it, make it yours.
-
-- **[students/](students/)**: a pre-submission checklist, disclosure templates, guidance on sharing AI conversations, and worked study sessions in mathematics, physics, statistics, and computing.
-- **[instructors/](instructors/)**: assignment templates, assessment models, syllabus language, discipline overlays, a first-time guide, and the worked AI-as-Collaborator rubric with writing and coding variants.
-- **[companion/](companion/)**: the Study Partner Protocol, the Define Personal Preferences guide, and the student compact.
-
-
-## Book v3.8.1 (2026-07-11)
-
-Integration of an external review cycle, plus several additions prompted by teachers and students.
-
-**New material in the book**
-
-- **Keeping an AI tutor inside your course.** AI tutors reach for the most efficient method they know, which is often one the course has not taught yet. The book now shows students how to give the tutor a map (the syllabus or table of contents) and a pin (where the class is now), and shows instructors how a one-line scope note on an assignment does the job more reliably.
-- **Office hours as a lost early-warning signal.** When students take their questions to a chatbot, instructors lose the informal read on who is struggling. The book now names this and argues for building the signal into the course rather than waiting for the office to fill.
-- **Student buy-in.** Assignment design protects the will to learn but cannot create it, and productive struggle only happens where being wrong feels safe.
-- **Persistence erosion.** A fourth learning-science mechanism: after brief AI use, people not only perform worse once the tool is removed, they also give up sooner.
-- **Backward diagnosis.** Good help sometimes goes backward before it goes forward. If a hint keeps missing, the idea underneath may be the problem.
-
-**New in this repository**
-
-- **[instructors/rubrics/](instructors/rubrics/)**: the worked AIC rubric from Part II, with variants for writing and coding courses.
-- **[companion/compact/](companion/compact/)**: the five-part student compact, printable and signable.
-- The Study Partner Protocol now holds the tutor to what the course has covered, and steps back to find where a student's understanding breaks before building up again.
-- Define Personal Preferences gains a course-scope setting.
-
-**Corrections and clarity**
-
-- Three citations retargeted to the source that actually documents the claim; two cross-references pointed at the sections that define their terms.
-- The appendices are now numbered sections and appear in the table of contents, so they can be navigated and cited.
-- The three core framework terms are now defined in identical words everywhere they appear, so a syllabus or policy can quote them verbatim.
-- Each Part's glossary now includes the terms that Part coins.
-- Repeated passages consolidated to a single full telling with pointers.
-
-224 pages.
-
-## Book v3.2.2 (2026-07-03)
-
-- Broadening pass for a general STEM audience: removed gratuitous math jargon from two general-purpose checklists ("differentiate your integral" became "reach the same result by a second method"; "lemma or theorem" became "an established result"). Length-neutral; other flagged passages were already discipline-diverse and left unchanged.
-
-## Book v3.2.1 (2026-07-03)
-
-- Finalized the Preface genesis: named the sensitivity-analysis textbook written with Leon Arriola, and rewrote the passage in first person to match the Acknowledgments.
-
-## Book v3.2.0 (2026-07-01)
-
-- Added a new Preface subsection, "How this book began," telling the book's genesis: writing a textbook with Leon Arriola and realizing it ignored the AI tools students already use alongside their books, then discovering how little guidance existed on learning and teaching with AI. Presented as a hybrid with the graduate-mathematics origin, which now distinguishes the framework's origin from the book's.
-
-## Book v3.1.1 (2026-07-01)
-
-- Added Svetlana Barkanova (Memorial University of Newfoundland) to the Acknowledgments, crediting her feedback that broadened the detector-fairness argument beyond language to neurodiversity.
-
-## Book v3.1.0 (2026-07-01)
-
-- Integrated reviewer feedback (Svetlana Barkanova, Memorial University of Newfoundland). Defined the assignment-category acronyms (NAI, AIT, AIC, AIS) at first use in the abstract, disclosure paragraph, and figure caption.
-- Added a paragraph on neurodiversity and detector fairness to the academic-integrity discussion: the same detection mechanism that flags non-native writers also exposes autistic and neurodivergent students, and the risk extends to automated proctoring and behavior analytics.
-- Cross-referenced the companion study-sessions from the verification section so students can find worked examples.
-- Content audit clean: all object counts identical to v3.0.1; 222 pages.
-
-## Book v3.0.1 (2026-06-30)
-
-- Converted the book to the official SIAM book format (SIAMbook2023 class, 7x10 trim, Times + Helvetica). Format-only change; the text is unchanged except for folding the Foreword into the Preface. 222 pages; 87 bibliography entries.
-- Prepared as the display copy for the SIAM Annual Meeting.
-- Added a reader-feedback system to the repository: a feedback guide (`FEEDBACK.md`), GitHub issue-form templates, a seeded reader FAQ, and an errata log ready for corrections.
-
-## Book v2.17.2 (2026-06-29)
-
-- Closing pass of the AI-panel revision arc (two rounds of multi-model review integrated across all three Parts).
-- Redesigned the Learning Spiral (centered question, five-step never-closing cycle).
-- Sharpened the AI-as-Tutor / AI-as-Collaborator boundary to separate provenance (where AI's work ends up) from ownership (whether the student can reproduce it via the translation test).
-- Added a closing institutional theory-of-change frame (the incentive gradient and two structural levers).
-- Subtitle updated to "STEM Education"; prose refined to a consistent plain, declarative voice. 226 pages; 87 bibliography entries.
-
-## Book v2.15 – v2.17 (2026-06)
-
-- Per-section readability and scholarly-prose-refinement passes across the manuscript.
-- Reviewer-panel integration cycles (round 1 and round 2 multi-model review); acknowledgments and citation updates.
-
-## Book v2.14.38 (2026-06-11)
-
-- Expanded the "About the companion repository" section to cover the new guided materials.
-- Companion repository enhanced with student-facing and instructor-facing materials:
-  - Students: onboarding guides (`start-here`, `from-answers-to-learning`) and a worked study-sessions library (statistics, coding, physics, mathematics).
-  - Instructors: a toolkit of six pieces (first-time guide, semester-redesign worked example, assignment templates, assessment models, syllabus briefings, faculty FAQ).
-- Repository operational artifacts completed so that in-text links from the book resolve (SPP, DPP, checklist, disclosure templates, sharing guide, briefings, ERRATA).
-- README rebuilt as a persona-routing hub. 217 pages.
-
-## Book v2.14.37 (2026-06)
-
-- Reviewer-feedback integration cycle: undergraduate "first attempt" on-ramp to the Learning Spiral (Part I), institutional detector-equity guidance (Part III), and the cross-unit enrollment-competition (RCM) risk in the institutional analysis. 216 pages.
-
-## Book v2.9 – v2.14 (2026-05 to 2026-06)
-
-- Round-2 reviewer release and subsequent integration cycles: learning-science grounding in Part II, historical-pattern and principled-skepticism framing, and companion-paper references.
-
-## Book v2.8 (2026-05-13)
-
-- SIAM submission baseline (round 1).
-
-## Book v1.0 (2026-05-04)
-
-- Original SIAM submission baseline. 141 pages.
+Notable changes to this companion repository. This is a reader-facing log; it
+does not track the book manuscript.
+
+## [2026-10-23, later]
+
+### Added
+- `docs/hyman2026avoiding_v2_108_2.pdf` (559 pages), the current pre-publication draft. It replaces the v2_104_1
+  draft, which is removed. The application chapters (vector-borne disease, dengue, COVID-19, HIV and the PDE chapter)
+  now write new infections per infectious source, as the rest of the book does; every sensitivity in the case
+  studies is taken with respect to a mean duration; and every exercise and Further Reading task was checked against
+  the chapter text. Several chapter epigraphs are reworded to be plainer.
+- `docs/AUDIT_LEDGER_v2_108_2.md`, the claim audit ledger as of v2_108_2. It keeps every row of the v2_104_1 ledger,
+  which is removed, and adds the corrections since.
+
+### Changed
+- Version stamp: tracks book v2_108_2 (previously v2_104_1), in `README.md`, `index.md`, `book/README.md`,
+  `docs/README.md` and `REPRODUCIBILITY.md`. The figures and their generators are unchanged; the 20 generators were
+  re-run from this repository and reproduce the book's 32 figures byte for byte.
+
+## [2026-10-23]
+
+### Added
+- `docs/hyman2026avoiding_v2_104_1.pdf` (559 pages), the current pre-publication draft. It replaces the v2_96_11 draft, which is removed.
+  Every chapter now ends with a Further Reading section that guides readers to the works best suited to going
+  further.
+- `docs/AUDIT_LEDGER_v2_104_1.md`, the claim audit ledger as of v2_104_1. It adds the corrections made since v2_96_11,
+  among them a check of every citation in the book against what the cited work says. It keeps every row of the
+  v2_96_11 ledger, which is removed.
+- In the draft, the HIV chapter gains an account of the first models of the epidemic, among them the
+  back-calculation of HIV infections from AIDS cases, set beside the estimates of the time. A new pitfall, "Fitting
+  versus Explaining the Data", and a section on model discrepancy in the chapter on fitting in practice show that a
+  close fit, and narrow bands from a sensitivity analysis of the fitted model, do not by themselves justify a forecast.
+
+### Changed
+- Version stamp: tracks book v2_104_1 (previously v2_96_11), in `README.md`, `index.md`, `book/README.md`,
+  `docs/README.md` and `REPRODUCIBILITY.md`. No code changed: run from this layout, the 20 scripts still reproduce the
+  book's 32 figures byte for byte.
+
+## [2026-10-18]
+
+### Added
+- `docs/`: the book's pre-publication draft, `docs/hyman2026avoiding_v2_96_11.pdf` (535 pages), posted for
+  comment with Springer's permission, and `docs/AUDIT_LEDGER_v2_96_11.md`, the claim audit ledger: each correction
+  to a printed claim, the check behind it, and the draft version in which it landed. Every file in `docs/` carries
+  the draft version in its name, so feedback can name the version it read. A README describes them.
+- The five generators that were not here: `notebooks/ch04/ch4_alpha_vs_lambda.py`,
+  `notebooks/ch08/ch8_weighting.py`, `notebooks/ch11/ch11_same_R0.py`, `notebooks/ch12/ch12_herd_boundary.py`
+  and `notebooks/ch16/ch16_generation_interval.py`, with READMEs for the three new directories. The repository
+  now carries all 20 of the book's figure generators.
+
+### Changed
+- The book's new title, *Foundations and Pitfalls in Epidemic Modeling: An Introduction to Formulating,
+  Analyzing, and Fitting Models*, in `README.md`, `index.md`, `book/README.md`, `CITATION.cff` and the site
+  configuration. The repository name and citation key stay `hyman2026avoiding`.
+- Version stamp: tracks book v2_96_11 (previously v2_87_1).
+- Three generators come to the book's current versions: `notebooks/ch09/ch9_figures.py` (v2.6: the profile
+  likelihood figure is computed from profile fits), `notebooks/ch10/ch10_figures.py` (v1.4: endemic prevalence
+  uses the general-contact closed form; schematic labels) and `code/python/ch10_sensitivity/ch10_sobol_panel.py`
+  (the same general-contact form).
+- `REPRODUCIBILITY.md`: all 20 generators and 32 figures, the Python versions that reproduce the figures byte
+  for byte, and where the three new scripts write. Checked before this update: run from this layout, the 20
+  scripts reproduce the book's 32 figures byte for byte.
+- `notebooks/README.md` and the per-chapter READMEs for `ch08/` and `ch11/` list every script, as links;
+  `notebooks/ch17/README.md` names the model SEIAR; `index.md` names the model SIR.
+
+## [2026-10-15]
+
+### Added
+- `notebooks/ch17/` — the Chapter 17 (COVID-19 case study) script, `ch17_figures.py`, which the book
+  cites by path, with its README.
+
+### Changed
+- Version stamp: tracks book v2_87_1 (previously v2_78_0). From v2_86_0 the book's chapters are
+  renumbered; directory names keep the numbers the book prints, and each README names its chapter.
+- The book's notation, from v2_87_0 (v2_87_1 sets the remaining model names upright): fractions of the carrying capacity are lowercase (s, i, r, n, j),
+  counts are uppercase (S, I, R, N, J), model names are upright (SIR), and the sensitivity indices print
+  as Υ (local) and 𝒮 (Sobol). Twelve scripts carry the new figure labels; only label strings changed,
+  so every plotted value is as before: `notebooks/ch06/` (three scripts), `notebooks/ch07/ch7_figures.py`,
+  `notebooks/ch08/` (two scripts), `notebooks/ch09/ch9_figures.py`, `notebooks/ch10/ch10_figures.py`,
+  `notebooks/ch11/ch11_multistage_ic.py`, `notebooks/ch17/ch17_figures.py` and two scripts in
+  `code/python/ch10_sensitivity/`.
+- Four of those scripts also come to the book's current versions: `ch7_figures.py` (no axis limit
+  clipping the peak), `ch8_preprocessing.py` (v1.2), `ch9_figures.py` (v2.5) and `ch10_figures.py`
+  (v1.2, the PRCC sample on [p/2, 2p]).
+- The capstone index and all nine capstone READMEs: chapter and section references follow the new
+  numbering, and the model is named SIR.
+- Quick start in `README.md` and `index.md`: run scripts with `PYTHONPATH=src` so they find the shared
+  model. `REPRODUCIBILITY.md` gains a section on this repository's layout and the v2_86_0 counts.
+- Chapter numbers in `notebooks/README.md`, the per-chapter READMEs,
+  `code/python/ch10_sensitivity/README.md` and `data/README.md`.
+
+## [2026-08-26]
+
+### Changed
+- Version stamp: tracks book v2_78_0 (previously v2_62_1).
+- Eight capstone project READMEs (ch04, ch06, ch07, ch08, ch10, ch12, ch14,
+  ch17) updated to the conformed template used by the book's front-matter
+  project table; ch03 was already conforming.
+- `notebooks/ch03/ch3_exp_vs_linear_beta.py`: annotation and legend fonts
+  raised 8/9pt to 10pt to match the chapter's other figures (book Fig. 2.2 at
+  v2_78_0). Regenerated output is registered in the book's figure registry.
+
+## [2026-08-15]
+
+### Added
+- `capstone-projects/` — the book's nine chapter capstone projects, one
+  directory per project with the six-step workflow specification skeleton;
+  detailed materials follow as they are finalized.
+- `code/python/ch10_sensitivity/` — the Chapter 10 sensitivity module
+  (`ch10_index_divergence.py`, `ch10_sobol_panel.py`).
+- `notebooks/README.md` (per-chapter code index) and `notebooks/ch03/` (the
+  Chapter 3 transmission-comparison script, moved from `notebooks/ch02/`).
+- `.gitattributes` (release-archive hygiene).
+
+### Changed
+- All per-chapter scripts and `src/sir_i_model.py` refreshed to the book's
+  current baseline (contact-rate parameterization c_S=20, c_I=4, beta=0.040);
+  the previous copies predated it and reproduced superseded numbers.
+- Chapter directories now follow the book's current chapter numbering
+  (`notebooks/ch02/` → `notebooks/ch03/`; a pointer README remains at `ch02/`).
+- Entry pages: capstone and module links, reproducibility-conventions link,
+  repository-history link, and an absolute issues link.
+
+## [Unreleased]
+
+### Added
+- Initial repository: per-chapter figure-reproduction scripts
+  (`notebooks/ch06`–`ch11`), the shared `src/sir_i_model.py` model, and the
+  companion site.
+- Data provenance and pointers (`data/`), including the WSU 2009 H1N1 dataset via
+  the MIDAS Network catalog.
+- Citation metadata (`CITATION.cff`) and issue templates for corrections,
+  questions, and suggestions.
+
+### Pending
+- Narrated teaching notebooks and the guided lab set (`labs/`).
+- ISBN and a Zenodo DOI for this repository.
+- Link to the published book (pending permission from Springer).

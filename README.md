@@ -1,210 +1,96 @@
-# hyman2026learning: *Learning with AI*
+# Foundations and Pitfalls in Epidemic Modeling — Companion Repository
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21315920.svg)](https://doi.org/10.5281/zenodo.21315920)
+Companion code and materials for the book *Foundations and Pitfalls in Epidemic
+Modeling: An Introduction to Formulating, Analyzing, and Fitting Models*, by
+**James M. Hyman**, **Zhuolin Qu**, and **Ling Xue** (Springer,
+Interdisciplinary Applied Mathematics series — under review).
 
-Companion repository for the book *Learning with AI: A Framework for Students, Instructors, and Universities* by James M. Hyman.
+**Rendered companion site:** <https://machyman.github.io/hyman2026avoiding>
 
-**Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
+**Tracks book v2_108_2.** This line records the manuscript version this repository
+was last synchronised against, so drift between the book and the code is visible
+rather than silent. If it is many versions behind the current draft, the code here
+may not match the book's printed numbers.
 
-**Current version:** v4.49.4 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 249 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+> **The book is under review with Springer.** With Springer's permission, the
+> current pre-publication draft, v2_108_2, is posted here for comment in [`docs/`](docs/),
+> together with the [claim audit ledger](docs/AUDIT_LEDGER_v2_108_2.md). The published book
+> will be available from Springer. See [`book/`](book/).
 
-**Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
+## What's here
 
----
+This repository collects the reproducible code behind the book's figures and
+numerical results, organized to match the book's Appendix B:
 
-## Find your path
+| Path | Contents |
+|---|---|
+| [`notebooks/`](notebooks/) | Per-chapter scripts that reproduce each chapter's figures and computations (`ch03/`, `ch04/`, `ch06/`–`ch12/`, `ch16/`, `ch17/`) |
+| [`src/`](src/) | Shared Python modules — the `sir_i_model.py` integrator used across chapters |
+| [`code/`](code/python/ch10_sensitivity/) | Standalone modules the book cites by path — currently the Chapter 9 sensitivity module |
+| [`capstone-projects/`](capstone-projects/) | The book's chapter capstone projects, one directory per project |
+| [`data/`](data/) | Provenance and pointers for the empirical case-study datasets |
+| [`labs/`](labs/) | Guided lab notebooks *(in preparation)* |
+| [`docs/`](docs/) | The pre-publication draft of the book (PDF) and the claim audit ledger |
+| [`book/`](book/) | Book availability and citation *(under review)* |
 
-This repository hosts practical materials that go with the book. Start with whichever description fits you.
+Fuller narrated teaching notebooks and the lab set are being finalized alongside
+the book.
 
-- **New to using AI for coursework?** Start with [students/start-here.md](students/start-here.md). It covers what these tools are good and bad for, the one rule worth keeping, and how to set up an AI study partner.
-- **Using AI to get answers, and want to learn instead?** Read [students/from-answers-to-learning.md](students/from-answers-to-learning.md). It is written for the switch from extracting answers to building understanding.
-- **Studying a STEM subject?** Work through the [students/study-sessions/](students/study-sessions/) library: four worked sessions, in statistics, coding, physics, and mathematics, each showing a student using AI to study while keeping the thinking and the verification their own.
-- **Skeptical about these tools, and have never used one?** Read one of the [students/study-sessions/](students/study-sessions/): they are annotated transcripts of a real study session, turn by turn, with a note after each move saying what to notice. You do not have to use AI to need to know what your students are doing with it.
-- **An instructor teaching with AI for the first time?** Start with [instructors/first-time-guide.md](instructors/first-time-guide.md), then use the rest of the [instructors/](instructors/) toolkit: a worked course redesign, assignment templates, assessment models, ready syllabus language, and a faculty FAQ.
-- **A department chair, dean, or administrator?** Start with the [departmental adoption kit](institutions/department-adoption-kit.md): a model policy statement, the shared vocabulary, and a one-semester rollout. Run the [policy self-audit](institutions/policy-self-audit.md) to see what your institution covers and what falls to you, and keep the [regulatory landscape note](institutions/regulatory-landscape.md) beside anything that touches proctoring, admissions, or automated grading. Part III of the book carries the full framework.
+## Quick start
 
----
+```bash
+git clone https://github.com/machyman/hyman2026avoiding
+cd hyman2026avoiding
+pip install -r requirements.txt
+mkdir -p figs
+PYTHONPATH=src python notebooks/ch07/ch7_figures.py     # writes figures to figs/
+```
 
-## About this book
+Run scripts from the repository root with `PYTHONPATH=src`, which lets them import
+the shared model. Anything involving randomness is seeded,
+so results are reproducible; the conventions are documented in
+[`REPRODUCIBILITY.md`](REPRODUCIBILITY.md).
 
-*Learning with AI* is a framework for engaging with AI in higher education across three audiences:
+## Who it's for
 
-- **Part I, Students:** How to use AI to learn rather than to substitute for learning. Introduces the Core Competence, AI-assisted Practice, and Trustworthiness (CAT) framework, the Learning Spiral, the Student's Trilemma, the translation test, and operational practices for thoughtful AI use.
-- **Part II, Instructors:** How to design courses and assessments that work with AI rather than around it. Develops the Instructor's Trilemma, the four assignment categories (NAI / AIT / AIC / AIS), three assessment models, and a calibration-restoring design philosophy.
-- **Part III, Departments and Institutions:** How to set policy that protects learning without pretending AI can be kept outside academic life. Develops the institutional vocabulary for AI-era curriculum, assessment, and academic-integrity procedure.
+Graduate students and researchers learning to formulate, analyze, and fit
+compartmental epidemic models — and instructors teaching from the book. The code
+is meant to be read alongside the corresponding chapter.
 
-The argument is grounded in graduate mathematics teaching and generalizes to the full range of university courses, with the most detailed examples in STEM and research-intensive fields.
+## Citing
 
----
-
-## What's in this repository
-
-The book teaches the framework; this repository hosts the operational artifacts the book references.
-
-**For students**
-
-| Item | Path |
-| --- | --- |
-| **Start here**: orientation for a student new to using AI for coursework | [students/start-here.md](students/start-here.md) |
-| **From answers to learning**: the switch from extracting answers to building understanding | [students/from-answers-to-learning.md](students/from-answers-to-learning.md) |
-| **Study sessions**: four worked study sessions (statistics, coding, physics, mathematics) | [students/study-sessions/](students/study-sessions/) |
-| **Undergraduate research**: using AI in a first mentored research project (REU, thesis, lab, poster), and the on-ramp to the graduate standard | [students/undergraduate-research.md](students/undergraduate-research.md) |
-| **Study Partner Protocol (SPP)**: paste-in prompt that turns an assistant into a study partner | [companion/spp/](companion/spp/) |
-| **Define Personal Preferences (DPP)**: walkthrough for configuring an AI tool's persistent settings | [companion/dpp/](companion/dpp/) |
-| **Sharing AI conversations**: how to share a read-only chat link with an instructor, by platform | [students/sharing-ai-conversations.md](students/sharing-ai-conversations.md) |
-| **Pre-submission checklist**: the student checklist from Part I | [students/checklist.md](students/checklist.md) |
-| **Disclosure templates**: short and fuller AI-use disclosure statements | [students/disclosure-templates.md](students/disclosure-templates.md) |
-| **Spiral problems**: a method for recasting single-answer problems so that working them runs the Learning Spiral, with worked before-and-after pairs from three disciplines | [companion/spiral-problems/](companion/spiral-problems/) |
-| **The Student Compact**: the five-part compact from Part I, printable and signable | [companion/compact/](companion/compact/) |
-| **Layered explanation**: a prompt that explains a hard concept at three levels at once, an everyday analogy, your working level, and one step deeper | [companion/layered-explanation/](companion/layered-explanation/) |
-
-**For instructors**
-
-| Item | Path |
-| --- | --- |
-| **What to assign, and when**: the adoption quickstart, a one-page schedule for handing these materials to students | [instructors/what-to-assign.md](instructors/what-to-assign.md) |
-| **First-time guide**: orientation for an instructor new to teaching with AI | [instructors/first-time-guide.md](instructors/first-time-guide.md) |
-| **Semester redesign**: a worked example of redesigning one course for a term | [instructors/semester-redesign.md](instructors/semester-redesign.md) |
-| **Worked course case study**: a first numerical-analysis course designed end to end with the framework, with a syllabus AI policy, three assignments, an in-person exam, and the reasoning behind each choice | [companion/course-case-study/](companion/course-case-study/) |
-| **Assignment templates**: reusable patterns that grade the judgment, not the product | [instructors/assignment-templates.md](instructors/assignment-templates.md) |
-| **Assessment models**: low-stakes ways to see unaided competence | [instructors/assessment-models.md](instructors/assessment-models.md) |
-| **Syllabus briefings**: three ready-to-use syllabus paragraphs (restrictive / default / permissive) | [instructors/briefings.md](instructors/briefings.md) |
-| **Syllabus guide**: making the whole syllabus AI-ready, section by section, beyond the policy paragraph | [instructors/syllabus-guide.md](instructors/syllabus-guide.md) |
-| **Rubrics**: the worked AIC rubric from Part II, with writing and coding variants | [instructors/rubrics/](instructors/rubrics/) |
-| **Grading-agreement check**: before an AI tool scores student work, the record, the sample comparison, and a workbook for the three measures | [instructors/grading-agreement-check/](instructors/grading-agreement-check/) |
-| **Next-Move Memo**: a six-row memo that makes research judgment visible in project work | [instructors/next-move-memo.md](instructors/next-move-memo.md) |
-| **Faculty FAQ**: short answers to common questions | [instructors/faculty-faq.md](instructors/faculty-faq.md) |
-| **AI tools for teaching preparation**: a working guide to prep tools (what each is good for, how to use it well, what a good result looks like, and how to obtain current ones) | [companion/instructor-capabilities/](companion/instructor-capabilities/) |
-
-**For departments and institutions**
-
-| Item | Path |
-| --- | --- |
-| **The departmental adoption kit**: the day-one toolset for a chair, with a model departmental policy statement, the shared vocabulary, the four assignment categories, the five syllabus questions, and a one-semester rollout | [institutions/department-adoption-kit.md](institutions/department-adoption-kit.md) |
-| **The policy self-audit**: 32 checks across six dimensions that map what the institution covers, what the department covers, and the gaps, with benchmarks from published policy research | [institutions/policy-self-audit.md](institutions/policy-self-audit.md) |
-| **The regulatory landscape**: a dated orientation to where AI use crosses from policy into law, reviewed each semester | [institutions/regulatory-landscape.md](institutions/regulatory-landscape.md) |
-
-**Book, papers, and metadata**
-
-| Item | Path |
-| --- | --- |
-| **Book PDF** (pre-edit draft; see [book/](book/)) | [book/learning_with_ai_v4_49_4.pdf](book/learning_with_ai_v4_49_4.pdf) |
-| **Companion paper:** *AI and the Next Layer of Human Work* | [PDF](companion-papers/hyman2026next/hyman2026next.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026next/) |
-| **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | [PDF](companion-papers/hyman2026teaching/hyman2026teaching.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026teaching/) |
-| **Companion paper:** *Learning to Create with AI* | [PDF](companion-papers/hyman2026creative/hyman2026creative.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026creative/) |
-| License / Citation / Changelog / Errata | `LICENSE`, `CITATION.cff`, [CHANGELOG.md](CHANGELOG.md), [ERRATA.md](ERRATA.md) |
-
-All repository materials are released under the MIT license and may be freely used, adapted, translated, and redistributed with attribution. The book itself remains under SIAM copyright.
-
----
-
-## How to use this material
-
-**Students**: read the Foreword and Part I, then set up your AI once with the DPP walkthrough ([companion/dpp/](companion/dpp/)) and keep the SPP prompt ([companion/spp/](companion/spp/)) handy. If you are new to this, [students/start-here.md](students/start-here.md) is the place to begin; if you have been using AI mainly to get answers, [students/from-answers-to-learning.md](students/from-answers-to-learning.md) is written for you. Use the checklist before submitting and the disclosure templates when your instructor asks.
-
-**Instructors**: read the Foreword and Part II, then start with [instructors/first-time-guide.md](instructors/first-time-guide.md) and work through the toolkit. Adapt one of the three syllabus briefings ([instructors/briefings.md](instructors/briefings.md)) to your course's AI policy, redesign a first assignment with the templates, and add one of the assessment models.
-
-**Department chairs, deans, and administrators**: read the Foreword and Part III for the institutional vocabulary and policy framework.
-
-### As a citation source
-
-Use `CITATION.cff` for reference managers. For BibTeX:
+Please cite the book:
 
 ```bibtex
-@book{hyman2026learning,
-  author    = {Hyman, James M.},
-  title     = {Learning with AI: A Framework for Students, Instructors, and Universities},
-  subtitle  = {From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy},
-  publisher = {SIAM Books},
+@book{hyman2026avoiding,
+  title     = {Foundations and Pitfalls in Epidemic Modeling: An Introduction to
+               Formulating, Analyzing, and Fitting Models},
+  author    = {Hyman, James M. and Qu, Zhuolin and Xue, Ling},
   year      = {2026},
-  note      = {Under review with SIAM Books. Companion materials at https://github.com/machyman/hyman2026learning}
+  publisher = {Springer},
+  series    = {Interdisciplinary Applied Mathematics},
+  note      = {Under review}
 }
 ```
 
----
+Machine-readable citation metadata is in [`CITATION.cff`](CITATION.cff). The
+ISBN and a Zenodo DOI for this repository are pending and will be added here.
 
-## Version history
+## Feedback and corrections
 
-See `CHANGELOG.md` for the full history. Recent state:
+Found an error, or have a question or suggestion? Please
+[open an issue](https://github.com/machyman/hyman2026avoiding/issues/new/choose) — the templates will guide you:
 
-- **v4.49.4 (current):** One reader-visible repair. Since v4.49.3, the new Part I section on what students can expect from their institution pointed its cross-reference at an internal label that does not exist, and print page 64 read "Part ??" where it should read "Part III". One token, found at build verification and listed in [ERRATA.md](ERRATA.md). 249 pages, 124 references.
-- **v4.49.3:** Three corrections and one addition, all from reading cited sources at source rather than from memory. A sector figure attributed to EDUCAUSE did not appear anywhere in that study and has been replaced with three figures the study does report. A claim about what students want from their institutions cited nothing and now rests on the survey that measures it. The AAUP contingent-faculty figures understated the source, used a wider denominator than the source, and labelled as adjuncts a category the source defines more broadly. Part III gains the institution-size divide, which sharpens its argument: the departmental layer matters most where institutional capacity is thinnest. One preprint citation was updated to its published version. See [ERRATA.md](ERRATA.md). 249 pages, 124 references.
-- **v4.43.1:** A front-matter sentence said the repository holds two companion papers. A third is in preparation, so the book no longer states a number it does not control.
-- **v4.43.0:** The two companion papers are now cited four times each rather than once, across the front matter and all three Parts, so a reader who wants the fuller argument can find it from wherever they are. Both will be posted to arXiv before publication.
-- **v4.42.1:** Completes two changes that the previous release had only half made. The account-configuration template, which is the piece students copy into their AI settings and keep, now says that nothing in it makes the AI correct: every setting changes how the assistant responds, not what it knows. And the field-experiment figures, which appear in two places in the book, now agree with each other and with the source: the guardrailed tutor produced no exam loss and no exam gain. 247 pages, 120 references.
-- **v4.42.0:** Every example, figure, table and worked dialogue now states what the reader should take from it, rather than leaving the point to be inferred. Four figure captions were corrected against what the figures actually print: the opening figure claimed the triangle edges name the three failure modes when it carries no edge labels at all, and two diagrams had labels that had drifted off their edges or printed through them. A detailed reading by Warren MacEvoy of Colorado Mesa University then prompted a further round. The student guide now says that configuring an AI changes how it answers, not whether it is right, and that the tutors in the studies had the worked solutions loaded in advance while a student's configured assistant does not. The effect sizes from the field experiment now carry their scope, and the guardrailed arm is reported as producing no exam loss and no gain, which is what the source says. The student trilemma's third corner now names real understanding rather than its demonstration, matching the instructor's figure. Disclosure now covers work that produces no shareable transcript at all. 245 pages, 120 references.
-- **v4.40.0:** Every example, figure and table should tell the reader what to take from it; leaving the point to be inferred is treated as a defect. This release begins that pass. Four figure captions were corrected against what the figures actually print rather than against their own wording: the opening figure claimed the triangle edges name the three failure modes when that figure carries no edge labels at all, two trilemma diagrams had labels that drifted off their edges or printed through them, and a figure captioned "choosing the assignment color" now says category, which is the word the rest of the book uses. Takeaway lines were added to the three institutional tables that previously carried only a title, and to six of the eight worked dialogues, four of which had run one into the next with nothing said about any of them. 245 pages, 120 references.
-- **v4.39.0:** One vocabulary now runs across all three Parts. Nine terms that appeared in more than one glossary had drifted apart, and the definitions are reconciled: a shared opening sentence in every glossary, with Part-specific detail after it. The most consequential was *disclosure*, where the student guide asked for a clear statement of how AI was used while the institutional framework required the tools, their contribution, and how the work was verified. A student following the student guide would have written a disclosure that fell short of the standard the same book sets. The academic-integrity procedure is now stated once in full, with the shorter versions elsewhere marked as summaries of it, after a check found that no version of the procedure contained all of the safeguards. The minimum independent-competence requirement now reads as a requirement in the framework itself, matching the appendices that had always stated it that way. 245 pages, 120 references.
-- **v4.31.0:** The appendix on ethical AI-assisted scientific writing now states one standard consistently. Its pre-submission checklist had asked each author to declare they understand every equation in the paper, while the appendix text said the opposite: on a multi-author paper the work divides, and no single author need hold the whole. The checklist now asks what each author answers for and who answers for the rest. The standard itself is stated against the ICMJE authorship criteria, which divide contribution the same way while keeping each author's duty to see that any question raised about any part is resolved. The appendix also now opens by saying plainly that AI-assisted work is held to the ordinary standard of scholarly work, and that what the tool changes is how hard a lapse is to see. 239 pages, 115 references.
-- **v4.30.17:** Both guides now teach how to present evidence of thinking, not only ask for it: students lead with the moment the tool handed them something plausible they did not accept, and instructors model one presentation before grading any. Chapter 4's two endpoint prompts now pair into a reusable frame around any prompt between them: specify before, audit after. Part I opens with questions a student answers before beginning, and short exercises sit where ideas are introduced. The oral-defense chapter gained examiner-consistency guidance, and two chapter epigraphs were added. 239 pages, 115 references.
-- **v4.29.0:** Every margin overflow in the book closed: ten tables that ran past the text block, the bibliography URLs that ran off the page, and a running head that overran on two pages. A broken bibliography entry was repaired. Sixteen bibliography entries stopped printing internal working notes to readers. The front matter now opens each reader's route by naming the problem they arrived with rather than the Part number.
-- **v4.23.8:** Part II gained a section on writing a problem so that working it runs the Learning Spiral, pointing to the worked recasts in this repository. The preface says where the practical, tool-specific material lives. Privacy guidance moved to the point where a student is first asked to upload course material. Scope notes now name what a course is for as well as what it has covered. Four reviewers were added to the acknowledgments.
-- **v4.23.3:** The instructor guide now points to the worked study sessions in this repository, which are useful for showing a colleague what a student session looks like. Course-scope guidance gained a second dimension: an AI answers from the middle of a discipline rather than from the position your course occupies inside it, so a scope note should name what the course is for and not only what it has covered.
-- **v4.23.2:** Part II gained a section on writing a problem so that working it runs the Learning Spiral, with the follow-up questions built into the problem statement. The preface now says where the practical, tool-specific material lives. Privacy guidance moved to the point where a student is first asked to upload course material, and the instructor guide now points to the appendix on ethical AI-assisted writing.
-- **v4.22.4:** The opening was restructured so the book starts sooner: the AI-disclosure statement moved to an appendix, and two passages that previewed Part I moved into it. Every term that appears in both glossaries now has one definition, used identically in the body and in both glossaries.
-- **v4.21.2:** Three printed repository paths gained their `.md` extensions, so every path the
-  book prints now resolves as printed. 231 pages, 109 references.
-- **v4.21.1:** The `institutions/` materials are now reachable from the text. The book printed nine
-  repository paths and none under `institutions/`, so the departmental adoption kit, the policy
-  self-audit, and the regulatory landscape note were live here and unreachable from the book.
-- **v4.21.0:** An adoption on-ramp for instructors. The three moves that change a course without adopting
-  a full assessment model are now framed as a starting point rather than a concession, with a three-term
-  path from those moves to a model.
-- **v4.20.0:** The sycophancy evidence upgraded from a policy document to the *Science* research article
-  it describes, plus a finding on why asking an AI to be neutral does not produce neutrality.
-- **v4.19.0:** Two experiential passages, one on what AI can carry so that capacity stays available for
-  the work no tool does, and one on how a request for help becomes a request for output.
-- **v4.18.0 to v4.18.3:** Front matter trimmed from 25 pages to 17, moving Chapter 1 eight pages earlier.
-  238 pages to 230. Reviewer edits on course-level variables and Part II cross-referencing.
-- **v4.17.2:** Bibliography metadata fix and an acknowledgment tightening. Two entries were
-  printing internal verification notes to readers; the text moved to a field the bibliography style does
-  not print. One acknowledgment sentence dropped a redundant clause. 238 pages, 107 references.
-- **v4.17.1:** Corrects seven front-matter page numbers in the table of contents and list of tables. The
-  build recipe had been running one pass short, so those numbers were stale in every draft from v4.13.1
-  through v4.17.0, including the v4.15.0 PDF this release replaces. Body text was never affected and the
-  page count was never wrong.
-- **v4.17.0:** Names the mechanism of the coupling the three-scales figure asserts, narrows a Part II
-  forward pointer to the promise its target section keeps, and adds a reviewer acknowledgment.
-- **v4.16.0:** Student buy-in evidence in Chapter 8. The chapter had named a student's reason to engage
-  as the deepest lever and then declined to pull it.
-- **v4.15.0:** Four major revisions since v3.14.0. Verification is now framed as a collective standard in the scientific-writing appendix, with responsibility held by named owners rather than by one author who understands everything. A citation-accuracy pass checked every flagship claim against its primary source and narrowed twenty of them. The book positions its four assignment categories against the AI Assessment Scale, adds an evidence-status table and a departmental self-study, names why AI produces confident errors, and answers a published argument that assessment reform belongs to disciplinary societies rather than to departments. Part II gains an automation-bias passage and a seeded-error check. Part III answers a reviewer on faculty who are paid by the course. The index was rebuilt around the questions readers arrive with rather than the book's own vocabulary, growing from 221 entries to 262.
-- **v3.14.0:** Adds the second direction of mathematical judgment to Part I's verification section: sensing that an answer is wrong protects against a bad result, while asking which assumption a right answer depends on protects against a shallow one. The verification checklist now asks not only whether the assumptions were identified but which ones the answer rests on. The numerical-analysis case study and the statistics study session gain the same move in their own registers. 228 pages.
-- **v3.13.0:** A focused Part III update. Regulation is named as a category in privacy and data governance; the missing-middle finding is cited from a 2026 mapping of all fifty US flagship public universities; policies gain a date-and-review-cadence rule; the unequal-access risk gains a procurement clause; a 2026 systematic review corroborates the Part's architecture; and the scientific-writing appendix points to the new undergraduate research guide. Two bibliography additions. 228 pages.
-- **v3.12.1:** Reworks the Part II teaching-preparation section from a capability catalog into a practical-guide pointer. The companion guide at `companion/instructor-capabilities/` now gives, for each capability, what it is good for, how to use it well, what a good result looks like, and how to obtain current tools (most with free versions). 228 pages.
-- **v3.12.0:** Adds a Part II section surveying what AI can do for teaching preparation (capability categories, not products), with a companion catalog. Plus all v3.11.x additions: exam-weight model, layered-explanation move, mathematical-judgment passage, and the recognition-production account. 228 pages.
-- **v3.11.7:** Quality-pass roll-up plus reviewer-driven additions. Every figure and table caption states what to notice; the translation-test figure carries its own key; a redundant block was compressed; the implementation timeline was scaled to fit. Two load-bearing claims were brought into line with their evidence. New: an exam-weight assessment model, a three-level layered-explanation study move, a passage on mathematical judgment, and the author's own account of the recognition-production gap. New companion materials: a layered-explanation prompt and a complete worked numerical-analysis course. 228 pages.
-- **v3.10.1:** Adoption release. Part II states how the student guide reaches students (an instructor assigns it) and points to the assignment schedule. Companion materials aligned to the Learning Spiral's canonical step names; two UNESCO figure captions repaired; acknowledgments correction. 228 pages.
-- **v3.8.1:** External review cycle integrated. Adds a worked AIC rubric, a signable version of the student compact, an excerpt of the Study Partner Protocol, and complete Part glossaries. Holds the AI tutor to what a course has covered ("map plus pin"), names office hours as an instructor's lost early-warning signal, adds student buy-in as the condition design cannot supply, and adds persistence erosion as a fourth learning-science mechanism. Appendices are now numbered and navigable. 224 pages.
-- **v3.2.2:** Broadening pass: removed gratuitous math jargon from two general checklists so they read for any field.
-- **v3.2.1:** Finalized the genesis, naming the sensitivity-analysis textbook written with Leon Arriola and rewriting the passage in first person.
-- **v3.2.0:** Added a Preface subsection on the book's genesis (writing a textbook with Leon Arriola, then the literature-gap discovery), as a hybrid with the graduate-mathematics origin.
-- **v3.1.1:** Added Svetlana Barkanova to the Acknowledgments, crediting her feedback that broadened the detector-fairness argument to neurodiversity.
-- **v3.1.0:** Integrated reviewer feedback. Defined the assignment-category acronyms (NAI, AIT, AIC, AIS) at first use, added a paragraph on neurodiversity and detector fairness, and cross-referenced the worked study-sessions from the verification section. 222 pages.
-- **v3.0.1:** Converted to the official SIAM book format (SIAMbook2023 class, 7x10 trim, Times + Helvetica). Format-only change; the text is unchanged except for folding the Foreword into the Preface. 222 pages. Display copy prepared for the SIAM Annual Meeting.
-- **v2.17.2:** Closing pass of the AI-panel revision. Two rounds of multi-model review integrated across all three Parts; the Learning Spiral redesigned (centered question, five-step never-closing cycle); the AI-as-Tutor / AI-as-Collaborator boundary sharpened to separate provenance (where AI's work ends up) from ownership (the translation test); a closing institutional theory-of-change frame added. Subtitle updated to STEM Education. 226 pages; 87 bibliography entries.
-- **v2.15 – v2.17:** Per-section readability and scholarly-prose-refinement passes; reviewer-panel integration cycles (round 1 and round 2 multi-model review).
-- **v2.14.38:** Expanded the companion-repository description to cover the guided materials (student onboarding guides, the worked study-sessions library, and the instructor toolkit). 217 pages.
-- **v2.14.37:** Reviewer-feedback integration cycle. Adds an undergraduate "first attempt" on-ramp to the Learning Spiral (Part I), institutional detector-equity guidance (Part III), and the cross-unit enrollment-competition (RCM) risk to the institutional analysis. 216 pages.
-- **v2.9 to v2.14:** Round-2 reviewer release and subsequent integration cycles (learning-science grounding in Part II; historical-pattern and principled-skepticism framing; companion-paper references; ongoing reviewer feedback).
-- **v2.8 (2026-05-13):** SIAM submission baseline (round 1).
-- **v1.0 (2026-05-04):** Original SIAM-submission baseline (141 pages).
+- **Correction** — report an error in the book or the code
+- **Question** — ask about the material
+- **Suggestion** — propose an improvement
 
----
+## Repository history
 
-## Development tools
+Reader-facing changes to this repository are logged in
+[`CHANGELOG.md`](CHANGELOG.md).
 
-This book and its companion materials were prepared with the help of AI tools, used in the manner the book describes: as an aid to drafting, organizing, and reviewing, with the author retaining responsibility for the content. The framework, analysis, and final text are the author's own.
+## License
 
----
-
-## Contact
-
-James M. Hyman
-Department of Mathematics, Tulane University
-<mhyman@tulane.edu>
-
-## Found an error or have a question?
-
-Corrections, questions, and suggestions are welcome, whether or not you use GitHub. Email <mhyman@tulane.edu> (for a correction, please include the page number and the book version), or open a GitHub issue. See **[how to give feedback](FEEDBACK.md)**. To add or improve the companion materials themselves, see **[how to contribute](https://github.com/machyman/hyman2026learning/blob/main/CONTRIBUTING.md)**. Confirmed corrections are listed in [ERRATA.md](ERRATA.md), and common questions in the [FAQ](FAQ.md).
-
-*This repository is the companion archive for the book. The book is under review with SIAM Books.*
+Code in this repository is released under the [MIT License](LICENSE). The book
+text and figures are © the authors and Springer and are not included here.
