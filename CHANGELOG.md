@@ -13,10 +13,10 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 
 
 
-## v1.23.0 — 2026-10-31 — the book moves to v5.5.11, the revision after SIAM's reviews
+## v1.23.0 — 2026-10-31 — the book moves to v5.5.12, the revision after SIAM's reviews
 
-**The working draft in `book/` is now `learning_with_ai_v5_5_11.pdf`** (247 pages, 135 references), replacing
-v4.49.4. (v5.5.7 to v5.5.10 were posted earlier the same day; v5.5.8 removed five cross-references, v5.5.9 added the wording, citation-placement and figure-label corrections from a final verification pass, v5.5.10 added the corrections from an independent re-read and dropped the preliminary-version line from the title page, and v5.5.11 adds the author's final corrections.) It is the revision made after SIAM's three reviews: all three Parts rewritten, Review 3's additions in
+**The working draft in `book/` is now `learning_with_ai_v5_5_12.pdf`** (247 pages, 135 references), replacing
+v4.49.4. (v5.5.7 to v5.5.11 were posted earlier the same day; v5.5.8 removed five cross-references, v5.5.9 added the wording, citation-placement and figure-label corrections from a final verification pass, v5.5.10 added the corrections from an independent re-read and dropped the preliminary-version line from the title page, v5.5.11 added the author's final corrections, and v5.5.12 rewords eight sentences.) It is the revision made after SIAM's three reviews: all three Parts rewritten, Review 3's additions in
 place, the toolkit chapters reconciled with the body, and the AI disclosure in the Acknowledgments and Appendix C.
 The README, `book/README.md`, and the example filename in ERRATA.md change to match. No other file changes. Every
 path the book prints was checked against this repository before the update and resolves.
