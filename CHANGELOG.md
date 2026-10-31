@@ -13,6 +13,14 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 
 
 
+## v1.23.0 — 2026-10-31 — the book moves to v5.5.7, the revision after SIAM's reviews
+
+**The working draft in `book/` is now `learning_with_ai_v5_5_7.pdf`** (247 pages, 135 references), replacing
+v4.49.4. It is the revision made after SIAM's three reviews: all three Parts rewritten, Review 3's additions in
+place, the toolkit chapters reconciled with the body, and the AI disclosure in the Acknowledgments and Appendix C.
+The README, `book/README.md`, and the example filename in ERRATA.md change to match. No other file changes. Every
+path the book prints was checked against this repository before the update and resolves.
+
 ## v1.22.0 — 2026-09-22 — a third companion paper is deposited, and the instructor toolkit gains the Next-Move Memo and the grading-agreement check
 
 **A third companion paper, *Learning to Create with AI: Disciplines for Deep Learning, Critical Inquiry, and

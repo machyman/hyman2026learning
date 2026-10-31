@@ -4,7 +4,7 @@ Confirmed corrections to *Learning with AI*, listed with the version in which th
 
 ## How to report a correction
 
-Use the [feedback form](FEEDBACK.md) (no account needed) or, on GitHub, open a [correction issue](https://github.com/machyman/hyman2026learning/issues/new/choose). Please include the page number and the version, which appears in the PDF filename (for example, `learning_with_ai_v4_49_4.pdf`). The draft's title page carries a build date rather than a version.
+Use the [feedback form](FEEDBACK.md) (no account needed) or, on GitHub, open a [correction issue](https://github.com/machyman/hyman2026learning/issues/new/choose). Please include the page number and the version, which appears in the PDF filename (for example, `learning_with_ai_v5_5_7.pdf`). The draft's title page carries a build date rather than a version.
 
 ## Confirmed corrections
 
