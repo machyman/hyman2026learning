@@ -6,7 +6,7 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-**Current version:** v5.5.7 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 247 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+**Current version:** v5.5.8 &nbsp;·&nbsp; **Status:** Under review with SIAM Books &nbsp;·&nbsp; **Pages:** 247 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
 
 **Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
@@ -88,7 +88,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** (pre-edit draft; see [book/](book/)) | [book/learning_with_ai_v5_5_7.pdf](book/learning_with_ai_v5_5_7.pdf) |
+| **Book PDF** (pre-edit draft; see [book/](book/)) | [book/learning_with_ai_v5_5_8.pdf](book/learning_with_ai_v5_5_8.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | [PDF](companion-papers/hyman2026next/hyman2026next.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026next/) |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | [PDF](companion-papers/hyman2026teaching/hyman2026teaching.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026teaching/) |
 | **Companion paper:** *Learning to Create with AI* | [PDF](companion-papers/hyman2026creative/hyman2026creative.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026creative/) |
@@ -127,7 +127,7 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v5.5.7 (current):** The revision after SIAM's three reviews. All three Parts were rewritten; Review 3's additions (AI in research, AI grading and student privacy, the grading-agreement check) are in; the toolkit chapters now match the body; the AI disclosure is in the Acknowledgments and Appendix C. 247 pages, 135 references.
+- **v5.5.8 (current):** The revision after SIAM's three reviews. All three Parts were rewritten; Review 3's additions (AI in research, AI grading and student privacy, the grading-agreement check) are in; the toolkit chapters now match the body; the AI disclosure is in the Acknowledgments and Appendix C. 247 pages, 135 references.
 - **v4.49.4:** One reader-visible repair. Since v4.49.3, the new Part I section on what students can expect from their institution pointed its cross-reference at an internal label that does not exist, and print page 64 read "Part ??" where it should read "Part III". One token, found at build verification and listed in [ERRATA.md](ERRATA.md). 249 pages, 124 references.
 - **v4.49.3:** Three corrections and one addition, all from reading cited sources at source rather than from memory. A sector figure attributed to EDUCAUSE did not appear anywhere in that study and has been replaced with three figures the study does report. A claim about what students want from their institutions cited nothing and now rests on the survey that measures it. The AAUP contingent-faculty figures understated the source, used a wider denominator than the source, and labelled as adjuncts a category the source defines more broadly. Part III gains the institution-size divide, which sharpens its argument: the departmental layer matters most where institutional capacity is thinnest. One preprint citation was updated to its published version. See [ERRATA.md](ERRATA.md). 249 pages, 124 references.
 - **v4.43.1:** A front-matter sentence said the repository holds two companion papers. A third is in preparation, so the book no longer states a number it does not control.
