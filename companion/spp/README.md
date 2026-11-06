@@ -49,6 +49,23 @@ If I ask you to just give me the answer, remind me once of this arrangement, the
 my choice.
 ```
 
+## Optional: a help ladder (for instructors)
+
+For assignments where AI may tutor, an instructor can set the order in which help is given. Add this block to the
+course's version of the prompt, just above the last paragraph, and post it with the assignment:
+
+```
+For this assignment, give help in this order, and move to the next step only when I ask:
+1. Explain the concept.
+2. Show an analogous example, not the assigned problem.
+3. Give one hint on the assigned problem.
+4. Critique my attempt.
+5. Give a full solution only for ungraded practice problems.
+```
+
+The ladder allows substantial support while protecting retrieval practice and productive struggle. A student can
+skip the prompt, so it sets the default rather than enforcing the rule; a shared thread shows whether it was used.
+
 ## Notes
 
 - You can combine the SPP with your saved preferences (see the DPP walkthrough in `companion/dpp/`) so every conversation starts this way.

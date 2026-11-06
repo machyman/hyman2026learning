@@ -15,6 +15,7 @@ and when** to decide which student materials to hand out and in what order.
 |---|---|
 | [first-time-guide.md](first-time-guide.md) | Orientation for an instructor new to teaching with AI |
 | [what-to-assign.md](what-to-assign.md) | The adoption quickstart: a one-page schedule for handing these materials to students |
+| [adapt-for-your-course.md](adapt-for-your-course.md) | Adapting the companion files, the course's AI rules, and answer-checking practice for one course |
 | [semester-redesign.md](semester-redesign.md) | A worked example of redesigning one course for a term |
 | [assignment-templates.md](assignment-templates.md) | Reusable patterns that grade the judgment, not the product |
 | [assessment-models.md](assessment-models.md) | Low-stakes ways to see unaided competence |

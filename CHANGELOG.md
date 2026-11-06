@@ -13,6 +13,19 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 
 
 
+## v1.24.0 — 2026-11-05 — the book moves to v6.0.0, the manuscript delivered to SIAM
+
+**The working draft in `book/` is now `learning_with_ai_v6_0_0_preprint.pdf`** (245 pages, 140 references), replacing v5.5.12 (and the
+v5.7.0 file posted on 2026-11-01). It is the version delivered to SIAM Books, after two rounds of independent review
+and a check of the cited sources. Each page now carries a footer marking it as the author's pre-edit draft. The
+book's text is unchanged by the marking.
+
+- New: [`instructors/adapt-for-your-course.md`](instructors/adapt-for-your-course.md), how to adapt the companion
+  files, the course's AI rules and answer-checking practice for one course (book, section 9.3.5).
+- [`companion/spp/`](companion/spp/): an optional help ladder an instructor can add for assignments where AI may
+  tutor (book, section 9.3.5).
+- The README, `book/README.md`, the instructor index and the example filename in ERRATA.md change to match.
+
 ## v1.23.0 — 2026-10-31 — the book moves to v5.5.12, the revision after SIAM's reviews
 
 **The working draft in `book/` is now `learning_with_ai_v5_5_12.pdf`** (247 pages, 135 references), replacing
