@@ -25,6 +25,7 @@ book's text is unchanged by the marking.
 - [`companion/spp/`](companion/spp/): an optional help ladder an instructor can add for assignments where AI may
   tutor (book, section 9.3.5).
 - The README, `book/README.md`, the instructor index and the example filename in ERRATA.md change to match.
+- The top of the README, which is also the home page of the rendered site, now links the book PDF directly. The Book PDF row further down stays.
 
 ## v1.23.0 — 2026-10-31 — the book moves to v5.5.12, the revision after SIAM's reviews
 
