@@ -6,9 +6,9 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-> 📘 **Read the book:** [download the preprint PDF](book/learning_with_ai_v6_0_0_preprint.pdf) (v6.0.0, 245 pages). This is the author's pre-edit draft, free to read and download. SIAM Books is preparing the published edition.
+> 📘 **Read the book:** [download the preprint PDF](https://github.com/machyman/hyman2026learning/blob/main/book/learning_with_ai_v6_0_0_preprint.pdf) (v6.0.0, 245 pages). This is the author's pre-edit draft, free to read and download. SIAM Books is preparing the published edition.
 
-**Current version:** v6.0.0 &nbsp;·&nbsp; **Status:** Delivered to SIAM Books &nbsp;·&nbsp; **Pages:** 245 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+**Current version:** [v6.0.0 (book PDF)](https://github.com/machyman/hyman2026learning/blob/main/book/learning_with_ai_v6_0_0_preprint.pdf) &nbsp;·&nbsp; **Status:** Delivered to SIAM Books &nbsp;·&nbsp; **Pages:** 245 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
 
 **Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
