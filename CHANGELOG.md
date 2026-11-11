@@ -13,6 +13,13 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 
 
 
+## v1.26.0 — 2026-11-11 — the book moves to v6.1.0
+
+**The working draft in `book/` is now `learning_with_ai_v6_1_0_preprint.pdf`** (245 pages, 140 references), replacing v6.0.0. It adds a short paragraph in Part I (section 1.2.1) and in Part II (chapter 8) that points to the new list of AI learning tools in [`companion/learning-tools/`](companion/learning-tools/), with four questions for judging any tool. No references were added. The page footer and title-page notice now point readers to the final, edited edition from SIAM.
+
+- The README, `book/README.md` and the example filename in ERRATA.md change to match.
+- The preprint stays posted after the SIAM edition appears. `book/README.md` and `.gitattributes` no longer say it will be withdrawn when copy-editing begins, and the README's status lines now read "forthcoming from SIAM Books". The PDF stays out of Zenodo archives as before.
+
 ## v1.25.0 — 2026-11-11 — a dated list of AI learning tools and the evidence behind them
 
 **New: [`companion/learning-tools/`](companion/learning-tools/)**, a list of AI tools built for learning: course tutors an instructor sets up, study modes a student turns on, and checkers. Each entry gives what the tool does, its cost, the kind of evidence behind it, and its caveats, with a status date. The page opens with four questions for judging any tool and a one-paragraph summary of the evidence. A companion [evidence page](companion/learning-tools/evidence.md) keeps the references, labeled peer reviewed, working paper, vendor-reported or retracted. The book (v6.0.0) is unchanged; the list lives here because it will change faster than any book can.

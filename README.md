@@ -6,9 +6,9 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-> 📘 **Read the book:** [download the preprint PDF](https://machyman.github.io/hyman2026learning/book/learning_with_ai_v6_0_0_preprint.pdf) (v6.0.0, 245 pages). This is the author's pre-edit draft, free to read and download. SIAM Books is preparing the published edition.
+> 📘 **Read the book:** [download the preprint PDF](https://machyman.github.io/hyman2026learning/book/learning_with_ai_v6_1_0_preprint.pdf) (v6.1.0, 245 pages). This is the author's pre-edit draft, free to read and download. For the final, edited edition, please buy the book from SIAM Books when it appears.
 
-**Current version:** [v6.0.0 (book PDF)](https://machyman.github.io/hyman2026learning/book/learning_with_ai_v6_0_0_preprint.pdf) &nbsp;·&nbsp; **Status:** Delivered to SIAM Books &nbsp;·&nbsp; **Pages:** 245 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+**Current version:** [v6.1.0 (book PDF)](https://machyman.github.io/hyman2026learning/book/learning_with_ai_v6_1_0_preprint.pdf) &nbsp;·&nbsp; **Status:** Delivered to SIAM Books &nbsp;·&nbsp; **Pages:** 245 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
 
 **Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
@@ -93,7 +93,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** (pre-edit draft; see [book/](book/)) | [book/learning_with_ai_v6_0_0_preprint.pdf](book/learning_with_ai_v6_0_0_preprint.pdf) |
+| **Book PDF** (pre-edit draft; see [book/](book/)) | [book/learning_with_ai_v6_1_0_preprint.pdf](book/learning_with_ai_v6_1_0_preprint.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | [PDF](companion-papers/hyman2026next/hyman2026next.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026next/) |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | [PDF](companion-papers/hyman2026teaching/hyman2026teaching.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026teaching/) |
 | **Companion paper:** *Learning to Create with AI* | [PDF](companion-papers/hyman2026creative/hyman2026creative.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026creative/) |
@@ -122,7 +122,7 @@ Use `CITATION.cff` for reference managers. For BibTeX:
   subtitle  = {From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy},
   publisher = {SIAM Books},
   year      = {2026},
-  note      = {Under review with SIAM Books. Companion materials at https://github.com/machyman/hyman2026learning}
+  note      = {Forthcoming from SIAM Books. Companion materials at https://github.com/machyman/hyman2026learning}
 }
 ```
 
@@ -132,7 +132,8 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v6.0.0 (current):** The manuscript delivered to SIAM Books: a consolidation pass across the three Parts, the author's read of the whole book, two rounds of independent review, and a check of the cited sources. 245 pages, 140 references.
+- **v6.1.0 (current):** Adds a short paragraph in Parts I and II pointing to the companion list of AI learning tools. 245 pages, 140 references.
+- **v6.0.0:** The manuscript delivered to SIAM Books: a consolidation pass across the three Parts, the author's read of the whole book, two rounds of independent review, and a check of the cited sources. 245 pages, 140 references.
 - **v5.5.12:** The revision after SIAM's three reviews. All three Parts were rewritten; Review 3's additions (AI in research, AI grading and student privacy, the grading-agreement check) are in; the toolkit chapters now match the body; the AI disclosure is in the Acknowledgments and Appendix C. 247 pages, 135 references.
 - **v4.49.4:** One reader-visible repair. Since v4.49.3, the new Part I section on what students can expect from their institution pointed its cross-reference at an internal label that does not exist, and print page 64 read "Part ??" where it should read "Part III". One token, found at build verification and listed in [ERRATA.md](ERRATA.md). 249 pages, 124 references.
 - **v4.49.3:** Three corrections and one addition, all from reading cited sources at source rather than from memory. A sector figure attributed to EDUCAUSE did not appear anywhere in that study and has been replaced with three figures the study does report. A claim about what students want from their institutions cited nothing and now rests on the survey that measures it. The AAUP contingent-faculty figures understated the source, used a wider denominator than the source, and labelled as adjuncts a category the source defines more broadly. Part III gains the institution-size divide, which sharpens its argument: the departmental layer matters most where institutional capacity is thinnest. One preprint citation was updated to its published version. See [ERRATA.md](ERRATA.md). 249 pages, 124 references.
@@ -214,4 +215,4 @@ Department of Mathematics, Tulane University
 
 Corrections, questions, and suggestions are welcome, whether or not you use GitHub. Email <mhyman@tulane.edu> (for a correction, please include the page number and the book version), or open a GitHub issue. See **[how to give feedback](FEEDBACK.md)**. To add or improve the companion materials themselves, see **[how to contribute](https://github.com/machyman/hyman2026learning/blob/main/CONTRIBUTING.md)**. Confirmed corrections are listed in [ERRATA.md](ERRATA.md), and common questions in the [FAQ](FAQ.md).
 
-*This repository is the companion archive for the book. The book is under review with SIAM Books.*
+*This repository is the companion archive for the book. The book is forthcoming from SIAM Books.*
