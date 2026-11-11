@@ -13,6 +13,12 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 
 
 
+## v1.25.0 — 2026-11-11 — a dated list of AI learning tools and the evidence behind them
+
+**New: [`companion/learning-tools/`](companion/learning-tools/)**, a list of AI tools built for learning: course tutors an instructor sets up, study modes a student turns on, and checkers. Each entry gives what the tool does, its cost, the kind of evidence behind it, and its caveats, with a status date. The page opens with four questions for judging any tool and a one-paragraph summary of the evidence. A companion [evidence page](companion/learning-tools/evidence.md) keeps the references, labeled peer reviewed, working paper, vendor-reported or retracted. The book (v6.0.0) is unchanged; the list lives here because it will change faster than any book can.
+
+- Linked from the README (student and instructor tables), `companion/README.md`, `instructors/README.md` and the teaching-preparation guide.
+
 ## v1.24.0 — 2026-11-05 — the book moves to v6.0.0, the manuscript delivered to SIAM
 
 **The working draft in `book/` is now `learning_with_ai_v6_0_0_preprint.pdf`** (245 pages, 140 references), replacing v5.5.12 (and the

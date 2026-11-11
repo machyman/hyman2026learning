@@ -28,6 +28,8 @@ and when** to decide which student materials to hand out and in what order.
 
 A full course designed end to end with the framework is in
 [`companion/course-case-study/`](../companion/course-case-study/). A guide to AI tools for teaching
-preparation is in [`companion/instructor-capabilities/`](../companion/instructor-capabilities/).
+preparation is in [`companion/instructor-capabilities/`](../companion/instructor-capabilities/). AI tools
+built for student learning, with the evidence behind them, are in
+[`companion/learning-tools/`](../companion/learning-tools/).
 
 Back to the [main page](../).

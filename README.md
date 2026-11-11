@@ -59,6 +59,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 | **Spiral problems**: a method for recasting single-answer problems so that working them runs the Learning Spiral, with worked before-and-after pairs from three disciplines | [companion/spiral-problems/](companion/spiral-problems/) |
 | **The Student Compact**: the five-part compact from Part I, printable and signable | [companion/compact/](companion/compact/) |
 | **Layered explanation**: a prompt that explains a hard concept at three levels at once, an everyday analogy, your working level, and one step deeper | [companion/layered-explanation/](companion/layered-explanation/) |
+| **AI learning tools**: a dated list of course tutors, study modes and checkers, the four questions for judging any tool, and the evidence behind each | [companion/learning-tools/](companion/learning-tools/) |
 
 **For instructors**
 
@@ -78,6 +79,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 | **Next-Move Memo**: a six-row memo that makes research judgment visible in project work | [instructors/next-move-memo.md](instructors/next-move-memo.md) |
 | **Faculty FAQ**: short answers to common questions | [instructors/faculty-faq.md](instructors/faculty-faq.md) |
 | **AI tools for teaching preparation**: a working guide to prep tools (what each is good for, how to use it well, what a good result looks like, and how to obtain current ones) | [companion/instructor-capabilities/](companion/instructor-capabilities/) |
+| **AI learning tools for students**: which course tutors, study modes and checkers to recommend, what the evidence shows, and what to ask before adopting one | [companion/learning-tools/](companion/learning-tools/) |
 
 **For departments and institutions**
 

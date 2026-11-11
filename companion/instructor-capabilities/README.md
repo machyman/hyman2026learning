@@ -162,6 +162,9 @@ verification burden is the same whichever you use.
 
 ---
 
+Tools built for student learning (course tutors, study modes and checkers) have their own page:
+[`companion/learning-tools/`](../learning-tools/).
+
 ## Why this is a companion, not a book chapter
 
 A printed list of tools would be wrong within a year, and the book's argument is about judgment, not
