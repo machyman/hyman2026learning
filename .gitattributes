@@ -2,7 +2,7 @@
 #
 # GitHub builds release zipballs with `git archive`, which honors export-ignore.
 # Zenodo archives that zipball. The PDF in book/ is the author's pre-edit draft,
-# posted with SIAM's *conditional* permission and withdrawn when copy-editing begins.
+# posted with SIAM's permission and stays alongside the SIAM edition
 # A Zenodo deposit is permanent and immutable, so the PDF must never enter one.
 #
 # The companion materials (MIT-licensed) are what the DOI is for.
