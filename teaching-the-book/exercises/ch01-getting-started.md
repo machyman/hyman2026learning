@@ -5,7 +5,7 @@ permalink: /teaching-the-book/exercises/ch01-getting-started/
 
 # Exercises for Chapter 1: Getting Started
 
-*Part I, the student guide. Section numbers refer to v6.1.0 of the book. See [how the exercises are built](../exercise-design.md).*
+*Part I, the student guide. Section numbers refer to v6.1.1 of the book. See [how the exercises are built](../exercise-design.md).*
 
 *Each exercise starts with its assignment category from Section 3.4: NAI (No AI), AIT (AI as Tutor), AIC (AI as Collaborator), or AIS (AI as Object of Study). If your instructor sets a different category, follow theirs.*
 

@@ -5,8 +5,8 @@ permalink: /teaching-the-book/
 
 # Teaching a course with *Learning with AI*
 
-*For instructors who use the book as the text for a course. Exercise sets cover Part I and Appendix A;
-Parts II and III are to follow.*
+*For instructors who use the book as the text for a course. Exercise sets cover all nineteen
+chapters and Appendix A.*
 
 The book was written as a guide for three readers: students, instructors, and the people who run departments
 and universities. It was not written as a textbook, and it has no problem sets. This folder supplies what a
@@ -65,7 +65,8 @@ own learning, and to judge what the book proposes from where they sit.
 | Chapter | Exercise set |
 |---|---|
 | 1 to 7 (Part I) and Appendix A | [exercises/](exercises/) |
-| 8 to 19 (Parts II and III) | To follow |
+| 8 to 13 (Part II), from the student's side | [exercises/](exercises/) |
+| 14 to 19 (Part III), from the student's side | [exercises/](exercises/) |
 
 ## Notes for instructors
 

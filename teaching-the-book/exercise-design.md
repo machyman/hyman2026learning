@@ -56,6 +56,9 @@ exercise with a true key is Chapter 4's C3, built on AI-style answers with plant
 public too, so students can practice and check themselves. An instructor who grades C3 writes a fresh pair
 each term, and the set's instructor notes say how.
 
+The sample answers are illustrations written for each set. Their numbers, tallies, and tables are invented to
+show the standard; they are not data from a real class.
+
 ## Parts II and III: the student's side of the desk
 
 Parts II and III are written for instructors and for the people who run departments and universities. In a
@@ -74,7 +77,8 @@ what the book proposes, using its vocabulary, from where they sit.
 ## Disclosure and privacy
 
 Any exercise that uses AI ends with a one-line disclosure (Section 4.5). No exercise asks a student to upload
-anything private: their own work under review, a classmate's work, or personal data (Section 4.6).
+anything private: their own work under review, a classmate's work, or personal data (Section 4.6). When an
+exercise asks an AI to critique a draft, the draft is the one written for that exercise, never graded work.
 
 ## References
 

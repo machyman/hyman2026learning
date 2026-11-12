@@ -7,7 +7,7 @@ permalink: /teaching-the-book/exercises/ch04-c3-answers/
 
 *Finish your search before you read this. These answers are for practice and for checking yourself. If your
 instructor grades C3, they will give you a fresh pair of answers to search. Matches exercise C3 in
-[the Chapter 4 set](ch04-using-ai-well-and-badly.md) (book v6.1.0).*
+[the Chapter 4 set](ch04-using-ai-well-and-badly.md) (book v6.1.1).*
 
 Each answer has three planted errors, each of a kind Chapter 4 names. Everything else in both answers is correct.
 The "Not errors" lists cover the likely false alarms.

@@ -17,8 +17,18 @@ built](../exercise-design.md). Parts II and III are written for students reading
 | I | 5. In Class and Across Disciplines | [ch05-in-class-and-across-disciplines.md](ch05-in-class-and-across-disciplines.md) |
 | I | 6. Judgment and Limits | [ch06-judgment-and-limits.md](ch06-judgment-and-limits.md) |
 | I | 7. The Student's Toolkit | [ch07-the-students-toolkit.md](ch07-the-students-toolkit.md) |
-| II | 8 to 13 | To follow |
-| III | 14 to 19 | To follow |
+| II | 8. The Instructor's Trilemma | [ch08-the-instructors-trilemma.md](ch08-the-instructors-trilemma.md) |
+| II | 9. The Framework and Assignment Design | [ch09-the-framework-and-assignment-design.md](ch09-the-framework-and-assignment-design.md) |
+| II | 10. Assessment Models | [ch10-assessment-models.md](ch10-assessment-models.md) |
+| II | 11. Integrity, Equity, and Discipline | [ch11-integrity-equity-and-discipline.md](ch11-integrity-equity-and-discipline.md) |
+| II | 12. Implementation and Limits | [ch12-implementation-and-limits.md](ch12-implementation-and-limits.md) |
+| II | 13. The Instructor's Toolkit | [ch13-the-instructors-toolkit.md](ch13-the-instructors-toolkit.md) |
+| III | 14. The Institution's Trilemma | [ch14-the-institutions-trilemma.md](ch14-the-institutions-trilemma.md) |
+| III | 15. The Framework and Vocabulary | [ch15-the-framework-and-vocabulary.md](ch15-the-framework-and-vocabulary.md) |
+| III | 16. Standards and Requirements | [ch16-standards-and-requirements.md](ch16-standards-and-requirements.md) |
+| III | 17. Implementation and Change | [ch17-implementation-and-change.md](ch17-implementation-and-change.md) |
+| III | 18. The Institution's Toolkit | [ch18-the-institutions-toolkit.md](ch18-the-institutions-toolkit.md) |
+| III | 19. Looking Forward | [ch19-looking-forward.md](ch19-looking-forward.md) |
 | Appendix | A. Ethical AI-Assisted Scientific Writing | [appA-ethical-scientific-writing.md](appA-ethical-scientific-writing.md) |
 
 Chapter 4's exercise C3, "Find what is wrong," has [public answers](ch04-c3-answers.md). Students read them after

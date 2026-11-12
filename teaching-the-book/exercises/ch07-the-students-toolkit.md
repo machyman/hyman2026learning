@@ -5,7 +5,7 @@ permalink: /teaching-the-book/exercises/ch07-the-students-toolkit/
 
 # Exercises for Chapter 7: The Student's Toolkit
 
-*Part I, the student guide. Section numbers refer to v6.1.0 of the book. See [how the exercises are built](../exercise-design.md). Chapter 7 closes Part I, so this set puts its templates to work on real coursework.*
+*Part I, the student guide. Section numbers refer to v6.1.1 of the book. See [how the exercises are built](../exercise-design.md). Chapter 7 closes Part I, so this set puts its templates to work on real coursework.*
 
 *Each exercise starts with its assignment category from Section 3.4: NAI (No AI), AIT (AI as Tutor), AIC (AI as Collaborator), or AIS (AI as Object of Study). If your instructor sets a different category, follow theirs.*
 

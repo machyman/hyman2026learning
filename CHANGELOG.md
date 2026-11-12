@@ -13,6 +13,16 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 
 
 
+## v1.28.0 — 2026-11-12 — exercises for every chapter
+
+**The exercises in [`teaching-the-book/`](teaching-the-book/exercises/) now cover the whole book.** Twelve new sets, one for each chapter of Parts II and III (Chapters 8 to 19), join those for Part I and Appendix A. Parts II and III are written for instructors and institutions, so their exercises are read from the student's side of the desk: how a course's rules and assessments shape the student's own learning, and what the student's university protects and leaves out. No exercise asks a student to act as an instructor or to write policy. As in Part I, every exercise opens with its assignment category (NAI, AIT, AIC, or AIS), and every set closes with a weak and a strong sample answer and notes for instructors.
+
+- The exercise index and the `teaching-the-book/` README list all nineteen chapters, and the README's row for `teaching-the-book/` says so. The Part I and Appendix A sets and the Chapter 4 C3 answers now cite book v6.1.1; no section number changed.
+- [`exercise-design.md`](teaching-the-book/exercise-design.md) now says that the sample answers are illustrations, and that an exercise asking an AI to critique a draft uses only the draft written for that exercise, never graded work.
+- Two corrections to v1.27.0, whose entry described both as done: `book/learning_with_ai_v6_1_0_preprint.pdf` is removed, and the comment in `.gitattributes` now describes the current permission.
+
+The book stays at v6.1.1.
+
 ## v1.27.0 — 2026-11-11 — exercises for teaching a course with the book; the book moves to v6.1.1
 
 **New: [`teaching-the-book/`](teaching-the-book/)**, for instructors who use the book as a course text. It gives course formats and how well the book fits each, a ten-week graduate seminar schedule, the ten tests every exercise meets ([`exercise-design.md`](teaching-the-book/exercise-design.md)), and exercise sets for Chapters 1 to 7 and Appendix A. Every exercise opens with its assignment category from Section 3.4 (NAI, AIT, AIC, or AIS). Each set maps the chapter's key points, asks questions from memory, applies the chapter to the student's own courses, uses AI with a disclosure, ends with a check a week later done without AI, and shows a weak and a strong response to its main exercise. There are no private answer keys: the one exercise with a true key, Chapter 4's planted-error exercise C3, has [public answers](teaching-the-book/exercises/ch04-c3-answers.md), and its instructor notes say how to write a fresh pair for grading. Exercises for Parts II and III will follow, written for students reading those Parts from their own side.

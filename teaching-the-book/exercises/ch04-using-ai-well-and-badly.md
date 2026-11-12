@@ -5,7 +5,7 @@ permalink: /teaching-the-book/exercises/ch04-using-ai-well-and-badly/
 
 # Exercises for Chapter 4: Using AI Well and Badly
 
-*Part I, the student guide. Section numbers refer to v6.1.0 of the book. See [how the exercises are built](../exercise-design.md).*
+*Part I, the student guide. Section numbers refer to v6.1.1 of the book. See [how the exercises are built](../exercise-design.md).*
 
 This chapter is long. The [sample seminar](../README.md) spends three weeks on it, so sections B, C, and D come in
 three parts to match: Part 1 (Sections 4.1 and 4.2), Part 2 (4.3 and 4.4), and Part 3 (4.5 and 4.6). The key

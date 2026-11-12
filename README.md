@@ -80,7 +80,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 | **Faculty FAQ**: short answers to common questions | [instructors/faculty-faq.md](instructors/faculty-faq.md) |
 | **AI tools for teaching preparation**: a working guide to prep tools (what each is good for, how to use it well, what a good result looks like, and how to obtain current ones) | [companion/instructor-capabilities/](companion/instructor-capabilities/) |
 | **AI learning tools for students**: which course tutors, study modes and checkers to recommend, what the evidence shows, and what to ask before adopting one | [companion/learning-tools/](companion/learning-tools/) |
-| **Teaching a course with the book**: course formats, a ten-week seminar schedule, and exercises for each chapter of Part I and Appendix A, with a strong and a weak sample answer for each set | [teaching-the-book/](teaching-the-book/) |
+| **Teaching a course with the book**: course formats, a ten-week seminar schedule, and exercises for every chapter and Appendix A, with a strong and a weak sample answer for each set | [teaching-the-book/](teaching-the-book/) |
 
 **For departments and institutions**
 
