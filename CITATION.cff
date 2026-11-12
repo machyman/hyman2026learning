@@ -17,6 +17,8 @@ identifiers:
     description: "Concept DOI. Always resolves to the latest archived version."
 repository-code: "https://github.com/machyman/hyman2026learning"
 url: "https://machyman.github.io/hyman2026learning"
+version: "2.0.0"
+date-released: "2026-11-12"
 abstract: >-
   Free, MIT-licensed companion materials for the book "Learning with AI: A
   Framework for Students, Instructors, and Universities" (James M. Hyman, SIAM
@@ -24,7 +26,8 @@ abstract: >-
   Preferences guide, a pre-submission checklist, disclosure templates, and
   worked study sessions in mathematics, physics, statistics, and computing. For
   instructors: assignment templates, assessment models, rubrics, syllabus
-  language, and discipline overlays. For departments: policy language and an
+  language, discipline overlays, and exercises for every chapter with sample
+  strong and weak answers. For departments: policy language and an
   adoption quickstart. The book itself is under SIAM copyright and is not part
   of this archive.
 keywords:
