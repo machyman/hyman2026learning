@@ -1,5 +1,5 @@
 ---
-title: Disclosure practice problems
+title: Define Personal Preferences
 permalink: /companion/dpp/
 ---
 
@@ -15,7 +15,8 @@ Look in your AI tool's settings for **custom instructions**, **personalization**
 
 ## The seven things worth specifying
 
-Work through these seven categories. Sample language follows each; adapt it to you.
+Work through these seven categories. Sample language follows each; adapt it to you. The book's Section 1.2
+lists the first six; the seventh, course scope, comes from Section 1.3.2, "Keep the tutor inside your course."
 
 **1. Who you are and what you are studying.**
 > I am a [year, e.g., first-year undergraduate] in [department]. My current courses are [list]. My prior background includes [relevant coursework].

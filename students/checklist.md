@@ -5,7 +5,7 @@ Use this checklist before submitting AI-assisted work. It is the student checkli
 - [ ] I know the AI policy for this assignment.
 - [ ] I made my own first attempt before using AI for substantial help.
 - [ ] I used AI for support, not replacement.
-- [ ] I checked important claims, sources, calculations, or interpretations.
+- [ ] I checked important claims, sources, calculations, code, or interpretations.
 - [ ] I removed any AI-generated material I could not explain.
 - [ ] I protected private, restricted, and confidential information.
 - [ ] I disclosed AI use if the assignment required it.

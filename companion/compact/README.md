@@ -20,7 +20,7 @@ Some courses adopt it as an agreement between student and instructor. Others han
 > Ask AI for support that keeps you active.
 >
 > ### Verify
-> Check important claims, sources, computations, and interpretations.
+> Check important claims, sources, computations, code, and interpretations.
 >
 > ### Disclose
 > State how AI was used when the assignment requires it.
@@ -30,7 +30,9 @@ Some courses adopt it as an agreement between student and instructor. Others han
 
 ---
 
-## One-page printable version
+## Printable one-page copy
+
+This is the copy Section 2.3 points to: the five-part compact, for courses that adopt it as a signed agreement. Section 7.9 has a different one-page compact, a short paragraph a student signs at the start of a course.
 
 Copy the block below onto a single page. It is sized to print on US Letter or A4 with room for the signature line.
 
@@ -44,7 +46,7 @@ Copy the block below onto a single page. It is sized to print on US Letter or A4
   USE        Ask AI for support that keeps you active.
 
   VERIFY     Check important claims, sources, computations,
-             and interpretations.
+             code, and interpretations.
 
   DISCLOSE   State how AI was used when the assignment requires it.
 

@@ -30,6 +30,8 @@ A full course designed end to end with the framework is in
 [`companion/course-case-study/`](../companion/course-case-study/). A guide to AI tools for teaching
 preparation is in [`companion/instructor-capabilities/`](../companion/instructor-capabilities/). AI tools
 built for student learning, with the evidence behind them, are in
-[`companion/learning-tools/`](../companion/learning-tools/).
+[`companion/learning-tools/`](../companion/learning-tools/). To teach a course with the book as its text,
+see [`teaching-the-book/`](../teaching-the-book/): course formats, a sample schedule, and exercises for each
+chapter.
 
 Back to the [main page](../).

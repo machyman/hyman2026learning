@@ -13,6 +13,14 @@ archived with its own Zenodo DOI. That is the number to cite. The book has a sep
 
 
 
+## v1.27.0 — 2026-11-11 — exercises for teaching a course with the book; the book moves to v6.1.1
+
+**New: [`teaching-the-book/`](teaching-the-book/)**, for instructors who use the book as a course text. It gives course formats and how well the book fits each, a ten-week graduate seminar schedule, the ten tests every exercise meets ([`exercise-design.md`](teaching-the-book/exercise-design.md)), and exercise sets for Chapters 1 to 7 and Appendix A. Every exercise opens with its assignment category from Section 3.4 (NAI, AIT, AIC, or AIS). Each set maps the chapter's key points, asks questions from memory, applies the chapter to the student's own courses, uses AI with a disclosure, ends with a check a week later done without AI, and shows a weak and a strong response to its main exercise. There are no private answer keys: the one exercise with a true key, Chapter 4's planted-error exercise C3, has [public answers](teaching-the-book/exercises/ch04-c3-answers.md), and its instructor notes say how to write a fresh pair for grading. Exercises for Parts II and III will follow, written for students reading those Parts from their own side.
+
+- Corrections to match the book: the student checklist and the compact page now include "code" in what to verify (Sections 2.3 and 7.10); the Define Personal Preferences page has its correct title and says where its seventh category, course scope, comes from (Section 1.3.2); the compact page's printable section takes the book's name for it, "printable one-page copy" (Section 2.3), and is told apart from the different one-page student compact in Section 7.9.
+- **The working draft in `book/` is now `learning_with_ai_v6_1_1_preprint.pdf`** (245 pages, 140 references), replacing v6.1.0. Its front-matter table of repository folders gains a row for `teaching-the-book/`. The README, `book/README.md` and ERRATA.md change to match.
+- `.gitattributes` is included again: the v1.26.0 upload did not reach the live repository, so its comment still described the earlier, conditional permission.
+
 ## v1.26.0 — 2026-11-11 — the book moves to v6.1.0
 
 **The working draft in `book/` is now `learning_with_ai_v6_1_0_preprint.pdf`** (245 pages, 140 references), replacing v6.0.0. It adds a short paragraph in Part I (section 1.2.1) and in Part II (chapter 8) that points to the new list of AI learning tools in [`companion/learning-tools/`](companion/learning-tools/), with four questions for judging any tool. No references were added. The page footer and title-page notice now point readers to the final, edited edition from SIAM.

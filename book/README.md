@@ -5,9 +5,9 @@ permalink: /book/
 
 # The book
 
-**Current version:** v6.1.0 &nbsp;·&nbsp; **Pages:** 245
+**Current version:** v6.1.1 &nbsp;·&nbsp; **Pages:** 245
 
-**`learning_with_ai_v6_1_0_preprint.pdf`** is the current working draft of *Learning with AI: A Framework for Students, Instructors, and Universities* (245 pages).
+**`learning_with_ai_v6_1_1_preprint.pdf`** is the current working draft of *Learning with AI: A Framework for Students, Instructors, and Universities* (245 pages).
 
 The filename carries the draft version, so it changes with each refresh. If a link to an older filename fails, the current PDF is listed in the main [README](../), which also records what changed in each version.
 

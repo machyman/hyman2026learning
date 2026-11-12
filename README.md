@@ -6,9 +6,9 @@ Companion repository for the book *Learning with AI: A Framework for Students, I
 
 **Subtitle:** *From Graduate Mathematics to STEM Education, Departmental Practice, and Institutional Policy*
 
-> 📘 **Read the book:** [download the preprint PDF](https://machyman.github.io/hyman2026learning/book/learning_with_ai_v6_1_0_preprint.pdf) (v6.1.0, 245 pages). This is the author's pre-edit draft, free to read and download. For the final, edited edition, please buy the book from SIAM Books when it appears.
+> 📘 **Read the book:** [download the preprint PDF](https://machyman.github.io/hyman2026learning/book/learning_with_ai_v6_1_1_preprint.pdf) (v6.1.1, 245 pages). This is the author's pre-edit draft, free to read and download. For the final, edited edition, please buy the book from SIAM Books when it appears.
 
-**Current version:** [v6.1.0 (book PDF)](https://machyman.github.io/hyman2026learning/book/learning_with_ai_v6_1_0_preprint.pdf) &nbsp;·&nbsp; **Status:** Delivered to SIAM Books &nbsp;·&nbsp; **Pages:** 245 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
+**Current version:** [v6.1.1 (book PDF)](https://machyman.github.io/hyman2026learning/book/learning_with_ai_v6_1_1_preprint.pdf) &nbsp;·&nbsp; **Status:** Delivered to SIAM Books &nbsp;·&nbsp; **Pages:** 245 &nbsp;·&nbsp; **License:** MIT for repository materials (see `LICENSE`); the book is under SIAM copyright
 
 **Rendered site:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
 
@@ -80,6 +80,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 | **Faculty FAQ**: short answers to common questions | [instructors/faculty-faq.md](instructors/faculty-faq.md) |
 | **AI tools for teaching preparation**: a working guide to prep tools (what each is good for, how to use it well, what a good result looks like, and how to obtain current ones) | [companion/instructor-capabilities/](companion/instructor-capabilities/) |
 | **AI learning tools for students**: which course tutors, study modes and checkers to recommend, what the evidence shows, and what to ask before adopting one | [companion/learning-tools/](companion/learning-tools/) |
+| **Teaching a course with the book**: course formats, a ten-week seminar schedule, and exercises for each chapter of Part I and Appendix A, with a strong and a weak sample answer for each set | [teaching-the-book/](teaching-the-book/) |
 
 **For departments and institutions**
 
@@ -93,7 +94,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 
 | Item | Path |
 | --- | --- |
-| **Book PDF** (pre-edit draft; see [book/](book/)) | [book/learning_with_ai_v6_1_0_preprint.pdf](book/learning_with_ai_v6_1_0_preprint.pdf) |
+| **Book PDF** (pre-edit draft; see [book/](book/)) | [book/learning_with_ai_v6_1_1_preprint.pdf](book/learning_with_ai_v6_1_1_preprint.pdf) |
 | **Companion paper:** *AI and the Next Layer of Human Work* | [PDF](companion-papers/hyman2026next/hyman2026next.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026next/) |
 | **Companion paper:** *Teaching AI Responsibly to Principled Skeptics* | [PDF](companion-papers/hyman2026teaching/hyman2026teaching.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026teaching/) |
 | **Companion paper:** *Learning to Create with AI* | [PDF](companion-papers/hyman2026creative/hyman2026creative.pdf) &nbsp;·&nbsp; [folder](companion-papers/hyman2026creative/) |
@@ -132,7 +133,8 @@ Use `CITATION.cff` for reference managers. For BibTeX:
 
 See `CHANGELOG.md` for the full history. Recent state:
 
-- **v6.1.0 (current):** Adds a short paragraph in Parts I and II pointing to the companion list of AI learning tools. 245 pages, 140 references.
+- **v6.1.1 (current):** Adds a row for [`teaching-the-book/`](teaching-the-book/) to the front-matter table of repository folders. 245 pages, 140 references.
+- **v6.1.0:** Adds a short paragraph in Parts I and II pointing to the companion list of AI learning tools. 245 pages, 140 references.
 - **v6.0.0:** The manuscript delivered to SIAM Books: a consolidation pass across the three Parts, the author's read of the whole book, two rounds of independent review, and a check of the cited sources. 245 pages, 140 references.
 - **v5.5.12:** The revision after SIAM's three reviews. All three Parts were rewritten; Review 3's additions (AI in research, AI grading and student privacy, the grading-agreement check) are in; the toolkit chapters now match the body; the AI disclosure is in the Acknowledgments and Appendix C. 247 pages, 135 references.
 - **v4.49.4:** One reader-visible repair. Since v4.49.3, the new Part I section on what students can expect from their institution pointed its cross-reference at an internal label that does not exist, and print page 64 read "Part ??" where it should read "Part III". One token, found at build verification and listed in [ERRATA.md](ERRATA.md). 249 pages, 124 references.
