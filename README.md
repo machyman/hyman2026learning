@@ -1,3 +1,5 @@
+**Website:** [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning)
+
 # hyman2026learning: *Learning with AI*
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21315920.svg)](https://doi.org/10.5281/zenodo.21315920)

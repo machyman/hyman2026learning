@@ -6,6 +6,10 @@ Notable changes to the companion repository for *Learning with AI*. Most recent 
 entry says which book version the repository carries. Tagged releases are archived on Zenodo; the concept DOI
 [10.5281/zenodo.21315920](https://doi.org/10.5281/zenodo.21315920) resolves to the latest one.
 
+## Unreleased
+
+- The README opens with a link to the website, [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning).
+
 ## v2.0.0 — 2026-11-12 — the starting point for readers of the SIAM edition
 
 This release is the baseline for readers of the published book. It carries the book's final preprint (v6.1.1),
