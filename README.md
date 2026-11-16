@@ -25,7 +25,7 @@ This repository hosts practical materials that go with the book. Start with whic
 - **Studying a STEM subject?** Work through the [students/study-sessions/](students/study-sessions/) library: four worked sessions, in statistics, coding, physics, and mathematics, each showing a student using AI to study while keeping the thinking and the verification their own.
 - **Skeptical about these tools, and have never used one?** Read one of the [students/study-sessions/](students/study-sessions/): they are annotated transcripts of a real study session, turn by turn, with a note after each move saying what to notice. You do not have to use AI to need to know what your students are doing with it.
 - **An instructor teaching with AI for the first time?** Start with [instructors/first-time-guide.md](instructors/first-time-guide.md), then use the rest of the [instructors/](instructors/) toolkit: a worked course redesign, assignment templates, assessment models, ready syllabus language, and a faculty FAQ.
-- **Teaching a course with the book?** Start with [teaching-the-book/](teaching-the-book/): course formats, a ten-week seminar schedule, and an exercise set for every chapter and Appendix A, each with a strong and a weak sample answer.
+- **Teaching a course with the book?** Start with [teaching-the-book/](teaching-the-book/). The course it fits best teaches future instructors how to teach a course with AI, and the page gives a 14-week schedule for it, other course formats, and an exercise set for every chapter and Appendix A, each with a strong and a weak sample answer.
 - **A department chair, dean, or administrator?** Start with the [departmental adoption kit](institutions/department-adoption-kit.md): a model policy statement, the shared vocabulary, and a one-semester rollout. Run the [policy self-audit](institutions/policy-self-audit.md) to see what your institution covers and what falls to you, and keep the [regulatory landscape note](institutions/regulatory-landscape.md) beside anything that touches proctoring, admissions, or automated grading. Part III of the book carries the full framework.
 
 ---
@@ -40,7 +40,7 @@ This repository hosts practical materials that go with the book. Start with whic
 
 The argument is grounded in graduate mathematics teaching and generalizes to the full range of university courses, with the most detailed examples in STEM and research-intensive fields.
 
-The book also works as the text for a course, from a first-year seminar to a graduate seminar. [teaching-the-book/](teaching-the-book/) has course formats, a sample schedule, and exercises for every chapter.
+The book also works as the text for a course. It fits a course on how to teach with AI best, for students who will soon teach, because that course needs all three viewpoints. It also suits first-year and graduate seminars on learning with AI. [teaching-the-book/](teaching-the-book/) has course formats, sample schedules, and exercises for every chapter.
 
 ---
 
@@ -85,7 +85,7 @@ The book teaches the framework; this repository hosts the operational artifacts 
 | **Faculty FAQ**: short answers to common questions | [instructors/faculty-faq.md](instructors/faculty-faq.md) |
 | **AI tools for teaching preparation**: a working guide to prep tools (what each is good for, how to use it well, what a good result looks like, and how to obtain current ones) | [companion/instructor-capabilities/](companion/instructor-capabilities/) |
 | **AI learning tools for students**: which course tutors, study modes and checkers to recommend, what the evidence shows, and what to ask before adopting one | [companion/learning-tools/](companion/learning-tools/) |
-| **Teaching a course with the book**: course formats, a ten-week seminar schedule, and exercises for every chapter and Appendix A, with a strong and a weak sample answer for each set | [teaching-the-book/](teaching-the-book/) |
+| **Teaching a course with the book**: a 14-week course on how to teach with AI, a ten-week seminar schedule, other course formats, and exercises for every chapter and Appendix A, with a strong and a weak sample answer for each set | [teaching-the-book/](teaching-the-book/) |
 
 **For departments and institutions**
 
