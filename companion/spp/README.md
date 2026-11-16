@@ -1,5 +1,5 @@
 ---
-title: Student practice problems
+title: Study Partner Protocol
 permalink: /companion/spp/
 ---
 

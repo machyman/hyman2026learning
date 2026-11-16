@@ -9,7 +9,7 @@ permalink: /book/
 
 **`learning_with_ai_v6_1_1_preprint.pdf`** is the current working draft of *Learning with AI: A Framework for Students, Instructors, and Universities* (245 pages).
 
-The filename carries the draft version, so it changes with each refresh. If a link to an older filename fails, the current PDF is listed in the main [README](../), which also records what changed in each version.
+The filename carries the draft version, so it changes with each refresh. If a link to an older filename fails, the current PDF is listed in the main [README](../).
 
 ## Please read this before relying on the PDF
 
@@ -21,6 +21,10 @@ Two consequences worth knowing:
 
 - **Cite the book, not this file.** Page numbers in this draft will not survive editing. Use `CITATION.cff` in the repository root, or the BibTeX entry in the main README.
 - **The companion materials are different.** Everything else in this repository is MIT-licensed and stays. Only the book PDF is subject to SIAM copyright.
+
+## Teaching with the book
+
+The book has no problem sets of its own. For a course, [teaching-the-book/](../teaching-the-book/) supplies course formats, a sample schedule, and exercises for every chapter and Appendix A.
 
 ## Found an error?
 

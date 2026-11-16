@@ -2,15 +2,33 @@
 # The book prints the site address machyman.github.io/hyman2026learning, so Pages
 # must be enabled for that link to resolve: Settings > Pages > Source: "Deploy from a
 # branch" > Branch: main > Folder: / (root). Save. The site builds from README.md.
+#
+# Theme: Just the Docs, pinned to a release, for a sidebar and site search (v2.1.0).
+# To roll back to the previous look, restore the earlier copy of this one file: no page
+# depends on the theme. If a build fails, GitHub Pages keeps serving the last good site.
 title: Learning with AI
 description: Companion materials for the book by James M. Hyman (SIAM Books)
-theme: jekyll-theme-cayman
-show_downloads: false
+remote_theme: just-the-docs/just-the-docs@v0.12.0
 plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-seo-tag
   - jekyll-relative-links
 relative_links:
   enabled: true
   collections: true
+
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+aux_links:
+  "Repository on GitHub":
+    - "https://github.com/machyman/hyman2026learning"
+footer_content: >-
+  Companion materials for <em>Learning with AI</em> by James M. Hyman (SIAM Books).
+  Repository materials are MIT-licensed; the book is under SIAM copyright.
+
 # CONTRIBUTING.md must be listed here or it will not render as a page.
 # GitHub Pages runs jekyll-optional-front-matter, which deliberately skips a short
 # list of meta files (README, CONTRIBUTING, CODE_OF_CONDUCT, LICENSE). A skipped file
@@ -29,3 +47,167 @@ include:
 exclude:
   - LICENSE
   - CITATION.cff
+
+# Sidebar. Every page is searchable; only the pages below appear in the sidebar.
+# The structure lives here, not in the pages, so no page changes and github.com shows
+# no extra front matter. A page's own front-matter title wins over a title set here.
+# Jekyll gives the most specific path precedence, so the first rule hides everything
+# and the later rules show the chosen pages.
+defaults:
+  - scope: {path: "", type: pages}
+    values: {nav_exclude: true}
+  # Top level
+  - scope: {path: "README.md", type: pages}
+    values: {title: "Home", nav_exclude: false, nav_order: 1}
+  - scope: {path: "book/README.md", type: pages}
+    values: {nav_exclude: false, nav_order: 2}
+  - scope: {path: "students/README.md", type: pages}
+    values: {nav_exclude: false, nav_order: 3}
+  - scope: {path: "instructors/README.md", type: pages}
+    values: {nav_exclude: false, nav_order: 4}
+  - scope: {path: "institutions/README.md", type: pages}
+    values: {nav_exclude: false, nav_order: 5}
+  - scope: {path: "teaching-the-book/README.md", type: pages}
+    values: {nav_exclude: false, nav_order: 6}
+  - scope: {path: "companion/README.md", type: pages}
+    values: {nav_exclude: false, nav_order: 7}
+  - scope: {path: "companion-papers/README.md", type: pages}
+    values: {nav_exclude: false, nav_order: 8}
+  - scope: {path: "FAQ.md", type: pages}
+    values: {title: "FAQ", nav_exclude: false, nav_order: 9}
+  - scope: {path: "FEEDBACK.md", type: pages}
+    values: {title: "Feedback", nav_exclude: false, nav_order: 10}
+  - scope: {path: "ERRATA.md", type: pages}
+    values: {title: "Errata", nav_exclude: false, nav_order: 11}
+  - scope: {path: "CHANGELOG.md", type: pages}
+    values: {title: "Changelog", nav_exclude: false, nav_order: 12}
+  - scope: {path: "CONTRIBUTING.md", type: pages}
+    values: {title: "Contributing", nav_exclude: false, nav_order: 13}
+  # For students
+  - scope: {path: "students/start-here.md", type: pages}
+    values: {title: "Start here", parent: "For students", nav_exclude: false, nav_order: 1}
+  - scope: {path: "students/from-answers-to-learning.md", type: pages}
+    values: {title: "From answers to learning", parent: "For students", nav_exclude: false, nav_order: 2}
+  - scope: {path: "students/study-sessions/README.md", type: pages}
+    values: {parent: "For students", nav_exclude: false, nav_order: 3}
+  - scope: {path: "students/checklist.md", type: pages}
+    values: {title: "Pre-submission checklist", parent: "For students", nav_exclude: false, nav_order: 4}
+  - scope: {path: "students/disclosure-templates.md", type: pages}
+    values: {title: "AI disclosure templates", parent: "For students", nav_exclude: false, nav_order: 5}
+  - scope: {path: "students/sharing-ai-conversations.md", type: pages}
+    values: {title: "Sharing AI conversations", parent: "For students", nav_exclude: false, nav_order: 6}
+  - scope: {path: "students/undergraduate-research.md", type: pages}
+    values: {title: "Undergraduate research", parent: "For students", nav_exclude: false, nav_order: 7}
+  - scope: {path: "students/study-sessions/statistics-causal-claim.md", type: pages}
+    values: {title: "Is this relationship causal?", parent: "Study sessions", nav_exclude: false, nav_order: 1}
+  - scope: {path: "students/study-sessions/coding-debugging.md", type: pages}
+    values: {title: "Finding a bug yourself", parent: "Study sessions", nav_exclude: false, nav_order: 2}
+  - scope: {path: "students/study-sessions/physics-which-principle.md", type: pages}
+    values: {title: "Which principle applies?", parent: "Study sessions", nav_exclude: false, nav_order: 3}
+  - scope: {path: "students/study-sessions/mathematics-counting-argument.md", type: pages}
+    values: {title: "Is this count right?", parent: "Study sessions", nav_exclude: false, nav_order: 4}
+  # For instructors
+  - scope: {path: "instructors/first-time-guide.md", type: pages}
+    values: {title: "First-time guide", parent: "For instructors", nav_exclude: false, nav_order: 1}
+  - scope: {path: "instructors/what-to-assign.md", type: pages}
+    values: {title: "What to assign, and when", parent: "For instructors", nav_exclude: false, nav_order: 2}
+  - scope: {path: "instructors/assignment-templates.md", type: pages}
+    values: {title: "Assignment templates", parent: "For instructors", nav_exclude: false, nav_order: 3}
+  - scope: {path: "instructors/assessment-models.md", type: pages}
+    values: {title: "Assessment models", parent: "For instructors", nav_exclude: false, nav_order: 4}
+  - scope: {path: "instructors/rubrics/README.md", type: pages}
+    values: {parent: "For instructors", nav_exclude: false, nav_order: 5}
+  - scope: {path: "instructors/syllabus-guide.md", type: pages}
+    values: {title: "Syllabus guide", parent: "For instructors", nav_exclude: false, nav_order: 6}
+  - scope: {path: "instructors/briefings.md", type: pages}
+    values: {title: "Syllabus briefings", parent: "For instructors", nav_exclude: false, nav_order: 7}
+  - scope: {path: "instructors/semester-redesign.md", type: pages}
+    values: {title: "Semester redesign", parent: "For instructors", nav_exclude: false, nav_order: 8}
+  - scope: {path: "instructors/next-move-memo.md", type: pages}
+    values: {title: "The Next-Move Memo", parent: "For instructors", nav_exclude: false, nav_order: 9}
+  - scope: {path: "instructors/grading-agreement-check/README.md", type: pages}
+    values: {parent: "For instructors", nav_exclude: false, nav_order: 10}
+  - scope: {path: "instructors/adapt-for-your-course.md", type: pages}
+    values: {parent: "For instructors", nav_exclude: false, nav_order: 11}
+  - scope: {path: "instructors/faculty-faq.md", type: pages}
+    values: {title: "Faculty FAQ", parent: "For instructors", nav_exclude: false, nav_order: 12}
+  # For institutions
+  - scope: {path: "institutions/department-adoption-kit.md", type: pages}
+    values: {title: "Departmental adoption kit", parent: "For institutions", nav_exclude: false, nav_order: 1}
+  - scope: {path: "institutions/policy-self-audit.md", type: pages}
+    values: {title: "Policy self-audit", parent: "For institutions", nav_exclude: false, nav_order: 2}
+  - scope: {path: "institutions/regulatory-landscape.md", type: pages}
+    values: {title: "Regulatory landscape", parent: "For institutions", nav_exclude: false, nav_order: 3}
+  # Teaching the book
+  - scope: {path: "teaching-the-book/exercises/README.md", type: pages}
+    values: {parent: "Teaching the book", nav_exclude: false, nav_order: 1}
+  - scope: {path: "teaching-the-book/exercise-design.md", type: pages}
+    values: {parent: "Teaching the book", nav_exclude: false, nav_order: 2}
+  - scope: {path: "teaching-the-book/exercises/ch01-getting-started.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 1}
+  - scope: {path: "teaching-the-book/exercises/ch02-the-problem-and-the-compact.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 2}
+  - scope: {path: "teaching-the-book/exercises/ch03-the-framework.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 3}
+  - scope: {path: "teaching-the-book/exercises/ch04-using-ai-well-and-badly.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 4}
+  - scope: {path: "teaching-the-book/exercises/ch05-in-class-and-across-disciplines.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 5}
+  - scope: {path: "teaching-the-book/exercises/ch06-judgment-and-limits.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 6}
+  - scope: {path: "teaching-the-book/exercises/ch07-the-students-toolkit.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 7}
+  - scope: {path: "teaching-the-book/exercises/ch08-the-instructors-trilemma.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 8}
+  - scope: {path: "teaching-the-book/exercises/ch09-the-framework-and-assignment-design.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 9}
+  - scope: {path: "teaching-the-book/exercises/ch10-assessment-models.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 10}
+  - scope: {path: "teaching-the-book/exercises/ch11-integrity-equity-and-discipline.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 11}
+  - scope: {path: "teaching-the-book/exercises/ch12-implementation-and-limits.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 12}
+  - scope: {path: "teaching-the-book/exercises/ch13-the-instructors-toolkit.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 13}
+  - scope: {path: "teaching-the-book/exercises/ch14-the-institutions-trilemma.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 14}
+  - scope: {path: "teaching-the-book/exercises/ch15-the-framework-and-vocabulary.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 15}
+  - scope: {path: "teaching-the-book/exercises/ch16-standards-and-requirements.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 16}
+  - scope: {path: "teaching-the-book/exercises/ch17-implementation-and-change.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 17}
+  - scope: {path: "teaching-the-book/exercises/ch18-the-institutions-toolkit.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 18}
+  - scope: {path: "teaching-the-book/exercises/ch19-looking-forward.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 19}
+  - scope: {path: "teaching-the-book/exercises/appA-ethical-scientific-writing.md", type: pages}
+    values: {parent: "Exercises by chapter", nav_exclude: false, nav_order: 20}
+  # Companion materials
+  - scope: {path: "companion/compact/README.md", type: pages}
+    values: {parent: "Companion materials", nav_exclude: false, nav_order: 1}
+  - scope: {path: "companion/dpp/README.md", type: pages}
+    values: {parent: "Companion materials", nav_exclude: false, nav_order: 2}
+  - scope: {path: "companion/spp/README.md", type: pages}
+    values: {parent: "Companion materials", nav_exclude: false, nav_order: 3}
+  - scope: {path: "companion/layered-explanation/README.md", type: pages}
+    values: {parent: "Companion materials", nav_exclude: false, nav_order: 4}
+  - scope: {path: "companion/spiral-problems/README.md", type: pages}
+    values: {parent: "Companion materials", nav_exclude: false, nav_order: 5}
+  - scope: {path: "companion/learning-tools/README.md", type: pages}
+    values: {parent: "Companion materials", nav_exclude: false, nav_order: 6}
+  - scope: {path: "companion/learning-tools/evidence.md", type: pages}
+    values: {parent: "AI learning tools", nav_exclude: false, nav_order: 1}
+  - scope: {path: "companion/instructor-capabilities/README.md", type: pages}
+    values: {parent: "Companion materials", nav_exclude: false, nav_order: 7}
+  - scope: {path: "companion/course-case-study/README.md", type: pages}
+    values: {parent: "Companion materials", nav_exclude: false, nav_order: 8}
+  - scope: {path: "companion/course-case-study/numerical-analysis.md", type: pages}
+    values: {title: "Numerical analysis course", parent: "Course case study", nav_exclude: false, nav_order: 1}
+  # Companion papers
+  - scope: {path: "companion-papers/hyman2026creative/README.md", type: pages}
+    values: {parent: "Companion papers", nav_exclude: false, nav_order: 1}
+  - scope: {path: "companion-papers/hyman2026next/README.md", type: pages}
+    values: {parent: "Companion papers", nav_exclude: false, nav_order: 2}
+  - scope: {path: "companion-papers/hyman2026teaching/README.md", type: pages}
+    values: {parent: "Companion papers", nav_exclude: false, nav_order: 3}

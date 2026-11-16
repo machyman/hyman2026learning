@@ -9,6 +9,11 @@ entry says which book version the repository carries. Tagged releases are archiv
 ## Unreleased
 
 - The README opens with a link to the website, [machyman.github.io/hyman2026learning](https://machyman.github.io/hyman2026learning).
+- The website has a sidebar and a search box. It now uses the Just the Docs theme (v0.12.0, pinned). Every page keeps its address, so every link printed in the book still works. The sidebar is set in `_config.yml`; no page changed for it.
+- A monthly link check (`.github/workflows/links.yml`) opens an issue if a link in the repository breaks.
+- The Study Partner Protocol page's title, shown in browser tabs and now in the sidebar, read "Student practice problems". It now matches the book.
+- The book page no longer says the README records what changed in each version; that history now lives in the commit log.
+- Readers who want to teach a course with the book are now pointed to [teaching-the-book/](teaching-the-book/) from the README's "Find your path" list, from its overview of the book, and from the book page.
 
 ## v2.0.0 — 2026-11-12 — the starting point for readers of the SIAM edition
 

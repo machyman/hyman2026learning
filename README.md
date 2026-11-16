@@ -25,6 +25,7 @@ This repository hosts practical materials that go with the book. Start with whic
 - **Studying a STEM subject?** Work through the [students/study-sessions/](students/study-sessions/) library: four worked sessions, in statistics, coding, physics, and mathematics, each showing a student using AI to study while keeping the thinking and the verification their own.
 - **Skeptical about these tools, and have never used one?** Read one of the [students/study-sessions/](students/study-sessions/): they are annotated transcripts of a real study session, turn by turn, with a note after each move saying what to notice. You do not have to use AI to need to know what your students are doing with it.
 - **An instructor teaching with AI for the first time?** Start with [instructors/first-time-guide.md](instructors/first-time-guide.md), then use the rest of the [instructors/](instructors/) toolkit: a worked course redesign, assignment templates, assessment models, ready syllabus language, and a faculty FAQ.
+- **Teaching a course with the book?** Start with [teaching-the-book/](teaching-the-book/): course formats, a ten-week seminar schedule, and an exercise set for every chapter and Appendix A, each with a strong and a weak sample answer.
 - **A department chair, dean, or administrator?** Start with the [departmental adoption kit](institutions/department-adoption-kit.md): a model policy statement, the shared vocabulary, and a one-semester rollout. Run the [policy self-audit](institutions/policy-self-audit.md) to see what your institution covers and what falls to you, and keep the [regulatory landscape note](institutions/regulatory-landscape.md) beside anything that touches proctoring, admissions, or automated grading. Part III of the book carries the full framework.
 
 ---
@@ -38,6 +39,8 @@ This repository hosts practical materials that go with the book. Start with whic
 - **Part III, Departments and Institutions:** How to set policy that protects learning without pretending AI can be kept outside academic life. Develops the institutional vocabulary for AI-era curriculum, assessment, and academic-integrity procedure.
 
 The argument is grounded in graduate mathematics teaching and generalizes to the full range of university courses, with the most detailed examples in STEM and research-intensive fields.
+
+The book also works as the text for a course, from a first-year seminar to a graduate seminar. [teaching-the-book/](teaching-the-book/) has course formats, a sample schedule, and exercises for every chapter.
 
 ---
 
