@@ -15,6 +15,7 @@ entry says which book version the repository carries. Tagged releases are archiv
 - The book page no longer says the README records what changed in each version; that history now lives in the commit log.
 - Readers who want to teach a course with the book are now pointed to [teaching-the-book/](teaching-the-book/) from the README's "Find your path" list, from its overview of the book, and from the book page.
 - The teaching page now leads with the course the book fits best: how to teach a course with AI, for students who will soon teach. It adds a 14-week schedule in three stages (as learners, as designers, as the department sees it) built around a course redesign, and keeps the ten-week graduate seminar as a second schedule.
+- The institutions and instructors materials cite *Making AI work for students* (Office for Students and Advance HE, November 2026): a third benchmark in the policy self-audit; the University of Bath's move to two lanes, and how the four categories map onto them, in the departmental adoption kit; England in the regulatory note; and two new Faculty FAQ answers, on AI-drafted feedback and on accommodation tools with AI features.
 
 ## v2.0.0 — 2026-11-12 — the starting point for readers of the SIAM edition
 

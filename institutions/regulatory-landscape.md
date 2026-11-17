@@ -1,6 +1,6 @@
 # The regulatory landscape: when AI use crosses from policy into law
 
-**Last reviewed: 2026-07-18. Review cadence: every semester, and after any major instrument changes.**
+**Last reviewed: 2026-07-18; England added 2026-11-16. Review cadence: every semester, and after any major instrument changes.**
 
 This note is orientation, not legal advice. It exists because one sentence in *Learning with AI* needs a
 current companion: AI used to make or support decisions about students can be regulated activity, not
@@ -79,6 +79,14 @@ applies to AI tools the way it applies to any system handling student records. T
 data-governance section covers that ground, and nothing in the newer AI statutes relaxes it.
 
 ## The direction of travel elsewhere
+
+**England.** The higher-education regulator, the Office for Students, set out its initial position on AI in
+June 2025. In November 2026 it published a sector study with Advance HE, *Making AI work for students*.
+The study judges secure assessment the most dependable way to check knowledge, and warns against
+misconduct cases that lean on detector scores. Staff in the study worried that consumer-protection law
+stops a university from changing its assessment methods because of AI. The report reads the Competition
+and Markets Authority's guidance otherwise: changes are possible under fair, transparent contract terms,
+with consultation where a method was promised. It also tells providers to take their own legal advice.
 
 **Australia.** The higher-education regulator, TEQSA, required every registered provider to submit an
 institutional action plan addressing generative AI's risks to award integrity, and its guidance pushes

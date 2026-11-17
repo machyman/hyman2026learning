@@ -98,6 +98,15 @@ The boundaries are not always sharp. A student who asks for an explanation and t
 moved from tutor to collaborator in one sitting. The label names the dominant role in producing the
 submitted work; where a task genuinely mixes roles, the assignment should say so.
 
+**A middle category does not need policing.** In 2026 the University of Bath dropped a three-level
+traffic-light scheme because its middle level, some specified uses of AI, could not be policed reliably
+or fairly. It moved to the University of Sydney's two lanes: a closed lane, where conditions keep AI out,
+and an open lane, where AI use is assumed. The four categories pass the same test because none of them
+depends on policing. AIT and AIC set expectations and grade the student's judgment, and each course names
+what students must be able to do without AI and checks it, so a student who ignores a label gains
+nothing. A department that prefers two lanes can map the categories onto them: NAI is the closed lane;
+AIT, AIC, and AIS are open-lane tasks, designed on the assumption that students use AI.
+
 ## Five questions every syllabus answers
 
 Ask each course to answer these, in writing, where students will see them.
@@ -169,7 +178,9 @@ For students, the parallel set: [start here](../students/start-here.md), the
 This kit adapts Part III of *Learning with AI: A Framework for Students, Instructors, and
 Universities* (James M. Hyman, SIAM Books) for standalone departmental use. The book carries the
 reasoning, the evidence, and the institutional layers above the department: governance, training
-plans, implementation, evaluation metrics, and the risk register.
+plans, implementation, evaluation metrics, and the risk register. The Bath example comes from the Office
+for Students and Advance HE report *Making AI work for students: reflections on institutional practice*
+(November 2026), a study of AI practice at 127 mostly English institutions.
 
 ---
 

@@ -1,6 +1,6 @@
 # The departmental policy self-audit
 
-**Last reviewed: 2026-07-18. Benchmarks reflect institutional policies collected 2024 and 2025; they age.**
+**Last reviewed: 2026-11-16. Benchmarks reflect institutional policies collected 2024 to 2026; they age.**
 
 An hour with this checklist tells a chair three things: what the institution above you already provides,
 what your department covers on its own, and what nobody covers yet. Gather your institution's AI guidance,
@@ -17,6 +17,14 @@ twenty-five US universities with the top-ranked computer science programs (Papad
 presentation) supplies this audit's five governing dimensions and its sharpest warning: most policies
 assign responsibility to faculty and students without building the support that would let them carry it.
 That warning is the test running through section four.
+
+A third snapshot comes from England. In November 2026 the Office for Students, England's higher-education
+regulator, and Advance HE published *Making AI work for students*. It draws on 335 students and staff from
+127 institutions, heard between June and September 2026; participants chose to take part, so the sample may
+not be typical. It found the same gap from the other side. Most institutions had AI policies, yet students
+were often unsure what they were allowed to do. Staff training was mostly optional and little used. Few
+institutions had a strategy for AI, and some misconduct cases leaned on AI-detector scores. The report's
+closing list of effective institutional practice is a useful cross-check on sections three to six below.
 
 ## 1. Purpose and ethics
 
@@ -134,7 +142,7 @@ automated grading, get a second pass with the [regulatory landscape note](regula
 this folder, and then a conversation with counsel.
 
 Run the audit again when the review date comes around. The benchmarks above describe institutions in 2024
-and 2025; the useful comparison after that is not against them but against your own last run.
+to 2026; the useful comparison after that is not against them but against your own last run.
 
 ---
 
@@ -160,5 +168,5 @@ satisfy a skeptical auditor. A commitment without an artifact is a belief, not a
 *Part of the companion repository for* Learning with AI: A Framework for Students, Instructors, and
 Universities *(James M. Hyman, SIAM Books). Benchmarks: J. LaFrance, "Governing Generative Artificial
 Intelligence," Educational Policy (2026); A. Papadimitriou, webinar presentation, Global Higher Ed
-Webinars (2026); S. Shapiro, teachonline webinar (2025). These materials are free to use and adapt with
+Webinars (2026); S. Shapiro, teachonline webinar (2025); Office for Students and Advance HE, *Making AI work for students: reflections on institutional practice* (OfS 2026.56, 11 November 2026), https://www.officeforstudents.org.uk/publications/making-ai-work-for-students-reflections-on-institutional-practice/. These materials are free to use and adapt with
 attribution.*

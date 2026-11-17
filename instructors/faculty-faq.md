@@ -26,3 +26,9 @@ Even under a restrictive policy, you can teach students to verify rather than tr
 
 **How permissive should my course be?**
 There is no single right answer; it depends on your course and what its unaided core requires. The syllabus briefings in `instructors/briefings.md` lay out restrictive, default, and permissive stances with the reasoning for each, so you can pick the one that fits and state it plainly. What matters more than the exact setting is that students know the rule and why it exists.
+
+**May I use AI to draft my feedback on student work?**
+Yes, with two conditions. Check every comment before it goes out, because the feedback is yours and so are its errors. And tell students how you used AI. In a 2026 study of English universities, students described feedback from expert staff as a core part of what higher education offers, and they objected when they suspected AI use that had not been disclosed (Office for Students and Advance HE, *Making AI work for students*, 2026). A line in the syllabus, of the kind you ask of students, is enough. It is the faculty half of the book's rule that disclosure is normal practice, not a confession. When the AI drafts comments on a student's errors, ask it for hints, not corrections, so the student still does the fixing.
+
+**A student's accommodation tool has AI features built in. Is that allowed?**
+Start from the accommodation, not the tool. An accommodation removes a specific disadvantage, and it stays in place. The question is whether the tool's other features, such as rewriting whole paragraphs, reach beyond that purpose. The same 2026 study heard concern that writing aids provided as adjustments can carry strong AI features other students lack, and it recommends separating assistive technology from unauthorized AI help. Settle the boundary with the student and your disability services office before the assessment, in writing, never after a suspicion arises.
